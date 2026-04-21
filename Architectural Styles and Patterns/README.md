@@ -119,4 +119,4 @@ Comparison table:
 
 **Architecture diagram**  
 
-![Self-editing Diagram](https://github.com/vgavr1lov/vgavr1lov-dotnet-mentoring-program-advanced/blob/main/Home%20task%20-%20Serverless%20architecture%20diagram.drawio.svg)
+![Self-editing Diagram](https://github.com/vgavr1lov/vgavr1lov-dotnet-mentoring-program-advanced/blob/master/Architectural%20Styles%20and%20Patterns/Home%20task%20-%20Serverless%20architecture%20diagram.drawio.svg)
