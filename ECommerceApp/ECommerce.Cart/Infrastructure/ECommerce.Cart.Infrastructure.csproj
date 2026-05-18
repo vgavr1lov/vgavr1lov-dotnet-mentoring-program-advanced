@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net8.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="LiteDB" Version="5.0.21" />
+		<PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="9.0.15" />
+		<PackageReference Include="RabbitMQ.Client" Version="7.2.1" />
+		<PackageReference Include="Microsoft.Extensions.Hosting" Version="8.0.1" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\..\ECommerce.Common\Infrastructure\ECommerce.Common.Infrastructure.csproj" />
+		<ProjectReference Include="..\Application\ECommerce.Cart.Application.csproj" />
+		<ProjectReference Include="..\Domain\ECommerce.Cart.Domain.csproj" />
+	</ItemGroup>
+
+</Project>

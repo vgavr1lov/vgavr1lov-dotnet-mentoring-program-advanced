@@ -18,7 +18,7 @@ The main HTTP methods are:
 
 | Method | Description | Safe | Idempotent |
 |--------|-------------|------|------------|
-| GET | Retrieves a resource | yes | no |
+| GET | Retrieves a resource | yes | yes |
 | POST | Creates a new resource | no | no |
 | PUT | Replaces a resource entirely | no | yes |
 | PATCH | Partially updates a resource | no | no |
