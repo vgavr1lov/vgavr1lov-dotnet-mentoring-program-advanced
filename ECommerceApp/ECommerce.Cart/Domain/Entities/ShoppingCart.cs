@@ -1,0 +1,49 @@
+﻿namespace ECommerce.Cart.Domain.Entities;
+
+public class ShoppingCart
+{
+    public long Id { get; private set; }
+    public List<CartItem> Items { get; private set; }
+
+    public ShoppingCart(long id)
+    {
+        Id = id;
+        Items = new List<CartItem>();
+    }
+    public void RemoveItem(long itemId)
+    {
+        var existingItem = Items.FirstOrDefault(x => x.Id == itemId);
+
+        if (existingItem != null)
+        {
+            existingItem.DecreaseQuantity();
+
+            if (existingItem.Quantity <= 0)
+                Items.Remove(existingItem);
+        }
+    }
+
+    public void AddItem(CartItem item)
+    {
+        var existingItem = Items.FirstOrDefault(x => x.Id == item.Id);
+
+        if (existingItem != null)
+        {
+            existingItem.IncreaseQuantity();
+        }
+        else
+        {
+            Items.Add(item);
+        }
+    }
+
+    public void ReplaceItem(CartItem item)
+    {
+        var existingItem = Items.FirstOrDefault(x => x.Id == item.Id);
+        if (existingItem != null)
+            Items.Remove(existingItem);
+
+            Items.Add(item);
+        
+    }
+}
