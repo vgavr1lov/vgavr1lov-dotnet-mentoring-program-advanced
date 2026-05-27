@@ -1,16 +1,17 @@
-﻿using ECommerce.Common.Infrastructure.Messaging.Interfaces;
+﻿using ECommerce.Common.Abstractions.Messaging;
+using ECommerce.Messaging.RabbitMq.Connection;
 using RabbitMQ.Client;
 using RabbitMQ.Client.Exceptions;
 using System.Text;
 using System.Text.Json;
 
-namespace ECommerce.Common.Infrastructure.Messaging.RabbitMq;
+namespace ECommerce.Messaging.RabbitMq.Bus;
 
-public class RabbitMqMessageBus : IMessageBus
+public class RabbitMqMessageBusPublisher : IMessageBusPublisher
 {
     private readonly IRabbitMqConnectionManager _connectionManager;
 
-    public RabbitMqMessageBus(IRabbitMqConnectionManager connectionManager)
+    public RabbitMqMessageBusPublisher(IRabbitMqConnectionManager connectionManager)
     {
         _connectionManager = connectionManager;
     }

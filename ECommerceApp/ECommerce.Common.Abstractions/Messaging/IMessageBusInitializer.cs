@@ -1,6 +1,6 @@
-﻿namespace ECommerce.Common.Infrastructure.Messaging.Interfaces;
+﻿namespace ECommerce.Common.Abstractions.Messaging;
 
-public interface IRabbitMqInitializer
+public interface IMessageBusInitializer
 {
     Task DeclareExchangeAsync(
     string exchange,
@@ -19,8 +19,8 @@ public interface IRabbitMqInitializer
         CancellationToken cancellationToken);
 
     Task DeclareQueueWithDlqAsync(
-        string queue, 
-        string exchange, 
-        string routingKey, 
+        string queue,
+        string exchange,
+        string routingKey,
         CancellationToken cancellationToken);
 }

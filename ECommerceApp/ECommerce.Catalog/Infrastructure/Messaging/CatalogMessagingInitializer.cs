@@ -1,13 +1,13 @@
-﻿using ECommerce.Common.Infrastructure.Messaging.Interfaces;
+﻿using ECommerce.Common.Abstractions.Messaging;
 using Microsoft.Extensions.Hosting;
 
 namespace ECommerce.Catalog.Infrastructure.Messaging;
 
 public class CatalogMessagingInitializer : IHostedService
 {
-    private readonly IRabbitMqInitializer _initializer;
+    private readonly IMessageBusInitializer _initializer;
 
-    public CatalogMessagingInitializer(IRabbitMqInitializer initializer)
+    public CatalogMessagingInitializer(IMessageBusInitializer initializer)
     {
         _initializer = initializer;
     }

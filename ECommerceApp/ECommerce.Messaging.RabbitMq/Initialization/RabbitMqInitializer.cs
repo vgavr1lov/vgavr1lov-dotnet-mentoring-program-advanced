@@ -1,9 +1,10 @@
-﻿using ECommerce.Common.Infrastructure.Messaging.Interfaces;
+﻿using ECommerce.Common.Abstractions.Messaging;
+using ECommerce.Messaging.RabbitMq.Connection;
 using RabbitMQ.Client;
 
-namespace ECommerce.Common.Infrastructure.Messaging.RabbitMq;
+namespace ECommerce.Messaging.RabbitMq.Initialization;
 
-public class RabbitMqInitializer : IRabbitMqInitializer
+public class RabbitMqInitializer : IMessageBusInitializer
 {
     private readonly IRabbitMqConnectionManager _connectionManager;
 
@@ -110,3 +111,4 @@ public class RabbitMqInitializer : IRabbitMqInitializer
             arguments: args);
     }
 }
+

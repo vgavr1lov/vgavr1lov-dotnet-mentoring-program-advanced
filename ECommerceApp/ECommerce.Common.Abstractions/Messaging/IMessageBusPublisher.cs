@@ -1,6 +1,6 @@
-﻿namespace ECommerce.Common.Infrastructure.Messaging.Interfaces;
+﻿namespace ECommerce.Common.Abstractions.Messaging;
 
-public interface IMessageBus
+public interface IMessageBusPublisher
 {
     Task PublishAsync<T>(
         string exchange,

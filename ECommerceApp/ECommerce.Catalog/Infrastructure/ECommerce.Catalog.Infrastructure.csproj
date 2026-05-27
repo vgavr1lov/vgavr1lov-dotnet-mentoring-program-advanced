@@ -7,8 +7,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\ECommerce.Common\Contracts\ECommerce.Common.Contracts.csproj" />
-    <ProjectReference Include="..\..\ECommerce.Common\Infrastructure\ECommerce.Common.Infrastructure.csproj" />
+    <ProjectReference Include="..\..\ECommerce.Common.Contracts\ECommerce.Common.Contracts.csproj" />
+    <ProjectReference Include="..\..\ECommerce.Messaging.RabbitMq\ECommerce.Messaging.RabbitMq.csproj" />
     <ProjectReference Include="..\Application\ECommerce.Catalog.Application.csproj" />
     <ProjectReference Include="..\Domain\ECommerce.Catalog.Domain.csproj" />
   </ItemGroup>

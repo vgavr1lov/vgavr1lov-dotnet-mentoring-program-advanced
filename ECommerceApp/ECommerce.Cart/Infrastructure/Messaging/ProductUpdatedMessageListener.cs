@@ -1,21 +1,19 @@
 ﻿using ECommerce.Cart.Application.Carts.Commands.UpdateItem;
-using ECommerce.Common.Infrastructure.Messaging.Interfaces;
-using ECommerce.Common.Infrastructure.Messaging.RabbitMq;
-using MediatR;
+using ECommerce.Common.Abstractions.Messaging;
+using Microsoft.Extensions.Hosting;
 
 namespace ECommerce.Cart.Infrastructure.Messaging;
 
-public class ProductUpdatedMessageListener : RabbitMqListenerBase<UpdateItemCommand>
+public class ProductUpdatedMessageListener : BackgroundService
 {
-    protected override string Queue => CartMessagingConstants.ProductUpdatedQueue;
-    private readonly IRabbitMqInitializer _initializer;
+    private readonly IMessageBusConsumer<UpdateItemCommand> _consumer;
+    private readonly IMessageBusInitializer _initializer;
 
     public ProductUpdatedMessageListener(
-        IRabbitMqConnectionManager connectionManager,
-        IServiceProvider serviceProvider,
-        IRabbitMqInitializer initializer,
-        ISender sender) : base(connectionManager, serviceProvider)
+        IMessageBusConsumer<UpdateItemCommand> consumer,
+        IMessageBusInitializer initializer)
     {
+        _consumer = consumer;
         _initializer = initializer;
     }
 
@@ -33,6 +31,6 @@ public class ProductUpdatedMessageListener : RabbitMqListenerBase<UpdateItemComm
             CartMessagingConstants.ProductUpdatedRoutingKey,
             cancellationToken);
 
-        await base.ExecuteAsync(cancellationToken);
+        await _consumer.ConsumeAsync(CartMessagingConstants.ProductUpdatedQueue, cancellationToken);
     }
 }

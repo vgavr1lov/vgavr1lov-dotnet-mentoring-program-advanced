@@ -1,6 +1,6 @@
 ﻿using RabbitMQ.Client;
 
-namespace ECommerce.Common.Infrastructure.Messaging.Interfaces;
+namespace ECommerce.Messaging.RabbitMq.Connection;
 
 public interface IRabbitMqConnectionManager
 {

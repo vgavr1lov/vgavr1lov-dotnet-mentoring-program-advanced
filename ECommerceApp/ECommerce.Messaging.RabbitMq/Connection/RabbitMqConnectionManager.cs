@@ -1,8 +1,8 @@
-﻿using ECommerce.Common.Infrastructure.Messaging.Interfaces;
+﻿using ECommerce.Messaging.RabbitMq.Configuration;
 using Microsoft.Extensions.Options;
 using RabbitMQ.Client;
 
-namespace ECommerce.Common.Infrastructure.Messaging.RabbitMq;
+namespace ECommerce.Messaging.RabbitMq.Connection;
 
 public class RabbitMqConnectionManager : IRabbitMqConnectionManager
 {
@@ -13,7 +13,7 @@ public class RabbitMqConnectionManager : IRabbitMqConnectionManager
 
     public RabbitMqConnectionManager(IOptions<RabbitMqConfiguration> rabbitMqConfiguration)
     {
-        var config = rabbitMqConfiguration.Value; 
+        var config = rabbitMqConfiguration.Value;
 
         if (!string.IsNullOrEmpty(config.Username))
         {
