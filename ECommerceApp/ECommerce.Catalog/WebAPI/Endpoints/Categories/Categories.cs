@@ -4,6 +4,7 @@ using ECommerce.Catalog.Application.Categories.Commands.UpdateCategory;
 using ECommerce.Catalog.Application.Categories.Contracts;
 using ECommerce.Catalog.Application.Categories.Queries.GetAllCategories;
 using ECommerce.Catalog.Application.Categories.Queries.GetCategory;
+using ECommerce.Catalog.WebAPI.Authorization;
 using ECommerce.Catalog.WebAPI.Contracts;
 using ECommerce.Catalog.WebAPI.Infrastructure;
 using ECommerce.Catalog.WebAPI.Interfaces;
@@ -17,15 +18,20 @@ public class Categories : IEndpointGroup
     public static void Map(RouteGroupBuilder groupBuilder)
     {
         groupBuilder.MapGet("/{categoryId:long}", GetCategory)
-            .WithName("GetCategory");
+            .WithName("GetCategory")
+            .AllowAnonymous();
         groupBuilder.MapGet("/", GetAllCategories)
-            .WithName("GetAllCategories");
+            .WithName("GetAllCategories")
+            .AllowAnonymous();
         groupBuilder.MapPost("/", AddCategory)
-            .WithName("AddCategory");
+            .WithName("AddCategory")
+            .RequireAuthorization(CatalogPolicies.CanCreate); 
         groupBuilder.MapPut("/", UpdateCategory)
-            .WithName("UpdateCategory");
+            .WithName("UpdateCategory")
+            .RequireAuthorization(CatalogPolicies.CanUpdate);
         groupBuilder.MapDelete("/{categoryId:long}", DeleteCategory)
-            .WithName("DeleteCategory");
+            .WithName("DeleteCategory")
+            .RequireAuthorization(CatalogPolicies.CanDelete);
     }
 
     /// <summary>
@@ -83,6 +89,8 @@ public class Categories : IEndpointGroup
     ///
     /// </remarks>
     /// <response code="201">Returns the ID of the created Category</response>
+    /// <response code="403">Returns Forbidden</response>
+    /// <response code="401">Returns Unauthorized </response>
     /// <response code="409">Category already exists</response>
     public static async Task<IResult> AddCategory(
         [FromBody] CreateCategoryRequest request,
@@ -139,6 +147,8 @@ public class Categories : IEndpointGroup
     ///
     /// </remarks>
     /// <response code="200">Ok</response>
+    /// <response code="401">Returns Unauthorized </response>
+    /// <response code="403">Returns Forbidden</response>
     /// <response code="404">Category not found</response>
     [EndpointSummary("Update a Category")]
     [EndpointDescription("Updates a Category and returns Ok.")]
@@ -165,6 +175,8 @@ public class Categories : IEndpointGroup
     ///
     /// </remarks>
     /// <response code="200">Ok</response>
+    /// <response code="401">Returns Unauthorized </response>
+    /// <response code="403">Returns Forbidden</response>
     /// <response code="404">Category not found</response>
     [EndpointSummary("Delete a Category")]
     [EndpointDescription("Delete a Category and returns Ok.")]

@@ -1,5 +1,4 @@
 ﻿using ECommerce.Cart.Application.Carts.Contracts;
-using ECommerce.Cart.Domain.Entities;
 using ECommerce.Cart.WebAPI.Tests.TestDataBuilders;
 using FluentAssertions;
 using System.Net;

@@ -21,6 +21,7 @@ public class CustomWebAPIApplicationFactory<TProgram>
             RemoveService<OutboxBackgroundProcessor>(services);
             RemoveService<CatalogMessagingInitializer>(services);
             RemoveService<DbContextOptions<ApplicationDbContext>>(services);
+            RemoveJwtAuthentication(services);
 
             var dbName = $"CatalogWebAPITestsDb_{Guid.NewGuid():N}";
 
@@ -29,7 +30,7 @@ public class CustomWebAPIApplicationFactory<TProgram>
                     $"Data Source=(localdb)\\MSSQLLocalDB;Initial Catalog={dbName};Integrated Security=True;Connect Timeout=30;Encrypt=False"));
         });
 
-        builder.UseEnvironment("Development");
+        builder.UseEnvironment("Testing");
     }
 
     protected override IHost CreateHost(IHostBuilder builder)
@@ -77,5 +78,19 @@ public class CustomWebAPIApplicationFactory<TProgram>
         db.Category.Add(sampleCategory);
         db.Product.Add(sampleProduct);
         db.SaveChanges();
+    }
+
+    private static void RemoveJwtAuthentication(IServiceCollection services)
+    {
+        var descriptors = services
+            .Where(s => s.ServiceType.FullName != null &&
+                   s.ServiceType.FullName.Contains("Authentication"))
+            .ToList();
+
+        foreach (var descriptor in descriptors)
+            services.Remove(descriptor);
+
+        services.AddAuthentication("Test")
+            .AddScheme<Microsoft.AspNetCore.Authentication.AuthenticationSchemeOptions, TestAuthHandler>("Test", options => { });
     }
 }

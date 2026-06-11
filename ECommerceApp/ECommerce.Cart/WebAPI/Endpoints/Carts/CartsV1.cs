@@ -12,7 +12,7 @@ public class CartsV1 : IEndpointGroup
 {
     public static void Map(RouteGroupBuilder groupBuilder)
     {
-        groupBuilder.MapGet("/{cartId:long}", GetCartInfo); 
+        groupBuilder.MapGet("/{cartId:long}", GetCartInfo);
         groupBuilder.MapPost("/{cartId:long}/items", AddItemToCart);
         groupBuilder.MapDelete("/{cartId:long}/items/{itemId:long}", DeleteItemFromCart);
     }
@@ -30,6 +30,7 @@ public class CartsV1 : IEndpointGroup
     /// </remarks>
     /// <response code="200">Returns Ok</response>
     /// <response code="404">Returns Not Found</response>
+    /// <response code="401">Returns Unauthorized </response>
     [EndpointSummary("Get a Cart")]
     [EndpointDescription("Gets a Cart and returns a Cart with items.")]
     public static async Task<IResult> GetCartInfo(
@@ -67,6 +68,7 @@ public class CartsV1 : IEndpointGroup
     ///
     /// </remarks>
     /// <response code="200">Returns Ok</response>
+    /// <response code="401">Returns Unauthorized </response>
     public static async Task<IResult> AddItemToCart(
         long cartId,
         [FromBody] ItemModel item,
@@ -105,6 +107,7 @@ public class CartsV1 : IEndpointGroup
     /// </remarks>
     /// <response code="200">Returns Ok</response>
     /// <response code="404">Returns Not Found</response>
+    /// <response code="401">Returns Unauthorized </response>
     [EndpointSummary("Delete a Cart item")]
     [EndpointDescription("Delete a Cart item and returns Ok.")]
     public static async Task<IResult> DeleteItemFromCart(

@@ -15,10 +15,11 @@ public class CustomWebAPIApplicationFactory<TProgram>
     private const long SampleCartId = 1;
     protected override void ConfigureWebHost(IWebHostBuilder builder)
     {
-        builder.ConfigureServices(async services =>
+        builder.ConfigureServices(services =>
         {
             RemoveService<ProductUpdatedMessageListener>(services);
             RemoveService<ICartRepository>(services);
+            RemoveJwtAuthentication(services);
 
             var dbPath = Path.Combine(
                 Path.GetTempPath(),
@@ -33,11 +34,12 @@ public class CustomWebAPIApplicationFactory<TProgram>
             using var scope = sp.CreateScope();
             var repository = scope.ServiceProvider.GetRequiredService<ICartRepository>();
 
-            await SeedDatabaseAsync(repository);
+            SeedDatabaseAsync(repository).GetAwaiter().GetResult(); ;
         });
 
-        builder.UseEnvironment("Development");
+        builder.UseEnvironment("Testing");
     }
+
     private static void RemoveService<T>(IServiceCollection services)
     {
         var descriptor = services.FirstOrDefault(s => s.ServiceType == typeof(T) || s.ImplementationType == typeof(T));
@@ -60,5 +62,19 @@ public class CustomWebAPIApplicationFactory<TProgram>
         cart.Items.Add(sampleCartItem);
 
         await repository.SaveCartAsync(cart, CancellationToken.None);
+    }
+
+    private static void RemoveJwtAuthentication(IServiceCollection services)
+    {
+        var descriptors = services
+            .Where(s => s.ServiceType.FullName != null &&
+                   s.ServiceType.FullName.Contains("Authentication"))
+            .ToList();
+
+        foreach (var descriptor in descriptors)
+            services.Remove(descriptor);
+
+        services.AddAuthentication("Test")
+            .AddScheme<Microsoft.AspNetCore.Authentication.AuthenticationSchemeOptions, TestAuthHandler>("Test", options => { });
     }
 }
