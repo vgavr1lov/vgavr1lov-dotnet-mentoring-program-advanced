@@ -34,7 +34,7 @@ public static class AuthenticationExtensions
                 ValidAudience = audience,
                 ValidateLifetime = true,
                 ValidateIssuerSigningKey = true,
-                IssuerSigningKeys = signingKeys
+                IssuerSigningKeys = signingKeys,
             };
             options.Events = new JwtBearerEvents
             {
@@ -45,7 +45,7 @@ public static class AuthenticationExtensions
                         ctx.Options.TokenValidationParameters.IssuerSigningKeys =
                             await GetSigningKeys(authority);
                     }
-                }
+                },
             };
         });
 

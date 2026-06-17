@@ -1,4 +1,6 @@
-﻿using ECommerce.Catalog.Application.Common.Interfaces;
+﻿using System.Net.Sockets;
+using System.Text.Json;
+using ECommerce.Catalog.Application.Common.Interfaces;
 using ECommerce.Catalog.Infrastructure.Data.Interfaces;
 using ECommerce.Common.Contracts.Events;
 using Microsoft.EntityFrameworkCore;
@@ -6,9 +8,8 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Polly;
 using Polly.CircuitBreaker;
+
 using RabbitMQ.Client.Exceptions;
-using System.Net.Sockets;
-using System.Text.Json;
 
 namespace ECommerce.Catalog.Infrastructure.Data.Outbox;
 
@@ -28,6 +29,7 @@ public class OutboxBackgroundProcessor : BackgroundService
         _scopeFactory = scopeFactory;
         _circuitBreaker = ConfigurePolicy();
     }
+
     protected override async Task ExecuteAsync(CancellationToken cancellationToken)
     {
         await Task.Yield();
@@ -100,13 +102,11 @@ public class OutboxBackgroundProcessor : BackgroundService
                     if (productUpdatedIntegrationEvent is null)
                         return;
 
-                    await _circuitBreaker.ExecuteAsync(async () =>
-                    {
-                        await messagePublisher.PublishIntegrationEventAsync(productUpdatedIntegrationEvent, cancellationToken);
-                    });
+                    await _circuitBreaker.ExecuteAsync(async () => await messagePublisher.PublishIntegrationEventAsync(productUpdatedIntegrationEvent, cancellationToken));
 
                     break;
                 }
+
             default:
                 throw new InvalidOperationException($"Unknown outbox message type '{message.Type}' for message {message.Id}.");
         }

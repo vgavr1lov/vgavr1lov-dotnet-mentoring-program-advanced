@@ -5,7 +5,7 @@ namespace ECommerce.Catalog.Domain.Entities;
 public class Category
 {
     public long Id { get; private set; }
-    public string Name { get; private set; }
+    public string Name { get; private set; } = null!;
     public Image? Image { get; private set; }
     public long? ParentCategoryId { get; private set; }
 

@@ -45,7 +45,7 @@ public class UpdateProductCommandHandlerIntegrationTests : IClassFixture<TestSql
             CategoryId = category.Id,
             Amount = product.Price.Amount,
             Currency = product.Price.Currency,
-            Quantity = product.Amount
+            Quantity = product.Amount,
         };
 
         var updateProductCommand = new UpdateProductCommand(updatedProductRequest);

@@ -84,7 +84,7 @@ public class CartsV2 : IEndpointGroup
             ImageAltText = item.ImageAltText,
             Amount = item.Amount,
             Currency = item.Currency,
-            Quantity = item.Quantity
+            Quantity = item.Quantity,
         };
 
         var command = new AddItemCommand(request);

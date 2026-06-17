@@ -3,6 +3,7 @@
 public class ShoppingCart
 {
     public long Id { get; private set; }
+
     public List<CartItem> Items { get; private set; }
 
     public ShoppingCart(long id)
@@ -10,6 +11,7 @@ public class ShoppingCart
         Id = id;
         Items = new List<CartItem>();
     }
+
     public void RemoveItem(long itemId)
     {
         var existingItem = Items.FirstOrDefault(x => x.Id == itemId);
@@ -43,7 +45,6 @@ public class ShoppingCart
         if (existingItem != null)
             Items.Remove(existingItem);
 
-            Items.Add(item);
-        
+        Items.Add(item);
     }
 }

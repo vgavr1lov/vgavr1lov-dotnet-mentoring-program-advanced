@@ -44,7 +44,7 @@ public class AddProductCommandHandlerIntegrationTests : IClassFixture<TestSqlSer
             CategoryId = product.CategoryId,
             Amount = product.Price.Amount,
             Currency = product.Price.Currency,
-            Quantity = product.Amount
+            Quantity = product.Amount,
         };
 
         var command = new AddProductCommand(request);

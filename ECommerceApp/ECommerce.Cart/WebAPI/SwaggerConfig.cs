@@ -1,6 +1,6 @@
-﻿using ECommerce.Cart.WebAPI.Infrastructure;
+﻿using System.Reflection;
+using ECommerce.Cart.WebAPI.Infrastructure;
 using Microsoft.OpenApi.Models;
-using System.Reflection;
 
 namespace ECommerce.Cart.WebAPI;
 
@@ -28,10 +28,10 @@ public static class SwaggerConfig
                         TokenUrl = new Uri(tokenUrl),
                         Scopes = new Dictionary<string, string>
                         {
-                                { "ecommerce.api", "ECommerce API Access" }
-                        }
-                    }
-                }
+                                { "ecommerce.api", "ECommerce API Access" },
+                        },
+                    },
+                },
             });
 
             options.AddSecurityRequirement(new OpenApiSecurityRequirement
@@ -42,11 +42,11 @@ public static class SwaggerConfig
                         Reference = new OpenApiReference
                         {
                             Type = ReferenceType.SecurityScheme,
-                            Id = "oauth2"
-                        }
+                            Id = "oauth2",
+                        },
                     },
                     new[] { "ecommerce.api", "ECommerce API Access" }
-                }
+                },
             });
         });
 

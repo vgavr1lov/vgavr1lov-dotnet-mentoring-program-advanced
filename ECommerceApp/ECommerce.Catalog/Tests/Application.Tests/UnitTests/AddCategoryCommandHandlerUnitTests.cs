@@ -34,7 +34,7 @@ public class AddCategoryCommandHandlerUnitTests
             Name = category.Name,
             ImageUrl = category.Image?.Url,
             ImageAltText = category.Image?.AltText,
-            ParentCategoryId = category.ParentCategoryId
+            ParentCategoryId = category.ParentCategoryId,
         };
 
         var command = new AddCategoryCommand(request);

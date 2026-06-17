@@ -1,9 +1,9 @@
-﻿using ECommerce.Common.Abstractions.Messaging;
+﻿using System.Text;
+using System.Text.Json;
+using ECommerce.Common.Abstractions.Messaging;
 using ECommerce.Messaging.RabbitMq.Connection;
 using RabbitMQ.Client;
 using RabbitMQ.Client.Exceptions;
-using System.Text;
-using System.Text.Json;
 
 namespace ECommerce.Messaging.RabbitMq.Bus;
 

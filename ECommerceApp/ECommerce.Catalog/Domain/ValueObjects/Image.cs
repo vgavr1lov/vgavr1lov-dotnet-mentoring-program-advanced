@@ -16,5 +16,4 @@ public sealed record Image
         Url = url;
         AltText = altText;
     }
-
 }

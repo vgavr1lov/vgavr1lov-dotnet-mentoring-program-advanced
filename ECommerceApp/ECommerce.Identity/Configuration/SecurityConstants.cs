@@ -30,6 +30,7 @@ public static class SecurityConstants
         public const string CatalogUpdate = "catalog.update";
         public const string CatalogDelete = "catalog.delete";
     }
+
     public static class Roles
     {
         public const string Manager = "Manager";

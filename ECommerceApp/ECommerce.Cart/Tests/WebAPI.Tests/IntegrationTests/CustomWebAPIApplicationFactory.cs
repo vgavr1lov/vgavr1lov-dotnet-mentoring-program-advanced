@@ -10,7 +10,8 @@ using Microsoft.Extensions.DependencyInjection;
 namespace ECommerce.Cart.WebAPI.Tests.IntegrationTests;
 
 public class CustomWebAPIApplicationFactory<TProgram>
-    : WebApplicationFactory<TProgram> where TProgram : class
+    : WebApplicationFactory<TProgram>
+    where TProgram : class
 {
     private const long SampleCartId = 1;
     protected override void ConfigureWebHost(IWebHostBuilder builder)
@@ -34,7 +35,7 @@ public class CustomWebAPIApplicationFactory<TProgram>
             using var scope = sp.CreateScope();
             var repository = scope.ServiceProvider.GetRequiredService<ICartRepository>();
 
-            SeedDatabaseAsync(repository).GetAwaiter().GetResult(); ;
+            SeedDatabaseAsync(repository).GetAwaiter().GetResult();
         });
 
         builder.UseEnvironment("Testing");

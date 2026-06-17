@@ -5,14 +5,14 @@ namespace ECommerce.Catalog.WebAPI.Tests.TestDataBuilders;
 public class SampleProductModelBuilder
 {
     private long _id = 1;
-    private string _name = "Product";
-    private string _description = "Product Description";
-    private string? _imageUrl = "https://example.com/product.jpg";
-    private string? _imageAltText = "Product";
+    private readonly string _name = "Product";
+    private readonly string _description = "Product Description";
+    private readonly string? _imageUrl = "https://example.com/product.jpg";
+    private readonly string? _imageAltText = "Product";
     private long _categoryId = 1;
-    private decimal _amount = 10.20m;
-    private string _currency = "PLN";
-    private int _quantity = 1;
+    private readonly decimal _amount = 10.20m;
+    private readonly string _currency = "PLN";
+    private readonly int _quantity = 1;
 
     public SampleProductModelBuilder WithRandomId()
     {
@@ -36,6 +36,6 @@ public class SampleProductModelBuilder
         CategoryId = _categoryId,
         Amount = _amount,
         Currency = _currency,
-        Quantity = _quantity
+        Quantity = _quantity,
     };
 }

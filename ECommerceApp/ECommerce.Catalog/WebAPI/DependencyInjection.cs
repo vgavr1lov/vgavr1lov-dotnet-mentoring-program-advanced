@@ -14,7 +14,6 @@ public static class DependencyInjection
 
         AddApiVersioning(services);
 
-
         services.AddRouting();
 
         services.AddHttpContextAccessor();

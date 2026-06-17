@@ -1,36 +1,32 @@
-﻿using Duende.IdentityServer.Models;
+﻿using System.Security.Claims;
+using Duende.IdentityServer.Models;
 using Duende.IdentityServer.Test;
-using System.Security.Claims;
 using static ECommerce.Identity.Configuration.SecurityConstants;
 
 namespace ECommerce.Identity.Configuration;
 
-public class IdentityServerConfig
+public static class IdentityServerConfig
 {
     public static List<IdentityResource> GetIdentityResources()
     {
-        var identityResources = new List<IdentityResource>
+        return new List<IdentityResource>
         {
             new IdentityResources.OpenId(),
             new IdentityResources.Profile(),
-            new (Scopes.Roles, "User roles", [SecurityConstants.ClaimTypes.Role])
+            new(Scopes.Roles, "User roles", [SecurityConstants.ClaimTypes.Role]),
         };
-
-        return identityResources;
     }
 
     public static List<ApiScope> GetApiScopes()
     {
-        var apiScope = new List<ApiScope>()
+        return new List<ApiScope>()
         {
-            new (ApiResources.ECommerceApi),
-            new (Permissions.CatalogRead),
-            new (Permissions.CatalogCreate),
-            new (Permissions.CatalogUpdate),
-            new (Permissions.CatalogDelete)
+            new(ApiResources.ECommerceApi),
+            new(Permissions.CatalogRead),
+            new(Permissions.CatalogCreate),
+            new(Permissions.CatalogUpdate),
+            new(Permissions.CatalogDelete),
         };
-
-        return apiScope;
     }
 
     public static List<ApiResource> GetApiResources()
@@ -42,10 +38,10 @@ public class IdentityServerConfig
                 Permissions.CatalogRead,
                 Permissions.CatalogCreate,
                 Permissions.CatalogUpdate,
-                Permissions.CatalogDelete },
+                Permissions.CatalogDelete, },
             UserClaims = {
                 SecurityConstants.ClaimTypes.Role,
-                SecurityConstants.ClaimTypes.Permission }
+                SecurityConstants.ClaimTypes.Permission, },
         };
 
         return new List<ApiResource> { resource };
@@ -61,13 +57,13 @@ public class IdentityServerConfig
             .GetSection("IdentityServer:Clients:Swagger:CorsOrigins")
             .Get<List<string>>() ?? [];
 
-        var clients = new List<Client>
+        return new List<Client>
         {
             new() {
                 ClientId = "postman",
                 ClientSecrets =
                 {
-                    new Secret("postman".Sha256())
+                    new Secret("postman".Sha256()),
                 },
                 AllowedGrantTypes = GrantTypes.ResourceOwnerPassword,
                 RedirectUris = redirectUris,
@@ -85,7 +81,7 @@ public class IdentityServerConfig
                 AlwaysIncludeUserClaimsInIdToken = true,
                 AlwaysSendClientClaims = true,
                 AllowOfflineAccess = true,
-                RefreshTokenUsage = TokenUsage.ReUse
+                RefreshTokenUsage = TokenUsage.ReUse,
             },
             new() {
                     ClientId = "swagger",
@@ -110,11 +106,9 @@ public class IdentityServerConfig
                     AlwaysIncludeUserClaimsInIdToken = true,
                     AlwaysSendClientClaims = true,
                     AllowOfflineAccess = true,
-                    RefreshTokenUsage = TokenUsage.ReUse
-                }
+                    RefreshTokenUsage = TokenUsage.ReUse,
+                },
         };
-
-        return clients;
     }
 
     public static List<TestUser> GetTestUsers()
@@ -127,8 +121,8 @@ public class IdentityServerConfig
                 Password = "manager",
                 Claims = new List<Claim>
                 {
-                    new (SecurityConstants.ClaimTypes.Role, Roles.Manager)
-                }
+                    new(SecurityConstants.ClaimTypes.Role, Roles.Manager),
+                },
             },
             new() {
                 SubjectId = "2",
@@ -136,9 +130,9 @@ public class IdentityServerConfig
                 Password = "customer",
                 Claims = new List<Claim>
                 {
-                    new (SecurityConstants.ClaimTypes.Role, Roles.StoreCustomer)
-                }
-            }
+                    new(SecurityConstants.ClaimTypes.Role, Roles.StoreCustomer),
+                },
+            },
         };
     }
 }

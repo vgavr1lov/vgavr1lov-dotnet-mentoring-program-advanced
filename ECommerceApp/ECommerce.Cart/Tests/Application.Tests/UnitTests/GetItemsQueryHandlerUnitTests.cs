@@ -23,10 +23,7 @@ public class GetItemsQueryHandlerUnitTests
         _cartRepositoryMock = new Mock<ICartRepository>();
 
         var loggerFactory = LoggerFactory.Create(builder => { });
-        var mapperConfig = new MapperConfiguration(cfg =>
-        {
-            cfg.AddProfile<MappingProfile>();
-        }, loggerFactory);
+        var mapperConfig = new MapperConfiguration(cfg => cfg.AddProfile<MappingProfile>(), loggerFactory);
         _mapper = mapperConfig.CreateMapper();
 
         _sut = new GetItemsQueryHandler(_cartRepositoryMock.Object, _mapper);

@@ -40,7 +40,7 @@ public class CartsV1 : IEndpointGroup
     {
         var response = await sender.Send(new GetCartInfoQuery(cartId), cancellationToken);
 
-        if (response == null) 
+        if (response == null)
             return Results.NotFound();
 
         return Results.Ok(response);
@@ -84,7 +84,7 @@ public class CartsV1 : IEndpointGroup
             ImageAltText = item.ImageAltText,
             Amount = item.Amount,
             Currency = item.Currency,
-            Quantity = item.Quantity
+            Quantity = item.Quantity,
         };
 
         var command = new AddItemCommand(request);

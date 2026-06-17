@@ -6,12 +6,12 @@ namespace ECommerce.Catalog.Application.Tests.TestDataBuilders;
 public class SampleProductBuilder
 {
     private long _id = 1;
-    private string _name = "Product";
-    private string _description = "Product Description";
-    private Image? _image = new Image("https://example.com/product.jpg", "product");
+    private readonly string _name = "Product";
+    private readonly string _description = "Product Description";
+    private readonly Image? _image = new Image("https://example.com/product.jpg", "product");
     private long _categoryId = 1;
-    private Money _price = new Money(10.20m, "PLN");
-    private int _quantity = 1;
+    private readonly Money _price = new Money(10.20m, "PLN");
+    private readonly int _quantity = 1;
 
     public SampleProductBuilder WithRandomId()
     {

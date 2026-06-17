@@ -1,4 +1,7 @@
-﻿using ECommerce.Common.Abstractions.Messaging;
+﻿using System.Net.Sockets;
+using System.Text;
+using System.Text.Json;
+using ECommerce.Common.Abstractions.Messaging;
 using ECommerce.Messaging.RabbitMq.Connection;
 using MediatR;
 using Microsoft.Extensions.DependencyInjection;
@@ -7,9 +10,6 @@ using Polly.CircuitBreaker;
 using RabbitMQ.Client;
 using RabbitMQ.Client.Events;
 using RabbitMQ.Client.Exceptions;
-using System.Net.Sockets;
-using System.Text;
-using System.Text.Json;
 
 namespace ECommerce.Messaging.RabbitMq.Bus;
 
@@ -30,6 +30,7 @@ public class RabbitMqMessageBusConsumer<TCommand> : IMessageBusConsumer<TCommand
         _serviceProvider = serviceProvider;
         _circuitBreaker = ConfigurePolicy();
     }
+
     public async Task ConsumeAsync(string queue, CancellationToken cancellationToken)
     {
         while (!cancellationToken.IsCancellationRequested)

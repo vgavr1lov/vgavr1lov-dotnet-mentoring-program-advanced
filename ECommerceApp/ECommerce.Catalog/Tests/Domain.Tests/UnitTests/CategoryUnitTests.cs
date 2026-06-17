@@ -10,7 +10,7 @@ public class CategoryUnitTests
     {
         Assert.Throws<ArgumentException>(() => new Category(
             id: Random.Shared.NextInt64(1, long.MaxValue),
-            name: "",
+            name: string.Empty,
             image: new Image("https://example.com/category.jpg", "category"),
             parentCategoryId: null));
     }

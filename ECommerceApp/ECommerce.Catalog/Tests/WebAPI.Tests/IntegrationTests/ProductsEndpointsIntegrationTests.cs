@@ -1,18 +1,19 @@
-﻿using ECommerce.Catalog.Application.Products.Contracts;
+﻿using System.Net;
+using System.Net.Http.Json;
+using ECommerce.Catalog.Application.Products.Contracts;
 using ECommerce.Catalog.WebAPI.Contracts;
 using ECommerce.Catalog.WebAPI.Tests.TestDataBuilders;
+
 using FluentAssertions;
-using System.Net;
-using System.Net.Http.Json;
 
 namespace ECommerce.Catalog.WebAPI.Tests.IntegrationTests;
 
 public class ProductsEndpointsIntegrationTests :
     IClassFixture<CustomWebAPIApplicationFactory<Program>>
 {
-    private readonly HttpClient _client;
-
     private const string ApiVersion = "/v1";
+
+    private readonly HttpClient _client;
 
     public ProductsEndpointsIntegrationTests(
         CustomWebAPIApplicationFactory<Program> factory)

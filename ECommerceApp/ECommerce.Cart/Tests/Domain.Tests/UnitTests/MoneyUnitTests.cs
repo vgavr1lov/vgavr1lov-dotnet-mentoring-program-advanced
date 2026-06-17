@@ -17,7 +17,7 @@ public class MoneyUnitTests
     {
         Assert.Throws<ArgumentException>(() => new Money(
             amount: 2m,
-            currency: ""));
+            currency: string.Empty));
     }
 
     [Fact]

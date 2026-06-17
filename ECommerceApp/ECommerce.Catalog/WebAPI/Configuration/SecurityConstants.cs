@@ -1,6 +1,6 @@
 ﻿namespace ECommerce.Catalog.WebAPI.Configuration;
 
-public class SecurityConstants
+public static class SecurityConstants
 {
     public static class ClaimTypes
     {

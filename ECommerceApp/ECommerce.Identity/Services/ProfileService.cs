@@ -1,9 +1,9 @@
-﻿using Duende.IdentityServer.Extensions;
+﻿using System.Security.Claims;
+using Duende.IdentityServer.Extensions;
 using Duende.IdentityServer.Models;
 using Duende.IdentityServer.Services;
 using Duende.IdentityServer.Test;
 using ECommerce.Identity.Configuration;
-using System.Security.Claims;
 
 namespace ECommerce.Identity.Services;
 
@@ -15,23 +15,22 @@ public class ProfileService : IProfileService
     {
         _userStore = userStore;
     }
+
     public Task GetProfileDataAsync(ProfileDataRequestContext context)
     {
-        //var claim = context.Subject.FindFirst(SecurityConstants.ClaimTypes.Role);
-
+        // var claim = context.Subject.FindFirst(SecurityConstants.ClaimTypes.Role);
         var user = _userStore.FindBySubjectId(context.Subject.GetSubjectId());
         if (user is null)
             return Task.CompletedTask;
 
         var claim = user.Claims.FirstOrDefault(c => c.Type == SecurityConstants.ClaimTypes.Role);
 
-
         if (claim is null)
             return Task.CompletedTask;
 
         var permissionClaims = new List<Claim>
         {
-            claim
+            claim,
         };
 
         if (string.Equals(claim.Value, SecurityConstants.Roles.StoreCustomer))

@@ -2,7 +2,7 @@
 
 public sealed record Money
 {
-    public decimal Amount { get; private set;}
+    public decimal Amount { get; private set; }
     public string Currency { get; private set; }
 
     private const int DefaultCurrencyDecimals = 2;

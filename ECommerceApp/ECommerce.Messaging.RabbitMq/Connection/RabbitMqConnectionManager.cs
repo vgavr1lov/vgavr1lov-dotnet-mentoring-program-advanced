@@ -24,7 +24,7 @@ public class RabbitMqConnectionManager : IRabbitMqConnectionManager
                 Password = config.Password,
                 AutomaticRecoveryEnabled = config.AutomaticRecoveryEnabled,
                 TopologyRecoveryEnabled = config.TopologyRecoveryEnabled,
-                NetworkRecoveryInterval = config.NetworkRecoveryInterval
+                NetworkRecoveryInterval = config.NetworkRecoveryInterval,
             };
         }
         else

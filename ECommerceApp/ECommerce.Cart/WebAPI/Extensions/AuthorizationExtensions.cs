@@ -7,7 +7,7 @@ public static class AuthorizationExtensions
     public static IServiceCollection AddCartAuthorization(this IServiceCollection services)
     {
         return services.AddAuthorization(options =>
-            options.AddPolicy(CartPolicies.IsAuthenticated, policy => 
+            options.AddPolicy(CartPolicies.IsAuthenticated, policy =>
                 policy.RequireAuthenticatedUser()));
     }
 }

@@ -6,11 +6,9 @@ namespace ECommerce.Catalog.Application.Tests.TestDataBuilders;
 public class SampleCategoryBuilder
 {
     private long _id = 1;
-    private string _name = "category";
-    private Image? _image = new Image("https://example.com/product.jpg", "product");
-    private long? _parentCategoryId = null;
-
-
+    private readonly string _name = "category";
+    private readonly Image? _image = new Image("https://example.com/product.jpg", "product");
+    private readonly long? _parentCategoryId = null;
     public SampleCategoryBuilder WithRandomId()
     {
         _id = Random.Shared.NextInt64(1, long.MaxValue);

@@ -5,12 +5,12 @@ namespace ECommerce.Cart.WebAPI.Tests.TestDataBuilders;
 public class SampleCartItemBuilder
 {
     private long _id = 1;
-    private string _name = "Product";
-    private string? _imageUrl = "https://example.com/product.jpg";
-    private string? _imageAltText = "Product";
-    private decimal _amount = 10.20m;
-    private string _currency = "PLN";
-    private int _quantity = 1;
+    private readonly string _name = "Product";
+    private readonly string? _imageUrl = "https://example.com/product.jpg";
+    private readonly string? _imageAltText = "Product";
+    private readonly decimal _amount = 10.20m;
+    private readonly string _currency = "PLN";
+    private readonly int _quantity = 1;
 
     public SampleCartItemBuilder WithRandomId()
     {
@@ -26,6 +26,6 @@ public class SampleCartItemBuilder
         ImageAltText = _imageAltText,
         Amount = _amount,
         Currency = _currency,
-        Quantity = _quantity
+        Quantity = _quantity,
     };
 }

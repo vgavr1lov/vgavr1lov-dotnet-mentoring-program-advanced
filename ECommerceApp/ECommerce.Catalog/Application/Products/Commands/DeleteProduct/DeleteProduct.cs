@@ -21,7 +21,7 @@ public class DeleteProductCommandHandler : IRequestHandler<DeleteProductCommand>
             .FirstOrDefaultAsync(c => c.Id == command.Id);
 
         if (product is null)
-            throw new NotFoundException("Product not found."); ;
+            throw new NotFoundException("Product not found.");
 
         _context.Product.Remove(product);
 

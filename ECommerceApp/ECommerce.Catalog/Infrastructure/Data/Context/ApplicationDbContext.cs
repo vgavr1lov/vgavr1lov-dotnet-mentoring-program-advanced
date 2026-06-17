@@ -19,7 +19,6 @@ public class ApplicationDbContext : DbContext, IApplicationDbContext, IOutboxDbC
         base.OnModelCreating(modelBuilder);
 
         // Category:
-
         modelBuilder.Entity<Category>()
             .HasKey(c => c.Id);
 
@@ -57,7 +56,6 @@ public class ApplicationDbContext : DbContext, IApplicationDbContext, IOutboxDbC
             .OnDelete(DeleteBehavior.Restrict);
 
         // Product:
-
         modelBuilder.Entity<Product>()
             .HasKey(p => p.Id);
 

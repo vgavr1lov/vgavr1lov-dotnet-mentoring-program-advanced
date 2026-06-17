@@ -11,6 +11,7 @@ public class CatalogMessagingInitializer : IHostedService
     {
         _initializer = initializer;
     }
+
     public async Task StartAsync(CancellationToken cancellationToken)
     {
         await _initializer.DeclareExchangeAsync(CatalogMessagingConstants.CatalogExchange, cancellationToken);

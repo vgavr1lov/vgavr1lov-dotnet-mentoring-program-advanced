@@ -100,7 +100,7 @@ public class RabbitMqInitializer : IMessageBusInitializer
         var args = new Dictionary<string, object?>
             {
                 { "x-dead-letter-exchange",     dlx },
-                { "x-dead-letter-routing-key",  dlRoutingKey }
+                { "x-dead-letter-routing-key",  dlRoutingKey },
             };
 
         await channel.QueueDeclareAsync(
@@ -111,4 +111,3 @@ public class RabbitMqInitializer : IMessageBusInitializer
             arguments: args);
     }
 }
-

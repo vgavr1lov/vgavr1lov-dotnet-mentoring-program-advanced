@@ -53,7 +53,7 @@ public class AddItemCommandHandlerIntegrationTests : IDisposable
             ImageAltText = item.Image?.AltText,
             Amount = item.Price.Amount,
             Currency = item.Price.Currency,
-            Quantity = item.Quantity
+            Quantity = item.Quantity,
         };
 
         var command = new AddItemCommand(request);

@@ -26,12 +26,14 @@ public class AddCategoryCommandHandler : IRequestHandler<AddCategoryCommand, lon
         if (isExistingCategory)
             throw new ConflictException($"Category with id {command.CategoryRequest.Id} already exists.");
 
+        var image = string.IsNullOrWhiteSpace(command.CategoryRequest.ImageUrl)
+            ? null
+            : new Image(command.CategoryRequest.ImageUrl, command.CategoryRequest.ImageAltText);
+
         var category = new Category(
         command.CategoryRequest.Id,
         command.CategoryRequest.Name,
-        string.IsNullOrWhiteSpace(command.CategoryRequest.ImageUrl)
-            ? null
-            : new Image(command.CategoryRequest.ImageUrl, command.CategoryRequest.ImageAltText),
+        image,
         command.CategoryRequest.ParentCategoryId);
 
         await _context.Category.AddAsync(category);
