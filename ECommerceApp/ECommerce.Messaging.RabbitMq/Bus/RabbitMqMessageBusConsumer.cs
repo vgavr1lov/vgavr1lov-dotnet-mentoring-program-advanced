@@ -1,7 +1,7 @@
-﻿using ECommerce.Common.Infrastructure.Messaging.Interfaces;
+﻿using ECommerce.Common.Abstractions.Messaging;
+using ECommerce.Messaging.RabbitMq.Connection;
 using MediatR;
 using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.Hosting;
 using Polly;
 using Polly.CircuitBreaker;
 using RabbitMQ.Client;
@@ -11,27 +11,26 @@ using System.Net.Sockets;
 using System.Text;
 using System.Text.Json;
 
-namespace ECommerce.Common.Infrastructure.Messaging.RabbitMq;
+namespace ECommerce.Messaging.RabbitMq.Bus;
 
-public abstract class RabbitMqListenerBase<TCommand> : BackgroundService
+public class RabbitMqMessageBusConsumer<TCommand> : IMessageBusConsumer<TCommand>
     where TCommand : IRequest
 {
     private const int ProcessingDelayInMilliseconds = 6000;
     private const int CircuitBreakerDelayInMinutes = 5;
     private const int NumberOfExceptions = 5;
-    protected abstract string Queue { get; }
 
     private readonly IRabbitMqConnectionManager _connectionManager;
     private readonly IServiceProvider _serviceProvider;
     private readonly AsyncCircuitBreakerPolicy _circuitBreaker;
 
-    public RabbitMqListenerBase(IRabbitMqConnectionManager connectionManager, IServiceProvider serviceProvider)
+    public RabbitMqMessageBusConsumer(IRabbitMqConnectionManager connectionManager, IServiceProvider serviceProvider)
     {
         _connectionManager = connectionManager;
         _serviceProvider = serviceProvider;
         _circuitBreaker = ConfigurePolicy();
     }
-    protected override async Task ExecuteAsync(CancellationToken cancellationToken)
+    public async Task ConsumeAsync(string queue, CancellationToken cancellationToken)
     {
         while (!cancellationToken.IsCancellationRequested)
         {
@@ -39,7 +38,7 @@ public abstract class RabbitMqListenerBase<TCommand> : BackgroundService
             {
                 await _circuitBreaker.ExecuteAsync(async () =>
                 {
-                    await RunConsumerAsync(cancellationToken);
+                    await RunConsumerAsync(queue, cancellationToken);
                 });
             }
             catch (OperationCanceledException) when (cancellationToken.IsCancellationRequested)
@@ -58,7 +57,7 @@ public abstract class RabbitMqListenerBase<TCommand> : BackgroundService
         }
     }
 
-    private async Task RunConsumerAsync(CancellationToken cancellationToken)
+    private async Task RunConsumerAsync(string queue, CancellationToken cancellationToken)
     {
         await using var channel = await _connectionManager.CreateChannelAsync();
 
@@ -91,7 +90,7 @@ public abstract class RabbitMqListenerBase<TCommand> : BackgroundService
             }
         };
 
-        await channel.BasicConsumeAsync(Queue, autoAck: false, consumer: consumer);
+        await channel.BasicConsumeAsync(queue, autoAck: false, consumer: consumer);
 
         var taskCompletionSource = new TaskCompletionSource();
         using var registration = cancellationToken.Register(() => taskCompletionSource.TrySetCanceled());

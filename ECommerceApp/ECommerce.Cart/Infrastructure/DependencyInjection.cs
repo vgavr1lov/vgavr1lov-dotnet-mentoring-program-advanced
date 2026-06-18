@@ -1,8 +1,10 @@
-﻿using ECommerce.Cart.Application.Common.Interfaces;
+﻿using ECommerce.Cart.Application.Carts.Commands.UpdateItem;
+using ECommerce.Cart.Application.Common.Interfaces;
 using ECommerce.Cart.Infrastructure.Messaging;
 using ECommerce.Cart.Infrastructure.Repositories;
-using ECommerce.Common.Infrastructure.Messaging.Interfaces;
-using ECommerce.Common.Infrastructure.Messaging.RabbitMq;
+using ECommerce.Common.Abstractions.Messaging;
+using ECommerce.Messaging.RabbitMq;
+using ECommerce.Messaging.RabbitMq.Bus;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 
@@ -15,11 +17,8 @@ public static class DependencyInjection
         var dbPath = config["LiteDb:DatabasePath"];
         services.AddScoped<ICartRepository>(x => new CartRepository(dbPath));
 
-        services.Configure<RabbitMqConfiguration>(
-            config.GetSection("RabbitMqConfiguration"));
-
-        services.AddSingleton<IRabbitMqConnectionManager, RabbitMqConnectionManager>();
-        services.AddSingleton<IRabbitMqInitializer, RabbitMqInitializer>();
+        services.AddRabbitMq(config);
+        services.AddSingleton<IMessageBusConsumer<UpdateItemCommand>, RabbitMqMessageBusConsumer<UpdateItemCommand>>();
         services.AddHostedService<ProductUpdatedMessageListener>();
 
         return services;

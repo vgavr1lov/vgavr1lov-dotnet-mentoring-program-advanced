@@ -1,4 +1,4 @@
-﻿namespace ECommerce.Common.Infrastructure.Messaging.RabbitMq;
+﻿namespace ECommerce.Messaging.RabbitMq.Configuration;
 
 public class RabbitMqConfiguration
 {

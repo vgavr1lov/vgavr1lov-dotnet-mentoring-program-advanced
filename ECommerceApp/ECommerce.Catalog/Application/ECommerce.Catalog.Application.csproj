@@ -8,7 +8,7 @@
 
 	<ItemGroup>
 		<ProjectReference Include="..\..\ECommerce.Cart\Domain\ECommerce.Cart.Domain.csproj" />
-		<ProjectReference Include="..\..\ECommerce.Common\Contracts\ECommerce.Common.Contracts.csproj" />
+		<ProjectReference Include="..\..\ECommerce.Common.Contracts\ECommerce.Common.Contracts.csproj" />
 		<ProjectReference Include="..\Domain\ECommerce.Catalog.Domain.csproj" />
 	</ItemGroup>
 

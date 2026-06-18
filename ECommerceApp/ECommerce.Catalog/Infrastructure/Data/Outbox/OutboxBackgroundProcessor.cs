@@ -40,7 +40,7 @@ public class OutboxBackgroundProcessor : BackgroundService
                 .GetRequiredService<IOutboxDbContext>();
 
             var messagePublisher = scope.ServiceProvider
-                .GetRequiredService<IMessagePublisher>();
+                .GetRequiredService<IIntegrationEventPublisher>();
 
             var messages = await context.OutboxMessage
                 .Where(x => x.NextRetryOn == null || x.NextRetryOn <= DateTime.Now)
@@ -88,7 +88,7 @@ public class OutboxBackgroundProcessor : BackgroundService
 
     private async Task ProcessMessageAsync(
         OutboxMessage message,
-        IMessagePublisher messagePublisher,
+        IIntegrationEventPublisher messagePublisher,
         CancellationToken cancellationToken)
     {
         switch (message.Type)
@@ -102,7 +102,7 @@ public class OutboxBackgroundProcessor : BackgroundService
 
                     await _circuitBreaker.ExecuteAsync(async () =>
                     {
-                        await messagePublisher.PublishProductUpdatedIntegrationEventAsync(productUpdatedIntegrationEvent, cancellationToken);
+                        await messagePublisher.PublishIntegrationEventAsync(productUpdatedIntegrationEvent, cancellationToken);
                     });
 
                     break;
