@@ -4,6 +4,7 @@ using ECommerce.Catalog.Application.Products.Commands.UpdateProduct;
 using ECommerce.Catalog.Application.Products.Contracts;
 using ECommerce.Catalog.Application.Products.Queries.GetProduct;
 using ECommerce.Catalog.Application.Products.Queries.GetProducts;
+using ECommerce.Catalog.WebAPI.Authorization;
 using ECommerce.Catalog.WebAPI.Contracts;
 using ECommerce.Catalog.WebAPI.Interfaces;
 using MediatR;
@@ -16,15 +17,20 @@ public class Products
     public static void Map(RouteGroupBuilder groupBuilder)
     {
         groupBuilder.MapGet("/{ProductId:long}", GetProduct)
-            .WithName("GetProduct");
+            .WithName("GetProduct")
+            .AllowAnonymous();
         groupBuilder.MapGet("/", GetAllProducts)
-            .WithName("GetAllProducts");
+            .WithName("GetAllProducts")
+            .AllowAnonymous();
         groupBuilder.MapPost("/", AddProduct)
-            .WithName("AddProduct"); ;
+            .WithName("AddProduct")
+            .RequireAuthorization(CatalogPolicies.CanCreate);
         groupBuilder.MapPut("/", UpdateProduct)
-            .WithName("UpdateProduct"); ;
+            .WithName("UpdateProduct")
+            .RequireAuthorization(CatalogPolicies.CanUpdate);
         groupBuilder.MapDelete("/{ProductId:long}", DeleteProduct)
-            .WithName("DeleteProduct"); ;
+            .WithName("DeleteProduct")
+            .RequireAuthorization(CatalogPolicies.CanDelete);
     }
 
     /// <summary>
@@ -92,6 +98,8 @@ public class Products
     ///
     /// </remarks>
     /// <response code="201">Returns the ID of the created Product</response>
+    /// <response code="401">Returns Unauthorized </response>
+    /// <response code="403">Returns Forbidden</response>
     /// <response code="409">Product already exists</response>
     [EndpointSummary("Create a new Product")]
     [EndpointDescription("Creates a new Product and returns the ID of the created Product.")]
@@ -154,6 +162,8 @@ public class Products
     ///
     /// </remarks>
     /// <response code="200">Ok</response>
+    /// <response code="401">Returns Unauthorized </response>
+    /// <response code="403">Returns Forbidden</response>
     /// <response code="404">Product not found</response>
     [EndpointSummary("Update a Product")]
     [EndpointDescription("Updates a Product and returns Ok.")]
@@ -180,6 +190,8 @@ public class Products
     ///
     /// </remarks>
     /// <response code="200">Ok</response>
+    /// <response code="401">Returns Unauthorized </response>
+    /// <response code="403">Returns Forbidden</response>
     /// <response code="404">Product not found</response>
     [EndpointSummary("Delete a Product")]
     [EndpointDescription("Gets a Product and returns a Product.")]

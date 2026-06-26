@@ -30,6 +30,7 @@ public class CartsV2 : IEndpointGroup
     /// </remarks>
     /// <response code="200">Returns Ok</response>
     /// <response code="404">Returns Not Found</response>
+    /// <response code="401">Returns Unauthorized </response>
     [EndpointSummary("Get a Cart")]
     [EndpointDescription("Gets a Cart and returns a Cart items.")]
     public static async Task<IResult> GetCartInfo(
@@ -67,6 +68,7 @@ public class CartsV2 : IEndpointGroup
     ///
     /// </remarks>
     /// <response code="200">Returns Ok</response>
+    /// <response code="401">Returns Unauthorized </response>
     public static async Task<IResult> AddItemToCart(
         long cartId,
         [FromBody] ItemModel item,
@@ -105,6 +107,7 @@ public class CartsV2 : IEndpointGroup
     /// </remarks>
     /// <response code="200">Returns Ok</response>
     /// <response code="404">Returns Not Found</response>
+    /// <response code="401">Returns Unauthorized </response>
     [EndpointSummary("Delete a Cart item")]
     [EndpointDescription("Delete a Cart item and returns Ok.")]
     public static async Task<IResult> DeleteItemFromCart(

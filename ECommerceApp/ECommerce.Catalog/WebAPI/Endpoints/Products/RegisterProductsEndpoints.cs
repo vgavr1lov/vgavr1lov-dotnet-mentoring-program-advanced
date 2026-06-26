@@ -1,4 +1,5 @@
 ﻿using Asp.Versioning;
+using ECommerce.Catalog.WebAPI.Authorization;
 
 namespace ECommerce.Catalog.WebAPI.Endpoints.Products;
 
@@ -15,7 +16,8 @@ public static partial class EndpointsRegistration
         var group = app
             .MapGroup("/v{version:apiVersion}/products")
             .WithApiVersionSet(versionSet)
-            .HasApiVersion(version);
+            .HasApiVersion(version)
+            .RequireAuthorization(CatalogPolicies.IsAuthenticated);
 
         Products.Map(group);
     }
