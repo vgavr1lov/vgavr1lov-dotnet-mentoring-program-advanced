@@ -15,10 +15,12 @@ public class SampleCategoryModelBuilder
         return this;
     }
 
-    public CategoryModel Build() => new CategoryModel {
+    public CategoryModel Build() => new CategoryModel
+    {
         Id = _id,
         Name = _name,
         ImageUrl = _imageUrl,
         ImageAltText = _imageAltText,
-        ParentCategoryId = null, };
+        ParentCategoryId = null,
+    };
 }
