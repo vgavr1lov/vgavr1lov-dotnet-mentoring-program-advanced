@@ -1,5 +1,12 @@
-cat > scripts/setup-hooks << 'EOF'
 #!/bin/sh
-cp scripts/pre-push .git/hooks/pre-push
-echo "Git hooks installed."
-EOF
+echo "Running dotnet-format check before push..."
+
+dotnet format "ECommerceApp/ECommerce.sln" --verify-no-changes --severity warn
+
+if [ $? -ne 0 ]; then
+  echo "Code style violations found."
+  exit 1
+fi
+
+echo "Code style check passed."
+exit 0
