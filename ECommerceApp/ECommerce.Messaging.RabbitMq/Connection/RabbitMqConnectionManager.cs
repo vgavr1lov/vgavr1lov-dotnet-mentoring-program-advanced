@@ -67,7 +67,7 @@ public class RabbitMqConnectionManager : IRabbitMqConnectionManager
         return await connection.CreateChannelAsync();
     }
 
-    public void Dispose()
+    public void Shutdown()
     {
         _connection?.Dispose();
         _lockCreate.Dispose();

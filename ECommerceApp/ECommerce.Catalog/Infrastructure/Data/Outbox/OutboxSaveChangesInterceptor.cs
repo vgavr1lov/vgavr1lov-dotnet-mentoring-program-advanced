@@ -11,7 +11,7 @@ public class OutboxSaveChangesInterceptor : SaveChangesInterceptor
     public override ValueTask<InterceptionResult<int>> SavingChangesAsync(
         DbContextEventData eventData,
         InterceptionResult<int> result,
-        CancellationToken cancellationToken)
+        CancellationToken cancellationToken = default)
     {
         InterceptProductUpdate(eventData.Context);
         return base.SavingChangesAsync(eventData, result, cancellationToken);

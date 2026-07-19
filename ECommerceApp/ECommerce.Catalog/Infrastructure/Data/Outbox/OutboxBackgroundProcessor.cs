@@ -30,11 +30,11 @@ public class OutboxBackgroundProcessor : BackgroundService
         _circuitBreaker = ConfigurePolicy();
     }
 
-    protected override async Task ExecuteAsync(CancellationToken cancellationToken)
+    protected override async Task ExecuteAsync(CancellationToken stoppingToken)
     {
         await Task.Yield();
 
-        while (!cancellationToken.IsCancellationRequested)
+        while (!stoppingToken.IsCancellationRequested)
         {
             using var scope = _scopeFactory.CreateAsyncScope();
 
@@ -48,11 +48,11 @@ public class OutboxBackgroundProcessor : BackgroundService
                 .Where(x => x.NextRetryOn == null || x.NextRetryOn <= DateTime.Now)
                 .OrderBy(x => x.CreatedOn)
                 .Take(BatchSize)
-                .ToListAsync(cancellationToken);
+                .ToListAsync(stoppingToken);
 
             if (messages.Count == 0)
             {
-                await Task.Delay(TimeSpan.FromMinutes(PauseDelayInMinutes), cancellationToken);
+                await Task.Delay(TimeSpan.FromMinutes(PauseDelayInMinutes), stoppingToken);
                 continue;
             }
 
@@ -60,31 +60,31 @@ public class OutboxBackgroundProcessor : BackgroundService
             {
                 try
                 {
-                    await ProcessMessageAsync(message, messagePublisher, cancellationToken);
+                    await ProcessMessageAsync(message, messagePublisher, stoppingToken);
                     context.OutboxMessage.Remove(message);
-                    await context.SaveChangesAsync(cancellationToken);
+                    await context.SaveChangesAsync(stoppingToken);
                 }
                 catch (JsonException)
                 {
                     message.RetryCount++;
                     message.NextRetryOn = DateTime.Now.AddMinutes(PauseDelayInMinutes * message.RetryCount);
-                    await context.SaveChangesAsync(cancellationToken);
-                    await Task.Delay(ProcessingDelayInMilliseconds, cancellationToken);
+                    await context.SaveChangesAsync(stoppingToken);
+                    await Task.Delay(ProcessingDelayInMilliseconds, stoppingToken);
                     continue;
                 }
                 catch (BrokenCircuitException)
                 {
-                    await Task.Delay(TimeSpan.FromMinutes(CircuitBreakerDelayInMinutes), cancellationToken);
+                    await Task.Delay(TimeSpan.FromMinutes(CircuitBreakerDelayInMinutes), stoppingToken);
                     continue;
                 }
                 catch (Exception)
                 {
-                    await Task.Delay(ProcessingDelayInMilliseconds, cancellationToken);
+                    await Task.Delay(ProcessingDelayInMilliseconds, stoppingToken);
                     continue;
                 }
             }
 
-            await Task.Delay(ProcessingDelayInMilliseconds, cancellationToken);
+            await Task.Delay(ProcessingDelayInMilliseconds, stoppingToken);
         }
     }
 

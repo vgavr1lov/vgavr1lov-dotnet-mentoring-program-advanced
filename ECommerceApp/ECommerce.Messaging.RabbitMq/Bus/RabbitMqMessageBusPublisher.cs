@@ -20,7 +20,7 @@ public class RabbitMqMessageBusPublisher : IMessageBusPublisher
         string exchange,
         string routingKey,
         T message,
-        CancellationToken cancellationToken)
+        CancellationToken cancellationToken = default)
     {
         await using var channel = await _connectionManager.CreateChannelAsync();
 

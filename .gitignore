@@ -43,3 +43,7 @@ appsettings.*.json
 # OS files
 .DS_Store
 Thumbs.db
+
+# Tools
+.sonarqube/
+/ECommerceApp/.github/copilot-instructions.md

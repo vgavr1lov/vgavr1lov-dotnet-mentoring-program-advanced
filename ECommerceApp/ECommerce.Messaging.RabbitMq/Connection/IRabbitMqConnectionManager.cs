@@ -4,7 +4,7 @@ namespace ECommerce.Messaging.RabbitMq.Connection;
 
 public interface IRabbitMqConnectionManager
 {
-    void Dispose();
+    void Shutdown();
     Task<IConnection?> GetConnectionAsync();
     Task<IChannel?> CreateChannelAsync();
 }

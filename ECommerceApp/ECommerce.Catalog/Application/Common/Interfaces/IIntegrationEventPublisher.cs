@@ -3,6 +3,6 @@
 public interface IIntegrationEventPublisher
 {
     Task PublishIntegrationEventAsync<T>(
-        T message,
+        T integrationEvent,
         CancellationToken cancellationToken);
 }

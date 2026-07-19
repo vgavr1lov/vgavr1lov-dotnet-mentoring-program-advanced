@@ -13,7 +13,7 @@ public static class IdentityServerConfig
         {
             new IdentityResources.OpenId(),
             new IdentityResources.Profile(),
-            new(Scopes.Roles, "User roles", [SecurityConstants.ClaimTypes.Role]),
+            new(Scopes.RolesScope, "User roles", [SecurityConstants.ClaimTypes.Role]),
         };
     }
 
@@ -71,7 +71,7 @@ public static class IdentityServerConfig
                 AllowedScopes = [
                     Scopes.OpenId,
                     Scopes.Profile,
-                    Scopes.Roles,
+                    Scopes.RolesScope,
                     Scopes.OfflineAccess,
                     Permissions.CatalogRead,
                     Permissions.CatalogCreate,
@@ -94,7 +94,7 @@ public static class IdentityServerConfig
                     AllowedScopes = [
                         Scopes.OpenId,
                         Scopes.Profile,
-                        Scopes.Roles,
+                        Scopes.RolesScope,
                         Scopes.OfflineAccess,
                         Permissions.CatalogRead,
                         Permissions.CatalogCreate,

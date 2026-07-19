@@ -17,20 +17,20 @@ public class ProductUpdatedMessageListener : BackgroundService
         _initializer = initializer;
     }
 
-    protected override async Task ExecuteAsync(CancellationToken cancellationToken)
+    protected override async Task ExecuteAsync(CancellationToken stoppingToken)
     {
-        await _initializer.DeclareExchangeAsync(CartMessagingConstants.CatalogExchange, cancellationToken);
+        await _initializer.DeclareExchangeAsync(CartMessagingConstants.CatalogExchange, stoppingToken);
         await _initializer.DeclareQueueWithDlqAsync(
             CartMessagingConstants.ProductUpdatedQueue,
             CartMessagingConstants.CatalogExchange,
             CartMessagingConstants.ProductUpdatedRoutingKey,
-            cancellationToken);
+            stoppingToken);
         await _initializer.BindQueueAsync(
             CartMessagingConstants.ProductUpdatedQueue,
             CartMessagingConstants.CatalogExchange,
             CartMessagingConstants.ProductUpdatedRoutingKey,
-            cancellationToken);
+            stoppingToken);
 
-        await _consumer.ConsumeAsync(CartMessagingConstants.ProductUpdatedQueue, cancellationToken);
+        await _consumer.ConsumeAsync(CartMessagingConstants.ProductUpdatedQueue, stoppingToken);
     }
 }
