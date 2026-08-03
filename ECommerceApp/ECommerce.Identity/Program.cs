@@ -24,7 +24,7 @@ internal class Program
             {
                 var corsOrigins = builder.Configuration
                     .GetSection("IdentityServer:Clients:Swagger:CorsOrigins")
-                    .Get<string[]>() ?? []; ;
+                    .Get<string[]>() ?? [];
 
                 policy.WithOrigins(corsOrigins)
                       .AllowAnyHeader()

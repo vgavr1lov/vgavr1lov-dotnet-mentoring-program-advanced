@@ -1,3 +1,18 @@
 ﻿namespace ECommerce.Cart.Application.Common.Exceptions;
 
-public class NotFoundException(string message) : Exception(message);
+public class NotFoundException : Exception
+{
+    public NotFoundException()
+    {
+    }
+
+    public NotFoundException(string message)
+        : base(message)
+    {
+    }
+
+    public NotFoundException(string message, Exception innerException)
+        : base(message, innerException)
+    {
+    }
+}

@@ -25,7 +25,7 @@ public class Categories : IEndpointGroup
             .AllowAnonymous();
         groupBuilder.MapPost("/", AddCategory)
             .WithName("AddCategory")
-            .RequireAuthorization(CatalogPolicies.CanCreate); 
+            .RequireAuthorization(CatalogPolicies.CanCreate);
         groupBuilder.MapPut("/", UpdateCategory)
             .WithName("UpdateCategory")
             .RequireAuthorization(CatalogPolicies.CanUpdate);
@@ -103,26 +103,26 @@ public class Categories : IEndpointGroup
 
         var resource = new Resource<long>
         {
-            Data = categoryId
+            Data = categoryId,
         };
 
         resource.Links.Add(new LinkResource
         {
             Href = linkService.GenerateLink("GetCategory", new { categoryId }),
             Rel = "self",
-            Method = "GET"
+            Method = "GET",
         });
         resource.Links.Add(new LinkResource
         {
             Href = linkService.GenerateLink("UpdateCategory", null),
             Rel = "update",
-            Method = "PUT"
+            Method = "PUT",
         });
         resource.Links.Add(new LinkResource
         {
             Href = linkService.GenerateLink("DeleteCategory", new { categoryId }),
             Rel = "delete",
-            Method = "DELETE"
+            Method = "DELETE",
         });
 
         return Results.Created($"/categories/{categoryId}", resource);

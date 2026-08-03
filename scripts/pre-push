@@ -1,0 +1,12 @@
+#!/bin/sh
+echo "Running dotnet-format check before push..."
+
+dotnet format "ECommerceApp/ECommerce.sln" --verify-no-changes --severity warn --exclude "**/Pages/**"
+
+if [ $? -ne 0 ]; then
+  echo "Code style violations found."
+  exit 1
+fi
+
+echo "Code style check passed."
+exit 0

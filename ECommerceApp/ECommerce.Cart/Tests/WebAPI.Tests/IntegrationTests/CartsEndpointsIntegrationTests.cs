@@ -1,18 +1,18 @@
-﻿using ECommerce.Cart.Application.Carts.Contracts;
+﻿using System.Net;
+using System.Net.Http.Json;
+using ECommerce.Cart.Application.Carts.Contracts;
 using ECommerce.Cart.WebAPI.Tests.TestDataBuilders;
 using FluentAssertions;
-using System.Net;
-using System.Net.Http.Json;
 
 namespace ECommerce.Cart.WebAPI.Tests.IntegrationTests;
 
 public class CartsEndpointsIntegrationTests :
     IClassFixture<CustomWebAPIApplicationFactory<Program>>
 {
-    private readonly HttpClient _client;
-
     private const string ApiVersion = "/v1";
     private const long SampleCartId = 1;
+
+    private readonly HttpClient _client;
 
     public CartsEndpointsIntegrationTests(
         CustomWebAPIApplicationFactory<Program> factory)

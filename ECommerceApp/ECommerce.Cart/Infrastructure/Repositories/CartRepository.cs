@@ -7,7 +7,7 @@ namespace ECommerce.Cart.Infrastructure.Repositories;
 public class CartRepository : ICartRepository
 {
     private const string ShoppingCartLiteDb = "ShoppingCartLiteDb/cart.db";
-    private static string CartsCollection = "carts";
+    private static readonly string CartsCollection = "carts";
     private readonly string? _dbPath;
 
     public CartRepository(string? dbPath = ShoppingCartLiteDb)
@@ -49,7 +49,8 @@ public class CartRepository : ICartRepository
 
     public async Task SaveCartsAsync(List<ShoppingCart> carts, CancellationToken cancellationToken)
     {
-        await Task.Run(() =>
+        await Task.Run(
+            () =>
         {
             using var db = new LiteDatabase($"Filename={_dbPath}");
             var col = db.GetCollection<ShoppingCart>(CartsCollection);

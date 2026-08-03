@@ -5,7 +5,7 @@ using MediatR;
 
 namespace ECommerce.Catalog.Application.Products.Queries.GetProducts;
 
-public record GetProductsQuery(GetProductsRequest request) : IRequest<List<ProductModel>>;
+public record GetProductsQuery(GetProductsRequest Request) : IRequest<List<ProductModel>>;
 
 public class GetProductsQueryHandler : IRequestHandler<GetProductsQuery, List<ProductModel>>
 {
@@ -22,13 +22,11 @@ public class GetProductsQueryHandler : IRequestHandler<GetProductsQuery, List<Pr
     {
         var products = await _context.Product
             .AsNoTracking()
-            .Where(p => !query.request.CategoryId.HasValue || p.CategoryId == query.request.CategoryId)
-            .Skip(query.request.PageNumber * query.request.PageSize)
-            .Take(query.request.PageSize)
+            .Where(p => !query.Request.CategoryId.HasValue || p.CategoryId == query.Request.CategoryId)
+            .Skip(query.Request.PageNumber * query.Request.PageSize)
+            .Take(query.Request.PageSize)
             .ToListAsync();
 
-        var response = _mapper.Map<List<ProductModel>>(products);
-
-        return response;
+        return _mapper.Map<List<ProductModel>>(products);
     }
 }

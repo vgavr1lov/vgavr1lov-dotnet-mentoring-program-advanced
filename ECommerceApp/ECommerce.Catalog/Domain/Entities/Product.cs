@@ -5,11 +5,11 @@ namespace ECommerce.Catalog.Domain.Entities;
 public class Product
 {
     public long Id { get; private set; }
-    public string Name { get; private set; }
+    public string Name { get; private set; } = null!;
     public string? Description { get; private set; }
     public Image? Image { get; private set; }
     public long CategoryId { get; private set; }
-    public Money Price { get; private set; }
+    public Money Price { get; private set; } = null!;
     public int Amount { get; private set; }
 
     public Product(long id, string name, string? description, Image? image, long categoryId, Money price, int amount)
@@ -31,8 +31,6 @@ public class Product
 
         if (amount == 0)
             throw new ArgumentException("Product Amount is required!");
-
-
 
         Id = id;
         Name = name;

@@ -18,10 +18,7 @@ public class GetCategoryQueryHandlerIntegrationTests : IClassFixture<TestSqlServ
         _context = _fixture.CreateContext();
 
         var loggerFactory = LoggerFactory.Create(builder => { });
-        var mapperConfig = new MapperConfiguration(cfg =>
-        {
-            cfg.AddProfile<MappingProfile>();
-        }, loggerFactory);
+        var mapperConfig = new MapperConfiguration(cfg => cfg.AddProfile<MappingProfile>(), loggerFactory);
         var mapper = mapperConfig.CreateMapper();
 
         _sut = new GetCategoryQueryHandler(_context, mapper);

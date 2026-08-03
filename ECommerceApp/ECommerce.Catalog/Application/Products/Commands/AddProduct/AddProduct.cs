@@ -25,15 +25,16 @@ public class AddProductCommandHandler : IRequestHandler<AddProductCommand, long>
 
         if (isExistingProduct)
             throw new ConflictException($"Product with id {command.ProductRequest.Id} already exists.");
-    
 
-       var product = new Product(
+        var image = string.IsNullOrWhiteSpace(command.ProductRequest.ImageUrl)
+            ? null
+            : new Image(command.ProductRequest.ImageUrl, command.ProductRequest.ImageAltText);
+
+        var product = new Product(
         command.ProductRequest.Id,
         command.ProductRequest.Name,
         command.ProductRequest.Description,
-        string.IsNullOrWhiteSpace(command.ProductRequest.ImageUrl)
-            ? null
-            : new Image(command.ProductRequest.ImageUrl, command.ProductRequest.ImageAltText),
+        image,
         command.ProductRequest.CategoryId,
         new Money(command.ProductRequest.Amount, command.ProductRequest.Currency),
         command.ProductRequest.Quantity);

@@ -26,12 +26,14 @@ public class UpdateCategoryCommandHandler : IRequestHandler<UpdateCategoryComman
         if (categoryToUpdate is null)
             throw new NotFoundException("Category not found");
 
+        var image = string.IsNullOrWhiteSpace(command.CategoryRequest.ImageUrl)
+            ? null
+            : new Image(command.CategoryRequest.ImageUrl, command.CategoryRequest.ImageAltText);
+
         var category = new Category(
             command.CategoryRequest.Id,
             command.CategoryRequest.Name,
-            string.IsNullOrWhiteSpace(command.CategoryRequest.ImageUrl)
-                ? null
-                : new Image(command.CategoryRequest.ImageUrl, command.CategoryRequest.ImageAltText),
+            image,
             command.CategoryRequest.ParentCategoryId);
 
         _context.Category.Entry(categoryToUpdate).CurrentValues.SetValues(category);

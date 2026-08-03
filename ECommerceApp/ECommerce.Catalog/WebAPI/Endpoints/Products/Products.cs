@@ -12,7 +12,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace ECommerce.Catalog.WebAPI.Endpoints.Products;
 
-public class Products
+public static class Products
 {
     public static void Map(RouteGroupBuilder groupBuilder)
     {
@@ -114,26 +114,26 @@ public class Products
 
         var resource = new Resource<long>
         {
-            Data = productId
+            Data = productId,
         };
 
         resource.Links.Add(new LinkResource
         {
             Href = linkService.GenerateLink("GetProduct", new { productId }),
             Rel = "self",
-            Method = "GET"
+            Method = "GET",
         });
         resource.Links.Add(new LinkResource
         {
             Href = linkService.GenerateLink("UpdateProduct", null),
             Rel = "update",
-            Method = "PUT"
+            Method = "PUT",
         });
         resource.Links.Add(new LinkResource
         {
             Href = linkService.GenerateLink("DeleteProduct", new { productId }),
             Rel = "delete",
-            Method = "DELETE"
+            Method = "DELETE",
         });
 
         return Results.Created($"/products/{productId}", resource);

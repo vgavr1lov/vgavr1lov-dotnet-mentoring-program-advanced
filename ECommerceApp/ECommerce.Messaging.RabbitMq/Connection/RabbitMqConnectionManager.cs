@@ -24,7 +24,7 @@ public class RabbitMqConnectionManager : IRabbitMqConnectionManager
                 Password = config.Password,
                 AutomaticRecoveryEnabled = config.AutomaticRecoveryEnabled,
                 TopologyRecoveryEnabled = config.TopologyRecoveryEnabled,
-                NetworkRecoveryInterval = config.NetworkRecoveryInterval
+                NetworkRecoveryInterval = config.NetworkRecoveryInterval,
             };
         }
         else
@@ -67,7 +67,7 @@ public class RabbitMqConnectionManager : IRabbitMqConnectionManager
         return await connection.CreateChannelAsync();
     }
 
-    public void Dispose()
+    public void Shutdown()
     {
         _connection?.Dispose();
         _lockCreate.Dispose();

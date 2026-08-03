@@ -12,10 +12,7 @@ public static class DependencyInjection
             cfg.RegisterServicesFromAssembly(typeof(ApplicationAssemblyReference).Assembly));
 
         var loggerFactory = LoggerFactory.Create(builder => { });
-        var mapperConfig = new MapperConfiguration(cfg =>
-        {
-            cfg.AddProfile<MappingProfile>();
-        }, loggerFactory);
+        var mapperConfig = new MapperConfiguration(cfg => cfg.AddProfile<MappingProfile>(), loggerFactory);
         IMapper mapper = mapperConfig.CreateMapper();
 
         services.AddSingleton(mapper);

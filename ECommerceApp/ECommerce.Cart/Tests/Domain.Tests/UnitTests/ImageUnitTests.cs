@@ -8,8 +8,8 @@ public class ImageUnitTests
     public void Constructor_ShouldThrow_WhenUrlIsBlank()
     {
         Assert.Throws<ArgumentException>(() => new Image(
-            url: "",
-            altText: ""));
+            url: string.Empty,
+            altText: string.Empty));
     }
 
     [Fact]

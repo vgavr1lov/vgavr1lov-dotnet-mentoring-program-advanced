@@ -37,7 +37,7 @@ public class UpdateCategoryCommandHandlerIntegrationTests : IClassFixture<TestSq
             Name = "Updated Name",
             ImageUrl = category.Image?.Url,
             ImageAltText = category.Image?.AltText,
-            ParentCategoryId = category.ParentCategoryId
+            ParentCategoryId = category.ParentCategoryId,
         };
 
         var updateCategoryCommand = new UpdateCategoryCommand(updatedCategoryRequest);

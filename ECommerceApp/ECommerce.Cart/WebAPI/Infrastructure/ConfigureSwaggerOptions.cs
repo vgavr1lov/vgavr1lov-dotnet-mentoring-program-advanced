@@ -32,12 +32,13 @@ public class ConfigureSwaggerOptions : IConfigureNamedOptions<SwaggerGenOptions>
         var info = new OpenApiInfo()
         {
             Title = "Cart API " + description.GroupName,
-            Version = description.ApiVersion.ToString()
+            Version = description.ApiVersion.ToString(),
         };
         if (description.IsDeprecated)
         {
             info.Description += " This API version has been deprecated.";
         }
+
         return info;
     }
 }

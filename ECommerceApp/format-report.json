@@ -1,0 +1,5444 @@
+[
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "3138ad40-0f08-4ac1-a8f7-50c7e3fd4d7f"
+      },
+      "Id": "7a0717af-b4b4-4918-906e-34ac40344a11"
+    },
+    "FileName": "SampleCategoryModelBuilder.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Catalog\\Tests\\WebAPI.Tests\\TestDataBuilders\\SampleCategoryModelBuilder.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 18,
+        "CharNumber": 54,
+        "DiagnosticId": "WHITESPACE",
+        "FormatDescription": "Fix whitespace formatting. Replace 1 characters with \u0027\\r\\n\\s\\s\\s\\s\u0027."
+      },
+      {
+        "LineNumber": 23,
+        "CharNumber": 33,
+        "DiagnosticId": "WHITESPACE",
+        "FormatDescription": "Fix whitespace formatting. Replace 1 characters with \u0027\\r\\n\\s\\s\\s\\s\u0027."
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "e09812ea-e846-42f0-b8ad-1bb4d70c7130"
+      },
+      "Id": "b7b07228-8d76-475f-81d6-ee2b2f9b45e7"
+    },
+    "FileName": "ApplicationAssemblyReference.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Cart\\Application\\ApplicationAssemblyReference.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 3,
+        "CharNumber": 50,
+        "DiagnosticId": "FINALNEWLINE",
+        "FormatDescription": "Fix final newline. Delete 2 characters."
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "e09812ea-e846-42f0-b8ad-1bb4d70c7130"
+      },
+      "Id": "cc4e2119-8003-460d-8224-84f5bf42ae6a"
+    },
+    "FileName": "AddItem.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Cart\\Application\\Carts\\Commands\\AddItem\\AddItem.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 42,
+        "CharNumber": 2,
+        "DiagnosticId": "FINALNEWLINE",
+        "FormatDescription": "Fix final newline. Delete 2 characters."
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "e09812ea-e846-42f0-b8ad-1bb4d70c7130"
+      },
+      "Id": "1168bd41-bc55-4db2-a4a1-f757ad2a5c9b"
+    },
+    "FileName": "RemoveItem.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Cart\\Application\\Carts\\Commands\\RemoveItem\\RemoveItem.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 32,
+        "CharNumber": 2,
+        "DiagnosticId": "FINALNEWLINE",
+        "FormatDescription": "Fix final newline. Delete 2 characters."
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "e09812ea-e846-42f0-b8ad-1bb4d70c7130"
+      },
+      "Id": "65af1c11-2cc0-4bbc-b11d-9266699b8df8"
+    },
+    "FileName": "UpdateItem.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Cart\\Application\\Carts\\Commands\\UpdateItem\\UpdateItem.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 52,
+        "CharNumber": 2,
+        "DiagnosticId": "FINALNEWLINE",
+        "FormatDescription": "Fix final newline. Delete 2 characters."
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "e09812ea-e846-42f0-b8ad-1bb4d70c7130"
+      },
+      "Id": "94a98336-bfc7-497a-873b-ce8deade4325"
+    },
+    "FileName": "AddItemRequest.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Cart\\Application\\Carts\\Contracts\\AddItemRequest.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 13,
+        "CharNumber": 2,
+        "DiagnosticId": "FINALNEWLINE",
+        "FormatDescription": "Fix final newline. Delete 2 characters."
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "e09812ea-e846-42f0-b8ad-1bb4d70c7130"
+      },
+      "Id": "9a6e6bfc-51e6-48fc-a229-d945d127d392"
+    },
+    "FileName": "CartModel.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Cart\\Application\\Carts\\Contracts\\CartModel.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 8,
+        "CharNumber": 2,
+        "DiagnosticId": "FINALNEWLINE",
+        "FormatDescription": "Fix final newline. Delete 2 characters."
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "e09812ea-e846-42f0-b8ad-1bb4d70c7130"
+      },
+      "Id": "672b3ef9-9369-4b60-8d3c-c0d24968f4f2"
+    },
+    "FileName": "ItemModel.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Cart\\Application\\Carts\\Contracts\\ItemModel.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 12,
+        "CharNumber": 2,
+        "DiagnosticId": "FINALNEWLINE",
+        "FormatDescription": "Fix final newline. Delete 2 characters."
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "e09812ea-e846-42f0-b8ad-1bb4d70c7130"
+      },
+      "Id": "c61160c0-d724-4d5f-90e1-6b6910ace0bf"
+    },
+    "FileName": "RemoveItemRequest.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Cart\\Application\\Carts\\Contracts\\RemoveItemRequest.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 7,
+        "CharNumber": 2,
+        "DiagnosticId": "FINALNEWLINE",
+        "FormatDescription": "Fix final newline. Delete 2 characters."
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "e09812ea-e846-42f0-b8ad-1bb4d70c7130"
+      },
+      "Id": "2f313e2a-483a-4598-876f-e7e3d0d74455"
+    },
+    "FileName": "GetCartInfo.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Cart\\Application\\Carts\\Queries\\GetCartInfo\\GetCartInfo.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 32,
+        "CharNumber": 2,
+        "DiagnosticId": "FINALNEWLINE",
+        "FormatDescription": "Fix final newline. Delete 2 characters."
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "e09812ea-e846-42f0-b8ad-1bb4d70c7130"
+      },
+      "Id": "3ac940d9-a595-4951-8438-4764ab6b37de"
+    },
+    "FileName": "GetItems.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Cart\\Application\\Carts\\Queries\\GetItems\\GetItems.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 33,
+        "CharNumber": 2,
+        "DiagnosticId": "FINALNEWLINE",
+        "FormatDescription": "Fix final newline. Delete 2 characters."
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "e09812ea-e846-42f0-b8ad-1bb4d70c7130"
+      },
+      "Id": "b3d19c75-2b11-4d9b-8bc1-2c3851e98078"
+    },
+    "FileName": "ConflictException.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Cart\\Application\\Common\\Exceptions\\ConflictException.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 18,
+        "CharNumber": 2,
+        "DiagnosticId": "FINALNEWLINE",
+        "FormatDescription": "Fix final newline. Delete 2 characters."
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "e09812ea-e846-42f0-b8ad-1bb4d70c7130"
+      },
+      "Id": "8d923a76-e723-410f-8f8c-3b95b6ab0939"
+    },
+    "FileName": "NotFoundException.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Cart\\Application\\Common\\Exceptions\\NotFoundException.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 18,
+        "CharNumber": 2,
+        "DiagnosticId": "FINALNEWLINE",
+        "FormatDescription": "Fix final newline. Delete 2 characters."
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "e09812ea-e846-42f0-b8ad-1bb4d70c7130"
+      },
+      "Id": "49759a6b-c033-4e41-b58d-cea890d5103d"
+    },
+    "FileName": "ICartRepository.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Cart\\Application\\Common\\Interfaces\\ICartRepository.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 11,
+        "CharNumber": 2,
+        "DiagnosticId": "FINALNEWLINE",
+        "FormatDescription": "Fix final newline. Delete 2 characters."
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "e09812ea-e846-42f0-b8ad-1bb4d70c7130"
+      },
+      "Id": "7380ca2d-0f8f-40ed-b7e8-0bebc1fc38ac"
+    },
+    "FileName": "DependencyInjection.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Cart\\Application\\DependencyInjection.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 22,
+        "CharNumber": 2,
+        "DiagnosticId": "FINALNEWLINE",
+        "FormatDescription": "Fix final newline. Delete 2 characters."
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "e09812ea-e846-42f0-b8ad-1bb4d70c7130"
+      },
+      "Id": "5368ac96-d3c6-497e-9ca1-4a4627887d87"
+    },
+    "FileName": "MappingProfile.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Cart\\Application\\MappingProfile.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 18,
+        "CharNumber": 2,
+        "DiagnosticId": "FINALNEWLINE",
+        "FormatDescription": "Fix final newline. Delete 2 characters."
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "36421b0b-e0ad-4834-962a-12755a3b3db7"
+      },
+      "Id": "03f06723-30fd-4f89-b6d6-00b98f0e74af"
+    },
+    "FileName": "CartItem.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Cart\\Domain\\Entities\\CartItem.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 50,
+        "CharNumber": 2,
+        "DiagnosticId": "FINALNEWLINE",
+        "FormatDescription": "Fix final newline. Delete 2 characters."
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "36421b0b-e0ad-4834-962a-12755a3b3db7"
+      },
+      "Id": "0fc639f4-1f2d-44ba-ad01-0ed7af7e27ff"
+    },
+    "FileName": "ShoppingCart.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Cart\\Domain\\Entities\\ShoppingCart.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 50,
+        "CharNumber": 2,
+        "DiagnosticId": "FINALNEWLINE",
+        "FormatDescription": "Fix final newline. Delete 2 characters."
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "36421b0b-e0ad-4834-962a-12755a3b3db7"
+      },
+      "Id": "a4cb3046-5048-4833-a27f-230698802d4d"
+    },
+    "FileName": "Image.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Cart\\Domain\\ValueObjects\\Image.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 19,
+        "CharNumber": 2,
+        "DiagnosticId": "FINALNEWLINE",
+        "FormatDescription": "Fix final newline. Delete 2 characters."
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "36421b0b-e0ad-4834-962a-12755a3b3db7"
+      },
+      "Id": "ab2feafc-d80a-49e6-94a8-37b78201c8ef"
+    },
+    "FileName": "Money.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Cart\\Domain\\ValueObjects\\Money.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 21,
+        "CharNumber": 2,
+        "DiagnosticId": "FINALNEWLINE",
+        "FormatDescription": "Fix final newline. Delete 2 characters."
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "34bc3c5e-827f-4a5a-891d-c374118c695e"
+      },
+      "Id": "8e91ea1f-2f9b-4616-ad94-3008175141a9"
+    },
+    "FileName": "DependencyInjection.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Cart\\Infrastructure\\DependencyInjection.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 26,
+        "CharNumber": 2,
+        "DiagnosticId": "FINALNEWLINE",
+        "FormatDescription": "Fix final newline. Delete 2 characters."
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "34bc3c5e-827f-4a5a-891d-c374118c695e"
+      },
+      "Id": "aa279f01-0fc9-402d-b0e5-559a27e57f93"
+    },
+    "FileName": "CartMessagingConstants.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Cart\\Infrastructure\\Messaging\\CartMessagingConstants.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 8,
+        "CharNumber": 2,
+        "DiagnosticId": "FINALNEWLINE",
+        "FormatDescription": "Fix final newline. Delete 2 characters."
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "34bc3c5e-827f-4a5a-891d-c374118c695e"
+      },
+      "Id": "d993aa05-ea69-4181-aa4a-fa75cf4b8697"
+    },
+    "FileName": "ProductUpdatedMessageListener.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Cart\\Infrastructure\\Messaging\\ProductUpdatedMessageListener.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 36,
+        "CharNumber": 2,
+        "DiagnosticId": "FINALNEWLINE",
+        "FormatDescription": "Fix final newline. Delete 2 characters."
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "34bc3c5e-827f-4a5a-891d-c374118c695e"
+      },
+      "Id": "76cf87b9-6fd1-4c70-b989-8e61bfe6efa7"
+    },
+    "FileName": "CartRepository.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Cart\\Infrastructure\\Repositories\\CartRepository.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 78,
+        "CharNumber": 2,
+        "DiagnosticId": "FINALNEWLINE",
+        "FormatDescription": "Fix final newline. Delete 2 characters."
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "2b97bdaa-0a98-49c1-90f9-8a493fc3fb04"
+      },
+      "Id": "780431d4-dc3c-41a4-bcea-6ff40e52e65a"
+    },
+    "FileName": "AddItemCommandHandlerIntegrationTests.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Cart\\Tests\\Application.Tests\\IntegrationTests\\AddItemCommandHandlerIntegrationTests.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 69,
+        "CharNumber": 2,
+        "DiagnosticId": "FINALNEWLINE",
+        "FormatDescription": "Fix final newline. Delete 2 characters."
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "2b97bdaa-0a98-49c1-90f9-8a493fc3fb04"
+      },
+      "Id": "7e92ea45-4413-4d3b-80e8-ef4df7c31442"
+    },
+    "FileName": "GetItemsQueryHandlerIntegrationTests.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Cart\\Tests\\Application.Tests\\IntegrationTests\\GetItemsQueryHandlerIntegrationTests.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 69,
+        "CharNumber": 2,
+        "DiagnosticId": "FINALNEWLINE",
+        "FormatDescription": "Fix final newline. Delete 2 characters."
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "2b97bdaa-0a98-49c1-90f9-8a493fc3fb04"
+      },
+      "Id": "15b55733-6bbf-4e9b-a8ca-397523ce5efe"
+    },
+    "FileName": "RemoveItemCommandHandlerIntegrationTests.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Cart\\Tests\\Application.Tests\\IntegrationTests\\RemoveItemCommandHandlerIntegrationTests.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 68,
+        "CharNumber": 2,
+        "DiagnosticId": "FINALNEWLINE",
+        "FormatDescription": "Fix final newline. Delete 2 characters."
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "2b97bdaa-0a98-49c1-90f9-8a493fc3fb04"
+      },
+      "Id": "b4454e50-3741-443b-b994-288036d9b3df"
+    },
+    "FileName": "SampleCartItemBuilder.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Cart\\Tests\\Application.Tests\\TestDataBuilders\\SampleCartItemBuilder.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 21,
+        "CharNumber": 2,
+        "DiagnosticId": "FINALNEWLINE",
+        "FormatDescription": "Fix final newline. Delete 2 characters."
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "2b97bdaa-0a98-49c1-90f9-8a493fc3fb04"
+      },
+      "Id": "6a93070c-e643-4743-92c0-edc84906d98a"
+    },
+    "FileName": "GetItemsQueryHandlerUnitTests.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Cart\\Tests\\Application.Tests\\UnitTests\\GetItemsQueryHandlerUnitTests.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 57,
+        "CharNumber": 2,
+        "DiagnosticId": "FINALNEWLINE",
+        "FormatDescription": "Fix final newline. Delete 2 characters."
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "95707ccf-b2b6-4375-8273-d157d3858f73"
+      },
+      "Id": "3143106a-c39d-4f9d-bbe1-6051b91507b9"
+    },
+    "FileName": "ApplicationAssemblyReference.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Catalog\\Application\\ApplicationAssemblyReference.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 3,
+        "CharNumber": 50,
+        "DiagnosticId": "FINALNEWLINE",
+        "FormatDescription": "Fix final newline. Delete 2 characters."
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "95707ccf-b2b6-4375-8273-d157d3858f73"
+      },
+      "Id": "97f4c4f2-3980-429f-9295-66e959421540"
+    },
+    "FileName": "AddCategory.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Catalog\\Application\\Categories\\Commands\\AddCategory\\AddCategory.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 44,
+        "CharNumber": 2,
+        "DiagnosticId": "FINALNEWLINE",
+        "FormatDescription": "Fix final newline. Delete 2 characters."
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "95707ccf-b2b6-4375-8273-d157d3858f73"
+      },
+      "Id": "4e74e474-9191-4ca4-b77e-6a79cfbf1c8d"
+    },
+    "FileName": "DeleteCategory.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Catalog\\Application\\Categories\\Commands\\DeleteCategory\\DeleteCategory.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 30,
+        "CharNumber": 2,
+        "DiagnosticId": "FINALNEWLINE",
+        "FormatDescription": "Fix final newline. Delete 2 characters."
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "95707ccf-b2b6-4375-8273-d157d3858f73"
+      },
+      "Id": "e9f58f14-b690-45a8-86f1-e7a7aac02957"
+    },
+    "FileName": "UpdateCategory.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Catalog\\Application\\Categories\\Commands\\UpdateCategory\\UpdateCategory.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 43,
+        "CharNumber": 2,
+        "DiagnosticId": "FINALNEWLINE",
+        "FormatDescription": "Fix final newline. Delete 2 characters."
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "95707ccf-b2b6-4375-8273-d157d3858f73"
+      },
+      "Id": "bda17719-05f7-41b2-80ca-2d7c7761a13a"
+    },
+    "FileName": "CategoryModel.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Catalog\\Application\\Categories\\Contracts\\CategoryModel.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 10,
+        "CharNumber": 2,
+        "DiagnosticId": "FINALNEWLINE",
+        "FormatDescription": "Fix final newline. Delete 2 characters."
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "95707ccf-b2b6-4375-8273-d157d3858f73"
+      },
+      "Id": "47637558-9935-4fac-9c73-e7cddde82ebd"
+    },
+    "FileName": "CreateCategoryRequest.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Catalog\\Application\\Categories\\Contracts\\CreateCategoryRequest.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 10,
+        "CharNumber": 2,
+        "DiagnosticId": "FINALNEWLINE",
+        "FormatDescription": "Fix final newline. Delete 2 characters."
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "95707ccf-b2b6-4375-8273-d157d3858f73"
+      },
+      "Id": "58cac166-fd52-473c-9cb5-687d8f371e06"
+    },
+    "FileName": "UpdateCategoryRequest.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Catalog\\Application\\Categories\\Contracts\\UpdateCategoryRequest.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 10,
+        "CharNumber": 2,
+        "DiagnosticId": "FINALNEWLINE",
+        "FormatDescription": "Fix final newline. Delete 2 characters."
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "95707ccf-b2b6-4375-8273-d157d3858f73"
+      },
+      "Id": "59bec96f-c7d2-4562-951e-65c637b61abf"
+    },
+    "FileName": "GetAllCategories.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Catalog\\Application\\Categories\\Queries\\GetAllCategories\\GetAllCategories.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 31,
+        "CharNumber": 2,
+        "DiagnosticId": "FINALNEWLINE",
+        "FormatDescription": "Fix final newline. Delete 2 characters."
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "95707ccf-b2b6-4375-8273-d157d3858f73"
+      },
+      "Id": "49493b49-73f9-4833-b06c-d0b76b29ef54"
+    },
+    "FileName": "GetCategory.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Catalog\\Application\\Categories\\Queries\\GetCategory\\GetCategory.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 35,
+        "CharNumber": 2,
+        "DiagnosticId": "FINALNEWLINE",
+        "FormatDescription": "Fix final newline. Delete 2 characters."
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "95707ccf-b2b6-4375-8273-d157d3858f73"
+      },
+      "Id": "a498b266-9779-482f-ba28-5af2cd1af11a"
+    },
+    "FileName": "ConflictException.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Catalog\\Application\\Common\\Exceptions\\ConflictException.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 18,
+        "CharNumber": 2,
+        "DiagnosticId": "FINALNEWLINE",
+        "FormatDescription": "Fix final newline. Delete 2 characters."
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "95707ccf-b2b6-4375-8273-d157d3858f73"
+      },
+      "Id": "ad44b0cf-7050-4526-be58-c77938999f53"
+    },
+    "FileName": "NotFoundException.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Catalog\\Application\\Common\\Exceptions\\NotFoundException.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 18,
+        "CharNumber": 2,
+        "DiagnosticId": "FINALNEWLINE",
+        "FormatDescription": "Fix final newline. Delete 2 characters."
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "95707ccf-b2b6-4375-8273-d157d3858f73"
+      },
+      "Id": "8d021e36-b7d6-4d87-a64d-94f64939e878"
+    },
+    "FileName": "IApplicationDbContext.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Catalog\\Application\\Common\\Interfaces\\IApplicationDbContext.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 10,
+        "CharNumber": 2,
+        "DiagnosticId": "FINALNEWLINE",
+        "FormatDescription": "Fix final newline. Delete 2 characters."
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "95707ccf-b2b6-4375-8273-d157d3858f73"
+      },
+      "Id": "728ccb62-07e4-4496-a41e-212eee1d2346"
+    },
+    "FileName": "IIntegrationEventPublisher.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Catalog\\Application\\Common\\Interfaces\\IIntegrationEventPublisher.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 8,
+        "CharNumber": 2,
+        "DiagnosticId": "FINALNEWLINE",
+        "FormatDescription": "Fix final newline. Delete 2 characters."
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "95707ccf-b2b6-4375-8273-d157d3858f73"
+      },
+      "Id": "feda1a95-b5d4-465d-82b5-5d796750a8a1"
+    },
+    "FileName": "DependencyInjection.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Catalog\\Application\\DependencyInjection.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 22,
+        "CharNumber": 2,
+        "DiagnosticId": "FINALNEWLINE",
+        "FormatDescription": "Fix final newline. Delete 2 characters."
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "95707ccf-b2b6-4375-8273-d157d3858f73"
+      },
+      "Id": "d9364faa-e732-4652-93b5-46b90709d98a"
+    },
+    "FileName": "GlobalUsings.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Catalog\\Application\\GlobalUsings.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 1,
+        "CharNumber": 44,
+        "DiagnosticId": "FINALNEWLINE",
+        "FormatDescription": "Fix final newline. Delete 2 characters."
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "95707ccf-b2b6-4375-8273-d157d3858f73"
+      },
+      "Id": "f0acc8f1-70a5-4dd7-8518-69e6c13a9ef1"
+    },
+    "FileName": "MappingProfile.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Catalog\\Application\\MappingProfile.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 26,
+        "CharNumber": 2,
+        "DiagnosticId": "FINALNEWLINE",
+        "FormatDescription": "Fix final newline. Delete 2 characters."
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "95707ccf-b2b6-4375-8273-d157d3858f73"
+      },
+      "Id": "7dc26cd2-96a6-448c-bef2-32d31b793093"
+    },
+    "FileName": "AddProduct.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Catalog\\Application\\Products\\Commands\\AddProduct\\AddProduct.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 47,
+        "CharNumber": 2,
+        "DiagnosticId": "FINALNEWLINE",
+        "FormatDescription": "Fix final newline. Delete 2 characters."
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "95707ccf-b2b6-4375-8273-d157d3858f73"
+      },
+      "Id": "a1321f65-3adf-42e5-bc9a-d4a48dcad069"
+    },
+    "FileName": "DeleteProduct.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Catalog\\Application\\Products\\Commands\\DeleteProduct\\DeleteProduct.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 30,
+        "CharNumber": 2,
+        "DiagnosticId": "FINALNEWLINE",
+        "FormatDescription": "Fix final newline. Delete 2 characters."
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "95707ccf-b2b6-4375-8273-d157d3858f73"
+      },
+      "Id": "1d706d8b-aacd-436d-a5dd-63d188b61ebe"
+    },
+    "FileName": "UpdateProduct.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Catalog\\Application\\Products\\Commands\\UpdateProduct\\UpdateProduct.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 46,
+        "CharNumber": 2,
+        "DiagnosticId": "FINALNEWLINE",
+        "FormatDescription": "Fix final newline. Delete 2 characters."
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "95707ccf-b2b6-4375-8273-d157d3858f73"
+      },
+      "Id": "8ac0ebec-0c41-4de8-9a27-f486b9545ee2"
+    },
+    "FileName": "CreateProductRequest.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Catalog\\Application\\Products\\Contracts\\CreateProductRequest.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 14,
+        "CharNumber": 2,
+        "DiagnosticId": "FINALNEWLINE",
+        "FormatDescription": "Fix final newline. Delete 2 characters."
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "95707ccf-b2b6-4375-8273-d157d3858f73"
+      },
+      "Id": "694c5b38-6af1-4981-aef6-dc55f85b7489"
+    },
+    "FileName": "GetProductsRequest.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Catalog\\Application\\Products\\Contracts\\GetProductsRequest.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 8,
+        "CharNumber": 2,
+        "DiagnosticId": "FINALNEWLINE",
+        "FormatDescription": "Fix final newline. Delete 2 characters."
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "95707ccf-b2b6-4375-8273-d157d3858f73"
+      },
+      "Id": "c859d61e-c1ea-4f3e-9864-048f2fb4505b"
+    },
+    "FileName": "ProductModel.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Catalog\\Application\\Products\\Contracts\\ProductModel.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 14,
+        "CharNumber": 2,
+        "DiagnosticId": "FINALNEWLINE",
+        "FormatDescription": "Fix final newline. Delete 2 characters."
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "95707ccf-b2b6-4375-8273-d157d3858f73"
+      },
+      "Id": "e4df1787-626b-4f43-b2e6-c3e50fecb10c"
+    },
+    "FileName": "UpdateProductRequest.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Catalog\\Application\\Products\\Contracts\\UpdateProductRequest.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 14,
+        "CharNumber": 2,
+        "DiagnosticId": "FINALNEWLINE",
+        "FormatDescription": "Fix final newline. Delete 2 characters."
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "95707ccf-b2b6-4375-8273-d157d3858f73"
+      },
+      "Id": "991414eb-775d-4012-9e36-5d3bdf9333ff"
+    },
+    "FileName": "GetProducts.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Catalog\\Application\\Products\\Queries\\GetProducts\\GetProducts.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 32,
+        "CharNumber": 2,
+        "DiagnosticId": "FINALNEWLINE",
+        "FormatDescription": "Fix final newline. Delete 2 characters."
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "95707ccf-b2b6-4375-8273-d157d3858f73"
+      },
+      "Id": "4910e3d9-83b7-46b5-a5b7-0e30a1d67e30"
+    },
+    "FileName": "GetProduct.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Catalog\\Application\\Products\\Queries\\GetProduct\\GetProduct.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 35,
+        "CharNumber": 2,
+        "DiagnosticId": "FINALNEWLINE",
+        "FormatDescription": "Fix final newline. Delete 2 characters."
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "cc569e9b-9320-41bb-8d6b-a66417c6a9b9"
+      },
+      "Id": "b38a9978-1b6b-4622-925d-cdda5e10773a"
+    },
+    "FileName": "Category.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Catalog\\Domain\\Entities\\Category.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 27,
+        "CharNumber": 2,
+        "DiagnosticId": "FINALNEWLINE",
+        "FormatDescription": "Fix final newline. Delete 2 characters."
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "cc569e9b-9320-41bb-8d6b-a66417c6a9b9"
+      },
+      "Id": "fca0a44d-4eb7-415f-899f-73dc5b93d7d9"
+    },
+    "FileName": "Product.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Catalog\\Domain\\Entities\\Product.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 45,
+        "CharNumber": 2,
+        "DiagnosticId": "FINALNEWLINE",
+        "FormatDescription": "Fix final newline. Delete 2 characters."
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "cc569e9b-9320-41bb-8d6b-a66417c6a9b9"
+      },
+      "Id": "35ff9915-9eaa-4258-be3a-1bd2f3679d8d"
+    },
+    "FileName": "Image.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Catalog\\Domain\\ValueObjects\\Image.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 19,
+        "CharNumber": 2,
+        "DiagnosticId": "FINALNEWLINE",
+        "FormatDescription": "Fix final newline. Delete 2 characters."
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "cc569e9b-9320-41bb-8d6b-a66417c6a9b9"
+      },
+      "Id": "681d2b41-b410-4a21-a2f7-31605fedb757"
+    },
+    "FileName": "Money.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Catalog\\Domain\\ValueObjects\\Money.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 21,
+        "CharNumber": 2,
+        "DiagnosticId": "FINALNEWLINE",
+        "FormatDescription": "Fix final newline. Delete 2 characters."
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "f120fa34-5ed8-44d4-8cfe-6bb3e76e40c1"
+      },
+      "Id": "0a92c089-67fa-48bd-a3b6-4f1ec12ecce7"
+    },
+    "FileName": "ApplicationDbContext.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Catalog\\Infrastructure\\Data\\Context\\ApplicationDbContext.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 153,
+        "CharNumber": 2,
+        "DiagnosticId": "FINALNEWLINE",
+        "FormatDescription": "Fix final newline. Delete 2 characters."
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "f120fa34-5ed8-44d4-8cfe-6bb3e76e40c1"
+      },
+      "Id": "3d279159-545a-436b-a21e-22a4668919e7"
+    },
+    "FileName": "ApplicationDbContextFactory.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Catalog\\Infrastructure\\Data\\Context\\ApplicationDbContextFactory.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 18,
+        "CharNumber": 2,
+        "DiagnosticId": "FINALNEWLINE",
+        "FormatDescription": "Fix final newline. Delete 2 characters."
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "f120fa34-5ed8-44d4-8cfe-6bb3e76e40c1"
+      },
+      "Id": "49bef375-f4c2-4c33-9def-e4d4581b48be"
+    },
+    "FileName": "IOutboxDbContext.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Catalog\\Infrastructure\\Data\\Interfaces\\IOutboxDbContext.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 10,
+        "CharNumber": 2,
+        "DiagnosticId": "FINALNEWLINE",
+        "FormatDescription": "Fix final newline. Delete 2 characters."
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "f120fa34-5ed8-44d4-8cfe-6bb3e76e40c1"
+      },
+      "Id": "f9713029-fba8-4ff9-8105-d4a8cf94875e"
+    },
+    "FileName": "OutboxBackgroundProcessor.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Catalog\\Infrastructure\\Data\\Outbox\\OutboxBackgroundProcessor.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 127,
+        "CharNumber": 2,
+        "DiagnosticId": "FINALNEWLINE",
+        "FormatDescription": "Fix final newline. Delete 2 characters."
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "f120fa34-5ed8-44d4-8cfe-6bb3e76e40c1"
+      },
+      "Id": "06ade7cf-47fc-4e19-97b6-29add2b50def"
+    },
+    "FileName": "OutboxMessage.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Catalog\\Infrastructure\\Data\\Outbox\\OutboxMessage.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 11,
+        "CharNumber": 2,
+        "DiagnosticId": "FINALNEWLINE",
+        "FormatDescription": "Fix final newline. Delete 2 characters."
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "f120fa34-5ed8-44d4-8cfe-6bb3e76e40c1"
+      },
+      "Id": "f905b13e-ab95-4a5f-8764-555a8338872d"
+    },
+    "FileName": "OutboxSaveChangesInterceptor.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Catalog\\Infrastructure\\Data\\Outbox\\OutboxSaveChangesInterceptor.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 56,
+        "CharNumber": 2,
+        "DiagnosticId": "FINALNEWLINE",
+        "FormatDescription": "Fix final newline. Delete 2 characters."
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "f120fa34-5ed8-44d4-8cfe-6bb3e76e40c1"
+      },
+      "Id": "2181aa8c-9f79-4fca-90c6-b0060e54f8e4"
+    },
+    "FileName": "DependencyInjection.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Catalog\\Infrastructure\\DependencyInjection.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 39,
+        "CharNumber": 2,
+        "DiagnosticId": "FINALNEWLINE",
+        "FormatDescription": "Fix final newline. Delete 2 characters."
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "f120fa34-5ed8-44d4-8cfe-6bb3e76e40c1"
+      },
+      "Id": "9b3854cf-c8e2-44f2-ab8c-4433bfb5f219"
+    },
+    "FileName": "CatalogMessagingConstants.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Catalog\\Infrastructure\\Messaging\\CatalogMessagingConstants.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 7,
+        "CharNumber": 2,
+        "DiagnosticId": "FINALNEWLINE",
+        "FormatDescription": "Fix final newline. Delete 2 characters."
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "f120fa34-5ed8-44d4-8cfe-6bb3e76e40c1"
+      },
+      "Id": "bb898119-4f16-4ea4-88b2-de1d6518a014"
+    },
+    "FileName": "CatalogMessagingInitializer.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Catalog\\Infrastructure\\Messaging\\CatalogMessagingInitializer.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 21,
+        "CharNumber": 2,
+        "DiagnosticId": "FINALNEWLINE",
+        "FormatDescription": "Fix final newline. Delete 2 characters."
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "f120fa34-5ed8-44d4-8cfe-6bb3e76e40c1"
+      },
+      "Id": "9d704bcd-4f0c-4bfd-9b20-efd4b4f5f672"
+    },
+    "FileName": "IntegrationEventPublisher.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Catalog\\Infrastructure\\Messaging\\IntegrationEventPublisher.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 23,
+        "CharNumber": 2,
+        "DiagnosticId": "FINALNEWLINE",
+        "FormatDescription": "Fix final newline. Delete 2 characters."
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "f120fa34-5ed8-44d4-8cfe-6bb3e76e40c1"
+      },
+      "Id": "52a771ed-522f-4472-afa2-495d30fff859"
+    },
+    "FileName": "20260427180420_InitialDBCreation.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Catalog\\Infrastructure\\Migrations\\20260427180420_InitialDBCreation.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 79,
+        "CharNumber": 2,
+        "DiagnosticId": "FINALNEWLINE",
+        "FormatDescription": "Fix final newline. Delete 2 characters."
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "f120fa34-5ed8-44d4-8cfe-6bb3e76e40c1"
+      },
+      "Id": "9917e5b6-287f-445a-97d2-f883d682ba7c"
+    },
+    "FileName": "20260516163807_OutboxMessageTable.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Catalog\\Infrastructure\\Migrations\\20260516163807_OutboxMessageTable.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 36,
+        "CharNumber": 2,
+        "DiagnosticId": "FINALNEWLINE",
+        "FormatDescription": "Fix final newline. Delete 2 characters."
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "f120fa34-5ed8-44d4-8cfe-6bb3e76e40c1"
+      },
+      "Id": "7a59e86c-c9b0-459d-894a-535249a3fac9"
+    },
+    "FileName": "20260516182925_OutboxMessageTableDropColumns.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Catalog\\Infrastructure\\Migrations\\20260516182925_OutboxMessageTableDropColumns.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 41,
+        "CharNumber": 2,
+        "DiagnosticId": "FINALNEWLINE",
+        "FormatDescription": "Fix final newline. Delete 2 characters."
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "f120fa34-5ed8-44d4-8cfe-6bb3e76e40c1"
+      },
+      "Id": "70c267d0-b20d-455e-b8f5-fd8884e95bcf"
+    },
+    "FileName": "20260517203222_OutboxMessageTableAddColumnsForRetry.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Catalog\\Infrastructure\\Migrations\\20260517203222_OutboxMessageTableAddColumnsForRetry.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 39,
+        "CharNumber": 2,
+        "DiagnosticId": "FINALNEWLINE",
+        "FormatDescription": "Fix final newline. Delete 2 characters."
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "f120fa34-5ed8-44d4-8cfe-6bb3e76e40c1"
+      },
+      "Id": "d6249169-949b-4e8e-87c4-8cf30e59427a"
+    },
+    "FileName": "20260517203825_OutboxMessageTableMakeNextRetryOnNullable.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Catalog\\Infrastructure\\Migrations\\20260517203825_OutboxMessageTableMakeNextRetryOnNullable.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 35,
+        "CharNumber": 2,
+        "DiagnosticId": "FINALNEWLINE",
+        "FormatDescription": "Fix final newline. Delete 2 characters."
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "3c5fd4a1-5dc4-42a7-b059-fc070fa7bc0d"
+      },
+      "Id": "240ecab8-9d26-48ac-aeb0-d8470aaebac3"
+    },
+    "FileName": "AddCategoryCommandHandlerIntegrationTests.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Catalog\\Tests\\Application.Tests\\IntegrationTests\\AddCategoryCommandHandlerIntegrationTests.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 43,
+        "CharNumber": 2,
+        "DiagnosticId": "FINALNEWLINE",
+        "FormatDescription": "Fix final newline. Delete 2 characters."
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "3c5fd4a1-5dc4-42a7-b059-fc070fa7bc0d"
+      },
+      "Id": "7a52cb0f-ed07-4c8a-89d2-d19ab8588c9e"
+    },
+    "FileName": "AddProductCommandHandlerIntegrationTests.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Catalog\\Tests\\Application.Tests\\IntegrationTests\\AddProductCommandHandlerIntegrationTests.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 58,
+        "CharNumber": 2,
+        "DiagnosticId": "FINALNEWLINE",
+        "FormatDescription": "Fix final newline. Delete 2 characters."
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "3c5fd4a1-5dc4-42a7-b059-fc070fa7bc0d"
+      },
+      "Id": "01227d14-69c1-4bdc-b3c1-504e90168563"
+    },
+    "FileName": "DeleteCategoryCommandHandlerIntegrationTests.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Catalog\\Tests\\Application.Tests\\IntegrationTests\\DeleteCategoryCommandHandlerIntegrationTests.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 41,
+        "CharNumber": 2,
+        "DiagnosticId": "FINALNEWLINE",
+        "FormatDescription": "Fix final newline. Delete 2 characters."
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "3c5fd4a1-5dc4-42a7-b059-fc070fa7bc0d"
+      },
+      "Id": "47549813-41ca-403e-abaa-d3f1e886ead3"
+    },
+    "FileName": "DeleteProductCommandHandlerIntegrationTests.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Catalog\\Tests\\Application.Tests\\IntegrationTests\\DeleteProductCommandHandlerIntegrationTests.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 49,
+        "CharNumber": 2,
+        "DiagnosticId": "FINALNEWLINE",
+        "FormatDescription": "Fix final newline. Delete 2 characters."
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "3c5fd4a1-5dc4-42a7-b059-fc070fa7bc0d"
+      },
+      "Id": "7e858383-1aa0-4e2a-a53c-d0d496a1cbe4"
+    },
+    "FileName": "GetCategoryQueryHandlerIntegrationTests.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Catalog\\Tests\\Application.Tests\\IntegrationTests\\GetCategoryQueryHandlerIntegrationTests.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 45,
+        "CharNumber": 2,
+        "DiagnosticId": "FINALNEWLINE",
+        "FormatDescription": "Fix final newline. Delete 2 characters."
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "3c5fd4a1-5dc4-42a7-b059-fc070fa7bc0d"
+      },
+      "Id": "45889a4c-75ba-455b-beaf-03e46f99f7e2"
+    },
+    "FileName": "GetProductQueryHandlerIntegrationTests.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Catalog\\Tests\\Application.Tests\\IntegrationTests\\GetProductQueryHandlerIntegrationTests.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 53,
+        "CharNumber": 2,
+        "DiagnosticId": "FINALNEWLINE",
+        "FormatDescription": "Fix final newline. Delete 2 characters."
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "3c5fd4a1-5dc4-42a7-b059-fc070fa7bc0d"
+      },
+      "Id": "aea34aed-8bf5-4b71-950a-85052573daa9"
+    },
+    "FileName": "TestSqlServerFixture.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Catalog\\Tests\\Application.Tests\\IntegrationTests\\TestSqlServerFixture.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 35,
+        "CharNumber": 2,
+        "DiagnosticId": "FINALNEWLINE",
+        "FormatDescription": "Fix final newline. Delete 2 characters."
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "3c5fd4a1-5dc4-42a7-b059-fc070fa7bc0d"
+      },
+      "Id": "4760b883-2a7a-4575-8956-be4a93810428"
+    },
+    "FileName": "UpdateCategoryCommandHandlerIntegrationTests.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Catalog\\Tests\\Application.Tests\\IntegrationTests\\UpdateCategoryCommandHandlerIntegrationTests.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 52,
+        "CharNumber": 2,
+        "DiagnosticId": "FINALNEWLINE",
+        "FormatDescription": "Fix final newline. Delete 2 characters."
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "3c5fd4a1-5dc4-42a7-b059-fc070fa7bc0d"
+      },
+      "Id": "f01d00e9-1f28-4343-a580-d9b3ee758cce"
+    },
+    "FileName": "UpdateProductCommandHandlerIntegrationTests.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Catalog\\Tests\\Application.Tests\\IntegrationTests\\UpdateProductCommandHandlerIntegrationTests.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 67,
+        "CharNumber": 2,
+        "DiagnosticId": "FINALNEWLINE",
+        "FormatDescription": "Fix final newline. Delete 2 characters."
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "3c5fd4a1-5dc4-42a7-b059-fc070fa7bc0d"
+      },
+      "Id": "725d73d7-ec13-4c88-b0e8-038662d8d35d"
+    },
+    "FileName": "SampleCategoryBuilder.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Catalog\\Tests\\Application.Tests\\TestDataBuilders\\SampleCategoryBuilder.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 19,
+        "CharNumber": 2,
+        "DiagnosticId": "FINALNEWLINE",
+        "FormatDescription": "Fix final newline. Delete 2 characters."
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "3c5fd4a1-5dc4-42a7-b059-fc070fa7bc0d"
+      },
+      "Id": "250afc28-d47f-49c0-b32e-dade14c59a27"
+    },
+    "FileName": "SampleProductBuilder.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Catalog\\Tests\\Application.Tests\\TestDataBuilders\\SampleProductBuilder.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 29,
+        "CharNumber": 2,
+        "DiagnosticId": "FINALNEWLINE",
+        "FormatDescription": "Fix final newline. Delete 2 characters."
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "3c5fd4a1-5dc4-42a7-b059-fc070fa7bc0d"
+      },
+      "Id": "56fb4bc5-8557-4498-b7a2-967e047da161"
+    },
+    "FileName": "AddCategoryCommandHandlerUnitTests.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Catalog\\Tests\\Application.Tests\\UnitTests\\AddCategoryCommandHandlerUnitTests.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 48,
+        "CharNumber": 2,
+        "DiagnosticId": "FINALNEWLINE",
+        "FormatDescription": "Fix final newline. Delete 2 characters."
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "3c5fd4a1-5dc4-42a7-b059-fc070fa7bc0d"
+      },
+      "Id": "612f143f-6c41-40e3-a188-8b7b98a97baa"
+    },
+    "FileName": "AddProductCommandHandlerUnitTests.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Catalog\\Tests\\Application.Tests\\UnitTests\\AddProductCommandHandlerUnitTests.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 52,
+        "CharNumber": 2,
+        "DiagnosticId": "FINALNEWLINE",
+        "FormatDescription": "Fix final newline. Delete 2 characters."
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "a3169645-722e-4b09-9cb8-a32c65bbaacb"
+      },
+      "Id": "f174d96c-22f1-4c98-a6ec-7459669ff05f"
+    },
+    "FileName": "CartItemUnitTests.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Cart\\Tests\\Domain.Tests\\UnitTests\\CartItemUnitTests.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 42,
+        "CharNumber": 2,
+        "DiagnosticId": "FINALNEWLINE",
+        "FormatDescription": "Fix final newline. Delete 2 characters."
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "a3169645-722e-4b09-9cb8-a32c65bbaacb"
+      },
+      "Id": "12bc4e87-224c-4f3b-9c4b-8aa6c4d37eb7"
+    },
+    "FileName": "ImageUnitTests.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Cart\\Tests\\Domain.Tests\\UnitTests\\ImageUnitTests.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 26,
+        "CharNumber": 2,
+        "DiagnosticId": "FINALNEWLINE",
+        "FormatDescription": "Fix final newline. Delete 2 characters."
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "a3169645-722e-4b09-9cb8-a32c65bbaacb"
+      },
+      "Id": "a1ed1b10-9132-4dc5-8192-23c0c91d3876"
+    },
+    "FileName": "MoneyUnitTests.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Cart\\Tests\\Domain.Tests\\UnitTests\\MoneyUnitTests.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 34,
+        "CharNumber": 2,
+        "DiagnosticId": "FINALNEWLINE",
+        "FormatDescription": "Fix final newline. Delete 2 characters."
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "3683bb60-cc37-4c93-a496-6c420d3caa68"
+      },
+      "Id": "62ab7f87-87b5-4c17-8558-5044b0d50234"
+    },
+    "FileName": "CategoryUnitTests.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Catalog\\Tests\\Domain.Tests\\UnitTests\\CategoryUnitTests.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 31,
+        "CharNumber": 2,
+        "DiagnosticId": "FINALNEWLINE",
+        "FormatDescription": "Fix final newline. Delete 2 characters."
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "3683bb60-cc37-4c93-a496-6c420d3caa68"
+      },
+      "Id": "7727577d-6991-470e-99ca-df52c503d459"
+    },
+    "FileName": "ProductUnitTests.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Catalog\\Tests\\Domain.Tests\\UnitTests\\ProductUnitTests.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 37,
+        "CharNumber": 2,
+        "DiagnosticId": "FINALNEWLINE",
+        "FormatDescription": "Fix final newline. Delete 2 characters."
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "3138ad40-0f08-4ac1-a8f7-50c7e3fd4d7f"
+      },
+      "Id": "773a8942-69b8-461d-83f4-0d3f95f8df80"
+    },
+    "FileName": "CategoriesEndpointsIntegrationTests.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Catalog\\Tests\\WebAPI.Tests\\IntegrationTests\\CategoriesEndpointsIntegrationTests.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 54,
+        "CharNumber": 2,
+        "DiagnosticId": "FINALNEWLINE",
+        "FormatDescription": "Fix final newline. Delete 2 characters."
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "3138ad40-0f08-4ac1-a8f7-50c7e3fd4d7f"
+      },
+      "Id": "e9e14f55-0962-4d62-9cd2-777a5f972f6f"
+    },
+    "FileName": "CustomWebAPIApplicationFactory.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Catalog\\Tests\\WebAPI.Tests\\IntegrationTests\\CustomWebAPIApplicationFactory.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 97,
+        "CharNumber": 2,
+        "DiagnosticId": "FINALNEWLINE",
+        "FormatDescription": "Fix final newline. Delete 2 characters."
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "3138ad40-0f08-4ac1-a8f7-50c7e3fd4d7f"
+      },
+      "Id": "05960d64-f0d6-485e-bee1-1a339daaaa40"
+    },
+    "FileName": "ProductsEndpointsIntegrationTests.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Catalog\\Tests\\WebAPI.Tests\\IntegrationTests\\ProductsEndpointsIntegrationTests.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 55,
+        "CharNumber": 2,
+        "DiagnosticId": "FINALNEWLINE",
+        "FormatDescription": "Fix final newline. Delete 2 characters."
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "3138ad40-0f08-4ac1-a8f7-50c7e3fd4d7f"
+      },
+      "Id": "25068fdc-74c8-4f07-ac6f-b1ce8fa8a6cd"
+    },
+    "FileName": "TestAuthHandler.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Catalog\\Tests\\WebAPI.Tests\\IntegrationTests\\TestAuthHandler.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 34,
+        "CharNumber": 2,
+        "DiagnosticId": "FINALNEWLINE",
+        "FormatDescription": "Fix final newline. Delete 2 characters."
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "3138ad40-0f08-4ac1-a8f7-50c7e3fd4d7f"
+      },
+      "Id": "7a0717af-b4b4-4918-906e-34ac40344a11"
+    },
+    "FileName": "SampleCategoryModelBuilder.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Catalog\\Tests\\WebAPI.Tests\\TestDataBuilders\\SampleCategoryModelBuilder.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 26,
+        "CharNumber": 2,
+        "DiagnosticId": "FINALNEWLINE",
+        "FormatDescription": "Fix final newline. Delete 2 characters."
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "3138ad40-0f08-4ac1-a8f7-50c7e3fd4d7f"
+      },
+      "Id": "a1a0167b-90b9-4b8a-a6f9-9ec6c228ce59"
+    },
+    "FileName": "SampleProductModelBuilder.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Catalog\\Tests\\WebAPI.Tests\\TestDataBuilders\\SampleProductModelBuilder.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 41,
+        "CharNumber": 2,
+        "DiagnosticId": "FINALNEWLINE",
+        "FormatDescription": "Fix final newline. Delete 2 characters."
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "3138ad40-0f08-4ac1-a8f7-50c7e3fd4d7f"
+      },
+      "Id": "c1d88f4a-40d7-456e-b66a-bd1db07e5785"
+    },
+    "FileName": "CategoriesEndpointsUnitTests.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Catalog\\Tests\\WebAPI.Tests\\UnitTests\\CategoriesEndpointsUnitTests.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 39,
+        "CharNumber": 2,
+        "DiagnosticId": "FINALNEWLINE",
+        "FormatDescription": "Fix final newline. Delete 2 characters."
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "ef3d92e3-aff8-45d1-892d-c02f44d519d6"
+      },
+      "Id": "1f0b59ad-70fe-4376-a060-f7474722fc43"
+    },
+    "FileName": "CatalogPolicies.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Catalog\\WebAPI\\Authorization\\CatalogPolicies.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 11,
+        "CharNumber": 2,
+        "DiagnosticId": "FINALNEWLINE",
+        "FormatDescription": "Fix final newline. Delete 2 characters."
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "ef3d92e3-aff8-45d1-892d-c02f44d519d6"
+      },
+      "Id": "4faf2c5f-4cab-4867-a5c8-8ee8092f32c1"
+    },
+    "FileName": "SecurityConstants.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Catalog\\WebAPI\\Configuration\\SecurityConstants.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 17,
+        "CharNumber": 2,
+        "DiagnosticId": "FINALNEWLINE",
+        "FormatDescription": "Fix final newline. Delete 2 characters."
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "ef3d92e3-aff8-45d1-892d-c02f44d519d6"
+      },
+      "Id": "3a9ff83b-0004-4ea7-8756-5598945a5368"
+    },
+    "FileName": "LinkResource.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Catalog\\WebAPI\\Contracts\\LinkResource.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 8,
+        "CharNumber": 2,
+        "DiagnosticId": "FINALNEWLINE",
+        "FormatDescription": "Fix final newline. Delete 2 characters."
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "ef3d92e3-aff8-45d1-892d-c02f44d519d6"
+      },
+      "Id": "f2c220ee-b8e6-4fb7-a7bb-f14c8262c40b"
+    },
+    "FileName": "Resource.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Catalog\\WebAPI\\Contracts\\Resource.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 7,
+        "CharNumber": 2,
+        "DiagnosticId": "FINALNEWLINE",
+        "FormatDescription": "Fix final newline. Delete 2 characters."
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "ef3d92e3-aff8-45d1-892d-c02f44d519d6"
+      },
+      "Id": "fea16ca1-3802-43a1-a0f8-d106b20922db"
+    },
+    "FileName": "DependencyInjection.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Catalog\\WebAPI\\DependencyInjection.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 46,
+        "CharNumber": 2,
+        "DiagnosticId": "FINALNEWLINE",
+        "FormatDescription": "Fix final newline. Delete 2 characters."
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "ef3d92e3-aff8-45d1-892d-c02f44d519d6"
+      },
+      "Id": "4087a419-3003-43f6-8e86-e8f49fc11c22"
+    },
+    "FileName": "Categories.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Catalog\\WebAPI\\Endpoints\\Categories\\Categories.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 193,
+        "CharNumber": 2,
+        "DiagnosticId": "FINALNEWLINE",
+        "FormatDescription": "Fix final newline. Delete 2 characters."
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "ef3d92e3-aff8-45d1-892d-c02f44d519d6"
+      },
+      "Id": "2d663eb3-a9dc-440d-8f28-9ea2e8d5aeb7"
+    },
+    "FileName": "RegisterCategoriesEndpoints.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Catalog\\WebAPI\\Endpoints\\Categories\\RegisterCategoriesEndpoints.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 24,
+        "CharNumber": 2,
+        "DiagnosticId": "FINALNEWLINE",
+        "FormatDescription": "Fix final newline. Delete 2 characters."
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "ef3d92e3-aff8-45d1-892d-c02f44d519d6"
+      },
+      "Id": "8e6b5c74-97bf-478a-8fc6-4b3420f19b4c"
+    },
+    "FileName": "Products.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Catalog\\WebAPI\\Endpoints\\Products\\Products.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 208,
+        "CharNumber": 2,
+        "DiagnosticId": "FINALNEWLINE",
+        "FormatDescription": "Fix final newline. Delete 2 characters."
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "ef3d92e3-aff8-45d1-892d-c02f44d519d6"
+      },
+      "Id": "3b7c910a-9e8e-429c-8e0d-762cd3de6300"
+    },
+    "FileName": "RegisterProductsEndpoints.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Catalog\\WebAPI\\Endpoints\\Products\\RegisterProductsEndpoints.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 24,
+        "CharNumber": 2,
+        "DiagnosticId": "FINALNEWLINE",
+        "FormatDescription": "Fix final newline. Delete 2 characters."
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "ef3d92e3-aff8-45d1-892d-c02f44d519d6"
+      },
+      "Id": "50e2fedc-f0eb-4f4d-a4c5-9741ea2d9e4c"
+    },
+    "FileName": "AuthenticationExtensions.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Catalog\\WebAPI\\Extensions\\AuthenticationExtensions.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 61,
+        "CharNumber": 2,
+        "DiagnosticId": "FINALNEWLINE",
+        "FormatDescription": "Fix final newline. Delete 2 characters."
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "ef3d92e3-aff8-45d1-892d-c02f44d519d6"
+      },
+      "Id": "83705c4f-a2f1-4917-89b9-f1083ad9c035"
+    },
+    "FileName": "AuthorizationExtensions.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Catalog\\WebAPI\\Extensions\\AuthorizationExtensions.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 24,
+        "CharNumber": 2,
+        "DiagnosticId": "FINALNEWLINE",
+        "FormatDescription": "Fix final newline. Delete 2 characters."
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "ef3d92e3-aff8-45d1-892d-c02f44d519d6"
+      },
+      "Id": "bbc14a23-efa9-4fa6-8cfa-cac950a094aa"
+    },
+    "FileName": "ConfigureSwaggerOptions.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Catalog\\WebAPI\\Infrastructure\\ConfigureSwaggerOptions.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 45,
+        "CharNumber": 2,
+        "DiagnosticId": "FINALNEWLINE",
+        "FormatDescription": "Fix final newline. Delete 2 characters."
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "ef3d92e3-aff8-45d1-892d-c02f44d519d6"
+      },
+      "Id": "c0afcb03-7925-44f0-931f-d7e0d874c1c2"
+    },
+    "FileName": "ExceptionHandler.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Catalog\\WebAPI\\Infrastructure\\ExceptionHandler.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 25,
+        "CharNumber": 2,
+        "DiagnosticId": "FINALNEWLINE",
+        "FormatDescription": "Fix final newline. Delete 2 characters."
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "ef3d92e3-aff8-45d1-892d-c02f44d519d6"
+      },
+      "Id": "9b37e6e4-1e46-4d3f-aee4-8930c14335ec"
+    },
+    "FileName": "IEndpointGroup.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Catalog\\WebAPI\\Infrastructure\\IEndpointGroup.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 7,
+        "CharNumber": 2,
+        "DiagnosticId": "FINALNEWLINE",
+        "FormatDescription": "Fix final newline. Delete 2 characters."
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "ef3d92e3-aff8-45d1-892d-c02f44d519d6"
+      },
+      "Id": "e91470c0-a4f7-4fb7-be11-916436846d50"
+    },
+    "FileName": "ILinkService.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Catalog\\WebAPI\\Interfaces\\ILinkService.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 6,
+        "CharNumber": 2,
+        "DiagnosticId": "FINALNEWLINE",
+        "FormatDescription": "Fix final newline. Delete 2 characters."
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "ef3d92e3-aff8-45d1-892d-c02f44d519d6"
+      },
+      "Id": "adee631f-b4b9-4dd4-ab85-a69b6e0d56ed"
+    },
+    "FileName": "Program.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Catalog\\WebAPI\\Program.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 43,
+        "CharNumber": 2,
+        "DiagnosticId": "FINALNEWLINE",
+        "FormatDescription": "Fix final newline. Delete 2 characters."
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "ef3d92e3-aff8-45d1-892d-c02f44d519d6"
+      },
+      "Id": "c0334071-c5b9-4cd7-9c84-2a8053d452a1"
+    },
+    "FileName": "LinkService.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Catalog\\WebAPI\\Services\\LinkService.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 21,
+        "CharNumber": 2,
+        "DiagnosticId": "FINALNEWLINE",
+        "FormatDescription": "Fix final newline. Delete 2 characters."
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "ef3d92e3-aff8-45d1-892d-c02f44d519d6"
+      },
+      "Id": "4d78fea2-7f62-4142-96df-23f634e4bad0"
+    },
+    "FileName": "SwaggerConfig.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Catalog\\WebAPI\\SwaggerConfig.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 68,
+        "CharNumber": 2,
+        "DiagnosticId": "FINALNEWLINE",
+        "FormatDescription": "Fix final newline. Delete 2 characters."
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "860798d3-9140-4dd0-b703-035e08816cda"
+      },
+      "Id": "19a6306f-4263-43bc-95ca-d2eceb13849b"
+    },
+    "FileName": "CartPolicies.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Cart\\WebAPI\\Authorization\\CartPolicies.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 6,
+        "CharNumber": 2,
+        "DiagnosticId": "FINALNEWLINE",
+        "FormatDescription": "Fix final newline. Delete 2 characters."
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "860798d3-9140-4dd0-b703-035e08816cda"
+      },
+      "Id": "989358d8-7721-4fea-804c-42cb45cc778d"
+    },
+    "FileName": "DependencyInjection.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Cart\\WebAPI\\DependencyInjection.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 37,
+        "CharNumber": 2,
+        "DiagnosticId": "FINALNEWLINE",
+        "FormatDescription": "Fix final newline. Delete 2 characters."
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "860798d3-9140-4dd0-b703-035e08816cda"
+      },
+      "Id": "c98227b7-7f47-4f95-8ef8-87e637c1a8b3"
+    },
+    "FileName": "CartsV1.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Cart\\WebAPI\\Endpoints\\Carts\\CartsV1.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 125,
+        "CharNumber": 2,
+        "DiagnosticId": "FINALNEWLINE",
+        "FormatDescription": "Fix final newline. Delete 2 characters."
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "860798d3-9140-4dd0-b703-035e08816cda"
+      },
+      "Id": "60034bf2-24d2-4da1-a7a6-cf7e33114e93"
+    },
+    "FileName": "CartsV2.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Cart\\WebAPI\\Endpoints\\Carts\\CartsV2.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 125,
+        "CharNumber": 2,
+        "DiagnosticId": "FINALNEWLINE",
+        "FormatDescription": "Fix final newline. Delete 2 characters."
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "860798d3-9140-4dd0-b703-035e08816cda"
+      },
+      "Id": "ccd8d571-f43c-43b8-b73b-45ca97647320"
+    },
+    "FileName": "RegisterCartsEndpoints.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Cart\\WebAPI\\Endpoints\\Carts\\RegisterCartsEndpoints.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 32,
+        "CharNumber": 2,
+        "DiagnosticId": "FINALNEWLINE",
+        "FormatDescription": "Fix final newline. Delete 2 characters."
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "860798d3-9140-4dd0-b703-035e08816cda"
+      },
+      "Id": "2ba4d0ca-8bc1-40bd-8fa8-8f040d853351"
+    },
+    "FileName": "AuthenticationExtensions.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Cart\\WebAPI\\Extensions\\AuthenticationExtensions.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 62,
+        "CharNumber": 2,
+        "DiagnosticId": "FINALNEWLINE",
+        "FormatDescription": "Fix final newline. Delete 2 characters."
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "860798d3-9140-4dd0-b703-035e08816cda"
+      },
+      "Id": "c2d806e7-677e-4f35-8e9b-3d048d92e68d"
+    },
+    "FileName": "AuthorizationExtensions.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Cart\\WebAPI\\Extensions\\AuthorizationExtensions.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 13,
+        "CharNumber": 2,
+        "DiagnosticId": "FINALNEWLINE",
+        "FormatDescription": "Fix final newline. Delete 2 characters."
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "860798d3-9140-4dd0-b703-035e08816cda"
+      },
+      "Id": "e104c825-4971-455e-bb4a-0c0d4e80c177"
+    },
+    "FileName": "MiddlewareExtensions.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Cart\\WebAPI\\Extensions\\MiddlewareExtensions.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 11,
+        "CharNumber": 2,
+        "DiagnosticId": "FINALNEWLINE",
+        "FormatDescription": "Fix final newline. Delete 2 characters."
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "860798d3-9140-4dd0-b703-035e08816cda"
+      },
+      "Id": "f43259cd-6c5f-4327-afab-4866ba10ca14"
+    },
+    "FileName": "ConfigureSwaggerOptions.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Cart\\WebAPI\\Infrastructure\\ConfigureSwaggerOptions.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 44,
+        "CharNumber": 2,
+        "DiagnosticId": "FINALNEWLINE",
+        "FormatDescription": "Fix final newline. Delete 2 characters."
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "860798d3-9140-4dd0-b703-035e08816cda"
+      },
+      "Id": "17eb267a-45df-4b7d-ad20-15e6dc728f88"
+    },
+    "FileName": "ExceptionHandler.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Cart\\WebAPI\\Infrastructure\\ExceptionHandler.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 25,
+        "CharNumber": 2,
+        "DiagnosticId": "FINALNEWLINE",
+        "FormatDescription": "Fix final newline. Delete 2 characters."
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "860798d3-9140-4dd0-b703-035e08816cda"
+      },
+      "Id": "c79a334a-40b2-4d55-93fc-4d77ebdc73a1"
+    },
+    "FileName": "IEndpointGroup.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Cart\\WebAPI\\Infrastructure\\IEndpointGroup.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 9,
+        "CharNumber": 2,
+        "DiagnosticId": "FINALNEWLINE",
+        "FormatDescription": "Fix final newline. Delete 2 characters."
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "860798d3-9140-4dd0-b703-035e08816cda"
+      },
+      "Id": "eeb8368d-6044-464c-8742-6d18405225f7"
+    },
+    "FileName": "TokenLoggingMiddleware.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Cart\\WebAPI\\Middleware\\TokenLoggingMiddleware.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 38,
+        "CharNumber": 2,
+        "DiagnosticId": "FINALNEWLINE",
+        "FormatDescription": "Fix final newline. Delete 2 characters."
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "860798d3-9140-4dd0-b703-035e08816cda"
+      },
+      "Id": "a0757277-71e5-4ff6-a2d8-18928b33b924"
+    },
+    "FileName": "Program.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Cart\\WebAPI\\Program.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 41,
+        "CharNumber": 2,
+        "DiagnosticId": "FINALNEWLINE",
+        "FormatDescription": "Fix final newline. Delete 2 characters."
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "860798d3-9140-4dd0-b703-035e08816cda"
+      },
+      "Id": "dac7c4bf-c859-4af6-900b-edd4fd1d4dd2"
+    },
+    "FileName": "SwaggerConfig.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Cart\\WebAPI\\SwaggerConfig.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 71,
+        "CharNumber": 2,
+        "DiagnosticId": "FINALNEWLINE",
+        "FormatDescription": "Fix final newline. Delete 2 characters."
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "279dbf98-ba6e-49f1-b9e6-c2785de6bcdf"
+      },
+      "Id": "004a5a90-d5b1-4111-a479-f3f4966e53cf"
+    },
+    "FileName": "CartsEndpointsIntegrationTests.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Cart\\Tests\\WebAPI.Tests\\IntegrationTests\\CartsEndpointsIntegrationTests.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 51,
+        "CharNumber": 2,
+        "DiagnosticId": "FINALNEWLINE",
+        "FormatDescription": "Fix final newline. Delete 2 characters."
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "279dbf98-ba6e-49f1-b9e6-c2785de6bcdf"
+      },
+      "Id": "52416268-69aa-46d3-b9f3-62b6429b1a1f"
+    },
+    "FileName": "CustomWebAPIApplicationFactory.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Cart\\Tests\\WebAPI.Tests\\IntegrationTests\\CustomWebAPIApplicationFactory.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 81,
+        "CharNumber": 2,
+        "DiagnosticId": "FINALNEWLINE",
+        "FormatDescription": "Fix final newline. Delete 2 characters."
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "279dbf98-ba6e-49f1-b9e6-c2785de6bcdf"
+      },
+      "Id": "5cadc5ca-5cd3-4474-8027-1b46916ee057"
+    },
+    "FileName": "TestAuthHandler.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Cart\\Tests\\WebAPI.Tests\\IntegrationTests\\TestAuthHandler.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 34,
+        "CharNumber": 2,
+        "DiagnosticId": "FINALNEWLINE",
+        "FormatDescription": "Fix final newline. Delete 2 characters."
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "279dbf98-ba6e-49f1-b9e6-c2785de6bcdf"
+      },
+      "Id": "bcdf839a-d8f9-4b2f-9a0f-775eba6d49a3"
+    },
+    "FileName": "SampleCartItemBuilder.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Cart\\Tests\\WebAPI.Tests\\TestDataBuilders\\SampleCartItemBuilder.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 31,
+        "CharNumber": 2,
+        "DiagnosticId": "FINALNEWLINE",
+        "FormatDescription": "Fix final newline. Delete 2 characters."
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "279dbf98-ba6e-49f1-b9e6-c2785de6bcdf"
+      },
+      "Id": "9548b239-8d5b-4b4e-8c61-b48f2ed0dbb2"
+    },
+    "FileName": "CartsEndpointsUnitTests.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Cart\\Tests\\WebAPI.Tests\\UnitTests\\CartsEndpointsUnitTests.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 43,
+        "CharNumber": 2,
+        "DiagnosticId": "FINALNEWLINE",
+        "FormatDescription": "Fix final newline. Delete 2 characters."
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "6e9d6cb9-fc95-4e45-baea-7d63f5306199"
+      },
+      "Id": "219ad864-e310-4162-8097-731568458534"
+    },
+    "FileName": "RabbitMqMessageBusConsumer.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Messaging.RabbitMq\\Bus\\RabbitMqMessageBusConsumer.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 112,
+        "CharNumber": 2,
+        "DiagnosticId": "FINALNEWLINE",
+        "FormatDescription": "Fix final newline. Delete 2 characters."
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "6e9d6cb9-fc95-4e45-baea-7d63f5306199"
+      },
+      "Id": "ff7bcce1-3d92-4b56-af44-fb4c887d38be"
+    },
+    "FileName": "RabbitMqMessageBusPublisher.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Messaging.RabbitMq\\Bus\\RabbitMqMessageBusPublisher.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 39,
+        "CharNumber": 2,
+        "DiagnosticId": "FINALNEWLINE",
+        "FormatDescription": "Fix final newline. Delete 2 characters."
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "6e9d6cb9-fc95-4e45-baea-7d63f5306199"
+      },
+      "Id": "db3a94fb-44ef-4323-b318-6dfde5ceb548"
+    },
+    "FileName": "RabbitMqConfiguration.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Messaging.RabbitMq\\Configuration\\RabbitMqConfiguration.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 11,
+        "CharNumber": 2,
+        "DiagnosticId": "FINALNEWLINE",
+        "FormatDescription": "Fix final newline. Delete 2 characters."
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "6e9d6cb9-fc95-4e45-baea-7d63f5306199"
+      },
+      "Id": "ac6953cd-17ae-44f7-8752-432175c9f609"
+    },
+    "FileName": "IRabbitMqConnectionManager.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Messaging.RabbitMq\\Connection\\IRabbitMqConnectionManager.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 10,
+        "CharNumber": 2,
+        "DiagnosticId": "FINALNEWLINE",
+        "FormatDescription": "Fix final newline. Delete 2 characters."
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "6e9d6cb9-fc95-4e45-baea-7d63f5306199"
+      },
+      "Id": "0a034371-cfc9-40b6-8e7d-d81eb68decfd"
+    },
+    "FileName": "RabbitMqConnectionManager.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Messaging.RabbitMq\\Connection\\RabbitMqConnectionManager.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 75,
+        "CharNumber": 2,
+        "DiagnosticId": "FINALNEWLINE",
+        "FormatDescription": "Fix final newline. Delete 2 characters."
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "6e9d6cb9-fc95-4e45-baea-7d63f5306199"
+      },
+      "Id": "bbf9b105-518a-4e02-b791-fc103af5fd1f"
+    },
+    "FileName": "DependencyInjection.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Messaging.RabbitMq\\DependencyInjection.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 22,
+        "CharNumber": 2,
+        "DiagnosticId": "FINALNEWLINE",
+        "FormatDescription": "Fix final newline. Delete 2 characters."
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "6e9d6cb9-fc95-4e45-baea-7d63f5306199"
+      },
+      "Id": "3ecddfbf-df7d-4389-bfe9-5e2911c84322"
+    },
+    "FileName": "RabbitMqInitializer.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Messaging.RabbitMq\\Initialization\\RabbitMqInitializer.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 113,
+        "CharNumber": 2,
+        "DiagnosticId": "FINALNEWLINE",
+        "FormatDescription": "Fix final newline. Delete 2 characters."
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "9cc25565-84c4-4b71-95ee-356b0ee653ad"
+      },
+      "Id": "95abf5f1-ca25-40aa-9d2e-bd691d79380d"
+    },
+    "FileName": "IMessageBusConsumer.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Common.Abstractions\\Messaging\\IMessageBusConsumer.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 9,
+        "CharNumber": 2,
+        "DiagnosticId": "FINALNEWLINE",
+        "FormatDescription": "Fix final newline. Delete 2 characters."
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "9cc25565-84c4-4b71-95ee-356b0ee653ad"
+      },
+      "Id": "1a201905-181d-4c04-8083-56061d440a88"
+    },
+    "FileName": "IMessageBusInitializer.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Common.Abstractions\\Messaging\\IMessageBusInitializer.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 26,
+        "CharNumber": 2,
+        "DiagnosticId": "FINALNEWLINE",
+        "FormatDescription": "Fix final newline. Delete 2 characters."
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "9cc25565-84c4-4b71-95ee-356b0ee653ad"
+      },
+      "Id": "671768f9-fd49-437c-85e9-4350e1147018"
+    },
+    "FileName": "IMessageBusPublisher.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Common.Abstractions\\Messaging\\IMessageBusPublisher.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 10,
+        "CharNumber": 2,
+        "DiagnosticId": "FINALNEWLINE",
+        "FormatDescription": "Fix final newline. Delete 2 characters."
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "1da3afd0-8726-445e-8198-c928643e46f9"
+      },
+      "Id": "37e8acb4-4f46-4557-8283-ad75edfe94b2"
+    },
+    "FileName": "ProductUpdatedIntegrationEvent.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Common.Contracts\\Events\\ProductUpdatedIntegrationEvent.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 13,
+        "CharNumber": 2,
+        "DiagnosticId": "FINALNEWLINE",
+        "FormatDescription": "Fix final newline. Delete 2 characters."
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "8e572bf1-0b67-4129-8be2-5e6d8919a372"
+      },
+      "Id": "a44419ce-6c36-4afa-a074-625e0e1aefd3"
+    },
+    "FileName": "IdentityServerConfig.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Identity\\Configuration\\IdentityServerConfig.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 138,
+        "CharNumber": 2,
+        "DiagnosticId": "FINALNEWLINE",
+        "FormatDescription": "Fix final newline. Delete 2 characters."
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "8e572bf1-0b67-4129-8be2-5e6d8919a372"
+      },
+      "Id": "f8dceb88-e06a-43b9-8deb-56b5eada1ed9"
+    },
+    "FileName": "SecurityConstants.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Identity\\Configuration\\SecurityConstants.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 39,
+        "CharNumber": 2,
+        "DiagnosticId": "FINALNEWLINE",
+        "FormatDescription": "Fix final newline. Delete 2 characters."
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "8e572bf1-0b67-4129-8be2-5e6d8919a372"
+      },
+      "Id": "ce6746ab-fd45-4956-a852-24dd8cd0ed29"
+    },
+    "FileName": "Program.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Identity\\Program.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 44,
+        "CharNumber": 2,
+        "DiagnosticId": "FINALNEWLINE",
+        "FormatDescription": "Fix final newline. Delete 2 characters."
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "8e572bf1-0b67-4129-8be2-5e6d8919a372"
+      },
+      "Id": "038db935-35cb-489a-b36a-4617f9374ad1"
+    },
+    "FileName": "ProfileService.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Identity\\Services\\ProfileService.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 59,
+        "CharNumber": 2,
+        "DiagnosticId": "FINALNEWLINE",
+        "FormatDescription": "Fix final newline. Delete 2 characters."
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "e09812ea-e846-42f0-b8ad-1bb4d70c7130"
+      },
+      "Id": "b7b07228-8d76-475f-81d6-ee2b2f9b45e7"
+    },
+    "FileName": "ApplicationAssemblyReference.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Cart\\Application\\ApplicationAssemblyReference.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 3,
+        "CharNumber": 50,
+        "DiagnosticId": "SA1518",
+        "FormatDescription": "warning SA1518: File is required to end with a single newline character"
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "e09812ea-e846-42f0-b8ad-1bb4d70c7130"
+      },
+      "Id": "cc4e2119-8003-460d-8224-84f5bf42ae6a"
+    },
+    "FileName": "AddItem.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Cart\\Application\\Carts\\Commands\\AddItem\\AddItem.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 42,
+        "CharNumber": 2,
+        "DiagnosticId": "SA1518",
+        "FormatDescription": "warning SA1518: File is required to end with a single newline character"
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "e09812ea-e846-42f0-b8ad-1bb4d70c7130"
+      },
+      "Id": "1168bd41-bc55-4db2-a4a1-f757ad2a5c9b"
+    },
+    "FileName": "RemoveItem.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Cart\\Application\\Carts\\Commands\\RemoveItem\\RemoveItem.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 32,
+        "CharNumber": 2,
+        "DiagnosticId": "SA1518",
+        "FormatDescription": "warning SA1518: File is required to end with a single newline character"
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "e09812ea-e846-42f0-b8ad-1bb4d70c7130"
+      },
+      "Id": "65af1c11-2cc0-4bbc-b11d-9266699b8df8"
+    },
+    "FileName": "UpdateItem.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Cart\\Application\\Carts\\Commands\\UpdateItem\\UpdateItem.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 52,
+        "CharNumber": 2,
+        "DiagnosticId": "SA1518",
+        "FormatDescription": "warning SA1518: File is required to end with a single newline character"
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "e09812ea-e846-42f0-b8ad-1bb4d70c7130"
+      },
+      "Id": "94a98336-bfc7-497a-873b-ce8deade4325"
+    },
+    "FileName": "AddItemRequest.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Cart\\Application\\Carts\\Contracts\\AddItemRequest.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 13,
+        "CharNumber": 2,
+        "DiagnosticId": "SA1518",
+        "FormatDescription": "warning SA1518: File is required to end with a single newline character"
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "e09812ea-e846-42f0-b8ad-1bb4d70c7130"
+      },
+      "Id": "9a6e6bfc-51e6-48fc-a229-d945d127d392"
+    },
+    "FileName": "CartModel.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Cart\\Application\\Carts\\Contracts\\CartModel.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 8,
+        "CharNumber": 2,
+        "DiagnosticId": "SA1518",
+        "FormatDescription": "warning SA1518: File is required to end with a single newline character"
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "e09812ea-e846-42f0-b8ad-1bb4d70c7130"
+      },
+      "Id": "672b3ef9-9369-4b60-8d3c-c0d24968f4f2"
+    },
+    "FileName": "ItemModel.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Cart\\Application\\Carts\\Contracts\\ItemModel.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 12,
+        "CharNumber": 2,
+        "DiagnosticId": "SA1518",
+        "FormatDescription": "warning SA1518: File is required to end with a single newline character"
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "e09812ea-e846-42f0-b8ad-1bb4d70c7130"
+      },
+      "Id": "c61160c0-d724-4d5f-90e1-6b6910ace0bf"
+    },
+    "FileName": "RemoveItemRequest.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Cart\\Application\\Carts\\Contracts\\RemoveItemRequest.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 7,
+        "CharNumber": 2,
+        "DiagnosticId": "SA1518",
+        "FormatDescription": "warning SA1518: File is required to end with a single newline character"
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "e09812ea-e846-42f0-b8ad-1bb4d70c7130"
+      },
+      "Id": "2f313e2a-483a-4598-876f-e7e3d0d74455"
+    },
+    "FileName": "GetCartInfo.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Cart\\Application\\Carts\\Queries\\GetCartInfo\\GetCartInfo.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 32,
+        "CharNumber": 2,
+        "DiagnosticId": "SA1518",
+        "FormatDescription": "warning SA1518: File is required to end with a single newline character"
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "e09812ea-e846-42f0-b8ad-1bb4d70c7130"
+      },
+      "Id": "3ac940d9-a595-4951-8438-4764ab6b37de"
+    },
+    "FileName": "GetItems.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Cart\\Application\\Carts\\Queries\\GetItems\\GetItems.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 33,
+        "CharNumber": 2,
+        "DiagnosticId": "SA1518",
+        "FormatDescription": "warning SA1518: File is required to end with a single newline character"
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "e09812ea-e846-42f0-b8ad-1bb4d70c7130"
+      },
+      "Id": "b3d19c75-2b11-4d9b-8bc1-2c3851e98078"
+    },
+    "FileName": "ConflictException.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Cart\\Application\\Common\\Exceptions\\ConflictException.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 18,
+        "CharNumber": 2,
+        "DiagnosticId": "SA1518",
+        "FormatDescription": "warning SA1518: File is required to end with a single newline character"
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "e09812ea-e846-42f0-b8ad-1bb4d70c7130"
+      },
+      "Id": "8d923a76-e723-410f-8f8c-3b95b6ab0939"
+    },
+    "FileName": "NotFoundException.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Cart\\Application\\Common\\Exceptions\\NotFoundException.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 18,
+        "CharNumber": 2,
+        "DiagnosticId": "SA1518",
+        "FormatDescription": "warning SA1518: File is required to end with a single newline character"
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "e09812ea-e846-42f0-b8ad-1bb4d70c7130"
+      },
+      "Id": "49759a6b-c033-4e41-b58d-cea890d5103d"
+    },
+    "FileName": "ICartRepository.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Cart\\Application\\Common\\Interfaces\\ICartRepository.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 11,
+        "CharNumber": 2,
+        "DiagnosticId": "SA1518",
+        "FormatDescription": "warning SA1518: File is required to end with a single newline character"
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "e09812ea-e846-42f0-b8ad-1bb4d70c7130"
+      },
+      "Id": "7380ca2d-0f8f-40ed-b7e8-0bebc1fc38ac"
+    },
+    "FileName": "DependencyInjection.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Cart\\Application\\DependencyInjection.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 22,
+        "CharNumber": 2,
+        "DiagnosticId": "SA1518",
+        "FormatDescription": "warning SA1518: File is required to end with a single newline character"
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "e09812ea-e846-42f0-b8ad-1bb4d70c7130"
+      },
+      "Id": "5368ac96-d3c6-497e-9ca1-4a4627887d87"
+    },
+    "FileName": "MappingProfile.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Cart\\Application\\MappingProfile.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 18,
+        "CharNumber": 2,
+        "DiagnosticId": "SA1518",
+        "FormatDescription": "warning SA1518: File is required to end with a single newline character"
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "36421b0b-e0ad-4834-962a-12755a3b3db7"
+      },
+      "Id": "03f06723-30fd-4f89-b6d6-00b98f0e74af"
+    },
+    "FileName": "CartItem.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Cart\\Domain\\Entities\\CartItem.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 50,
+        "CharNumber": 2,
+        "DiagnosticId": "SA1518",
+        "FormatDescription": "warning SA1518: File is required to end with a single newline character"
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "36421b0b-e0ad-4834-962a-12755a3b3db7"
+      },
+      "Id": "0fc639f4-1f2d-44ba-ad01-0ed7af7e27ff"
+    },
+    "FileName": "ShoppingCart.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Cart\\Domain\\Entities\\ShoppingCart.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 50,
+        "CharNumber": 2,
+        "DiagnosticId": "SA1518",
+        "FormatDescription": "warning SA1518: File is required to end with a single newline character"
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "36421b0b-e0ad-4834-962a-12755a3b3db7"
+      },
+      "Id": "a4cb3046-5048-4833-a27f-230698802d4d"
+    },
+    "FileName": "Image.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Cart\\Domain\\ValueObjects\\Image.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 19,
+        "CharNumber": 2,
+        "DiagnosticId": "SA1518",
+        "FormatDescription": "warning SA1518: File is required to end with a single newline character"
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "36421b0b-e0ad-4834-962a-12755a3b3db7"
+      },
+      "Id": "ab2feafc-d80a-49e6-94a8-37b78201c8ef"
+    },
+    "FileName": "Money.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Cart\\Domain\\ValueObjects\\Money.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 21,
+        "CharNumber": 2,
+        "DiagnosticId": "SA1518",
+        "FormatDescription": "warning SA1518: File is required to end with a single newline character"
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "34bc3c5e-827f-4a5a-891d-c374118c695e"
+      },
+      "Id": "8e91ea1f-2f9b-4616-ad94-3008175141a9"
+    },
+    "FileName": "DependencyInjection.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Cart\\Infrastructure\\DependencyInjection.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 26,
+        "CharNumber": 2,
+        "DiagnosticId": "SA1518",
+        "FormatDescription": "warning SA1518: File is required to end with a single newline character"
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "34bc3c5e-827f-4a5a-891d-c374118c695e"
+      },
+      "Id": "aa279f01-0fc9-402d-b0e5-559a27e57f93"
+    },
+    "FileName": "CartMessagingConstants.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Cart\\Infrastructure\\Messaging\\CartMessagingConstants.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 8,
+        "CharNumber": 2,
+        "DiagnosticId": "SA1518",
+        "FormatDescription": "warning SA1518: File is required to end with a single newline character"
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "34bc3c5e-827f-4a5a-891d-c374118c695e"
+      },
+      "Id": "d993aa05-ea69-4181-aa4a-fa75cf4b8697"
+    },
+    "FileName": "ProductUpdatedMessageListener.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Cart\\Infrastructure\\Messaging\\ProductUpdatedMessageListener.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 36,
+        "CharNumber": 2,
+        "DiagnosticId": "SA1518",
+        "FormatDescription": "warning SA1518: File is required to end with a single newline character"
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "34bc3c5e-827f-4a5a-891d-c374118c695e"
+      },
+      "Id": "76cf87b9-6fd1-4c70-b989-8e61bfe6efa7"
+    },
+    "FileName": "CartRepository.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Cart\\Infrastructure\\Repositories\\CartRepository.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 78,
+        "CharNumber": 2,
+        "DiagnosticId": "SA1518",
+        "FormatDescription": "warning SA1518: File is required to end with a single newline character"
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "2b97bdaa-0a98-49c1-90f9-8a493fc3fb04"
+      },
+      "Id": "780431d4-dc3c-41a4-bcea-6ff40e52e65a"
+    },
+    "FileName": "AddItemCommandHandlerIntegrationTests.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Cart\\Tests\\Application.Tests\\IntegrationTests\\AddItemCommandHandlerIntegrationTests.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 69,
+        "CharNumber": 2,
+        "DiagnosticId": "SA1518",
+        "FormatDescription": "warning SA1518: File is required to end with a single newline character"
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "2b97bdaa-0a98-49c1-90f9-8a493fc3fb04"
+      },
+      "Id": "7e92ea45-4413-4d3b-80e8-ef4df7c31442"
+    },
+    "FileName": "GetItemsQueryHandlerIntegrationTests.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Cart\\Tests\\Application.Tests\\IntegrationTests\\GetItemsQueryHandlerIntegrationTests.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 69,
+        "CharNumber": 2,
+        "DiagnosticId": "SA1518",
+        "FormatDescription": "warning SA1518: File is required to end with a single newline character"
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "2b97bdaa-0a98-49c1-90f9-8a493fc3fb04"
+      },
+      "Id": "15b55733-6bbf-4e9b-a8ca-397523ce5efe"
+    },
+    "FileName": "RemoveItemCommandHandlerIntegrationTests.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Cart\\Tests\\Application.Tests\\IntegrationTests\\RemoveItemCommandHandlerIntegrationTests.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 68,
+        "CharNumber": 2,
+        "DiagnosticId": "SA1518",
+        "FormatDescription": "warning SA1518: File is required to end with a single newline character"
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "2b97bdaa-0a98-49c1-90f9-8a493fc3fb04"
+      },
+      "Id": "b4454e50-3741-443b-b994-288036d9b3df"
+    },
+    "FileName": "SampleCartItemBuilder.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Cart\\Tests\\Application.Tests\\TestDataBuilders\\SampleCartItemBuilder.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 21,
+        "CharNumber": 2,
+        "DiagnosticId": "SA1518",
+        "FormatDescription": "warning SA1518: File is required to end with a single newline character"
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "2b97bdaa-0a98-49c1-90f9-8a493fc3fb04"
+      },
+      "Id": "6a93070c-e643-4743-92c0-edc84906d98a"
+    },
+    "FileName": "GetItemsQueryHandlerUnitTests.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Cart\\Tests\\Application.Tests\\UnitTests\\GetItemsQueryHandlerUnitTests.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 57,
+        "CharNumber": 2,
+        "DiagnosticId": "SA1518",
+        "FormatDescription": "warning SA1518: File is required to end with a single newline character"
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "95707ccf-b2b6-4375-8273-d157d3858f73"
+      },
+      "Id": "3143106a-c39d-4f9d-bbe1-6051b91507b9"
+    },
+    "FileName": "ApplicationAssemblyReference.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Catalog\\Application\\ApplicationAssemblyReference.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 3,
+        "CharNumber": 50,
+        "DiagnosticId": "SA1518",
+        "FormatDescription": "warning SA1518: File is required to end with a single newline character"
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "95707ccf-b2b6-4375-8273-d157d3858f73"
+      },
+      "Id": "97f4c4f2-3980-429f-9295-66e959421540"
+    },
+    "FileName": "AddCategory.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Catalog\\Application\\Categories\\Commands\\AddCategory\\AddCategory.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 44,
+        "CharNumber": 2,
+        "DiagnosticId": "SA1518",
+        "FormatDescription": "warning SA1518: File is required to end with a single newline character"
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "95707ccf-b2b6-4375-8273-d157d3858f73"
+      },
+      "Id": "4e74e474-9191-4ca4-b77e-6a79cfbf1c8d"
+    },
+    "FileName": "DeleteCategory.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Catalog\\Application\\Categories\\Commands\\DeleteCategory\\DeleteCategory.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 30,
+        "CharNumber": 2,
+        "DiagnosticId": "SA1518",
+        "FormatDescription": "warning SA1518: File is required to end with a single newline character"
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "95707ccf-b2b6-4375-8273-d157d3858f73"
+      },
+      "Id": "e9f58f14-b690-45a8-86f1-e7a7aac02957"
+    },
+    "FileName": "UpdateCategory.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Catalog\\Application\\Categories\\Commands\\UpdateCategory\\UpdateCategory.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 43,
+        "CharNumber": 2,
+        "DiagnosticId": "SA1518",
+        "FormatDescription": "warning SA1518: File is required to end with a single newline character"
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "95707ccf-b2b6-4375-8273-d157d3858f73"
+      },
+      "Id": "bda17719-05f7-41b2-80ca-2d7c7761a13a"
+    },
+    "FileName": "CategoryModel.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Catalog\\Application\\Categories\\Contracts\\CategoryModel.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 10,
+        "CharNumber": 2,
+        "DiagnosticId": "SA1518",
+        "FormatDescription": "warning SA1518: File is required to end with a single newline character"
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "95707ccf-b2b6-4375-8273-d157d3858f73"
+      },
+      "Id": "47637558-9935-4fac-9c73-e7cddde82ebd"
+    },
+    "FileName": "CreateCategoryRequest.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Catalog\\Application\\Categories\\Contracts\\CreateCategoryRequest.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 10,
+        "CharNumber": 2,
+        "DiagnosticId": "SA1518",
+        "FormatDescription": "warning SA1518: File is required to end with a single newline character"
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "95707ccf-b2b6-4375-8273-d157d3858f73"
+      },
+      "Id": "58cac166-fd52-473c-9cb5-687d8f371e06"
+    },
+    "FileName": "UpdateCategoryRequest.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Catalog\\Application\\Categories\\Contracts\\UpdateCategoryRequest.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 10,
+        "CharNumber": 2,
+        "DiagnosticId": "SA1518",
+        "FormatDescription": "warning SA1518: File is required to end with a single newline character"
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "95707ccf-b2b6-4375-8273-d157d3858f73"
+      },
+      "Id": "59bec96f-c7d2-4562-951e-65c637b61abf"
+    },
+    "FileName": "GetAllCategories.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Catalog\\Application\\Categories\\Queries\\GetAllCategories\\GetAllCategories.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 31,
+        "CharNumber": 2,
+        "DiagnosticId": "SA1518",
+        "FormatDescription": "warning SA1518: File is required to end with a single newline character"
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "95707ccf-b2b6-4375-8273-d157d3858f73"
+      },
+      "Id": "49493b49-73f9-4833-b06c-d0b76b29ef54"
+    },
+    "FileName": "GetCategory.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Catalog\\Application\\Categories\\Queries\\GetCategory\\GetCategory.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 35,
+        "CharNumber": 2,
+        "DiagnosticId": "SA1518",
+        "FormatDescription": "warning SA1518: File is required to end with a single newline character"
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "95707ccf-b2b6-4375-8273-d157d3858f73"
+      },
+      "Id": "a498b266-9779-482f-ba28-5af2cd1af11a"
+    },
+    "FileName": "ConflictException.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Catalog\\Application\\Common\\Exceptions\\ConflictException.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 18,
+        "CharNumber": 2,
+        "DiagnosticId": "SA1518",
+        "FormatDescription": "warning SA1518: File is required to end with a single newline character"
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "95707ccf-b2b6-4375-8273-d157d3858f73"
+      },
+      "Id": "ad44b0cf-7050-4526-be58-c77938999f53"
+    },
+    "FileName": "NotFoundException.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Catalog\\Application\\Common\\Exceptions\\NotFoundException.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 18,
+        "CharNumber": 2,
+        "DiagnosticId": "SA1518",
+        "FormatDescription": "warning SA1518: File is required to end with a single newline character"
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "95707ccf-b2b6-4375-8273-d157d3858f73"
+      },
+      "Id": "8d021e36-b7d6-4d87-a64d-94f64939e878"
+    },
+    "FileName": "IApplicationDbContext.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Catalog\\Application\\Common\\Interfaces\\IApplicationDbContext.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 10,
+        "CharNumber": 2,
+        "DiagnosticId": "SA1518",
+        "FormatDescription": "warning SA1518: File is required to end with a single newline character"
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "95707ccf-b2b6-4375-8273-d157d3858f73"
+      },
+      "Id": "728ccb62-07e4-4496-a41e-212eee1d2346"
+    },
+    "FileName": "IIntegrationEventPublisher.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Catalog\\Application\\Common\\Interfaces\\IIntegrationEventPublisher.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 8,
+        "CharNumber": 2,
+        "DiagnosticId": "SA1518",
+        "FormatDescription": "warning SA1518: File is required to end with a single newline character"
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "95707ccf-b2b6-4375-8273-d157d3858f73"
+      },
+      "Id": "feda1a95-b5d4-465d-82b5-5d796750a8a1"
+    },
+    "FileName": "DependencyInjection.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Catalog\\Application\\DependencyInjection.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 22,
+        "CharNumber": 2,
+        "DiagnosticId": "SA1518",
+        "FormatDescription": "warning SA1518: File is required to end with a single newline character"
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "95707ccf-b2b6-4375-8273-d157d3858f73"
+      },
+      "Id": "d9364faa-e732-4652-93b5-46b90709d98a"
+    },
+    "FileName": "GlobalUsings.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Catalog\\Application\\GlobalUsings.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 1,
+        "CharNumber": 44,
+        "DiagnosticId": "SA1518",
+        "FormatDescription": "warning SA1518: File is required to end with a single newline character"
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "95707ccf-b2b6-4375-8273-d157d3858f73"
+      },
+      "Id": "f0acc8f1-70a5-4dd7-8518-69e6c13a9ef1"
+    },
+    "FileName": "MappingProfile.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Catalog\\Application\\MappingProfile.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 26,
+        "CharNumber": 2,
+        "DiagnosticId": "SA1518",
+        "FormatDescription": "warning SA1518: File is required to end with a single newline character"
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "95707ccf-b2b6-4375-8273-d157d3858f73"
+      },
+      "Id": "7dc26cd2-96a6-448c-bef2-32d31b793093"
+    },
+    "FileName": "AddProduct.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Catalog\\Application\\Products\\Commands\\AddProduct\\AddProduct.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 47,
+        "CharNumber": 2,
+        "DiagnosticId": "SA1518",
+        "FormatDescription": "warning SA1518: File is required to end with a single newline character"
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "95707ccf-b2b6-4375-8273-d157d3858f73"
+      },
+      "Id": "a1321f65-3adf-42e5-bc9a-d4a48dcad069"
+    },
+    "FileName": "DeleteProduct.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Catalog\\Application\\Products\\Commands\\DeleteProduct\\DeleteProduct.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 30,
+        "CharNumber": 2,
+        "DiagnosticId": "SA1518",
+        "FormatDescription": "warning SA1518: File is required to end with a single newline character"
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "95707ccf-b2b6-4375-8273-d157d3858f73"
+      },
+      "Id": "1d706d8b-aacd-436d-a5dd-63d188b61ebe"
+    },
+    "FileName": "UpdateProduct.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Catalog\\Application\\Products\\Commands\\UpdateProduct\\UpdateProduct.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 46,
+        "CharNumber": 2,
+        "DiagnosticId": "SA1518",
+        "FormatDescription": "warning SA1518: File is required to end with a single newline character"
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "95707ccf-b2b6-4375-8273-d157d3858f73"
+      },
+      "Id": "8ac0ebec-0c41-4de8-9a27-f486b9545ee2"
+    },
+    "FileName": "CreateProductRequest.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Catalog\\Application\\Products\\Contracts\\CreateProductRequest.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 14,
+        "CharNumber": 2,
+        "DiagnosticId": "SA1518",
+        "FormatDescription": "warning SA1518: File is required to end with a single newline character"
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "95707ccf-b2b6-4375-8273-d157d3858f73"
+      },
+      "Id": "694c5b38-6af1-4981-aef6-dc55f85b7489"
+    },
+    "FileName": "GetProductsRequest.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Catalog\\Application\\Products\\Contracts\\GetProductsRequest.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 8,
+        "CharNumber": 2,
+        "DiagnosticId": "SA1518",
+        "FormatDescription": "warning SA1518: File is required to end with a single newline character"
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "95707ccf-b2b6-4375-8273-d157d3858f73"
+      },
+      "Id": "c859d61e-c1ea-4f3e-9864-048f2fb4505b"
+    },
+    "FileName": "ProductModel.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Catalog\\Application\\Products\\Contracts\\ProductModel.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 14,
+        "CharNumber": 2,
+        "DiagnosticId": "SA1518",
+        "FormatDescription": "warning SA1518: File is required to end with a single newline character"
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "95707ccf-b2b6-4375-8273-d157d3858f73"
+      },
+      "Id": "e4df1787-626b-4f43-b2e6-c3e50fecb10c"
+    },
+    "FileName": "UpdateProductRequest.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Catalog\\Application\\Products\\Contracts\\UpdateProductRequest.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 14,
+        "CharNumber": 2,
+        "DiagnosticId": "SA1518",
+        "FormatDescription": "warning SA1518: File is required to end with a single newline character"
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "95707ccf-b2b6-4375-8273-d157d3858f73"
+      },
+      "Id": "991414eb-775d-4012-9e36-5d3bdf9333ff"
+    },
+    "FileName": "GetProducts.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Catalog\\Application\\Products\\Queries\\GetProducts\\GetProducts.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 32,
+        "CharNumber": 2,
+        "DiagnosticId": "SA1518",
+        "FormatDescription": "warning SA1518: File is required to end with a single newline character"
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "95707ccf-b2b6-4375-8273-d157d3858f73"
+      },
+      "Id": "4910e3d9-83b7-46b5-a5b7-0e30a1d67e30"
+    },
+    "FileName": "GetProduct.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Catalog\\Application\\Products\\Queries\\GetProduct\\GetProduct.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 35,
+        "CharNumber": 2,
+        "DiagnosticId": "SA1518",
+        "FormatDescription": "warning SA1518: File is required to end with a single newline character"
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "cc569e9b-9320-41bb-8d6b-a66417c6a9b9"
+      },
+      "Id": "b38a9978-1b6b-4622-925d-cdda5e10773a"
+    },
+    "FileName": "Category.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Catalog\\Domain\\Entities\\Category.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 27,
+        "CharNumber": 2,
+        "DiagnosticId": "SA1518",
+        "FormatDescription": "warning SA1518: File is required to end with a single newline character"
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "cc569e9b-9320-41bb-8d6b-a66417c6a9b9"
+      },
+      "Id": "fca0a44d-4eb7-415f-899f-73dc5b93d7d9"
+    },
+    "FileName": "Product.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Catalog\\Domain\\Entities\\Product.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 45,
+        "CharNumber": 2,
+        "DiagnosticId": "SA1518",
+        "FormatDescription": "warning SA1518: File is required to end with a single newline character"
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "cc569e9b-9320-41bb-8d6b-a66417c6a9b9"
+      },
+      "Id": "35ff9915-9eaa-4258-be3a-1bd2f3679d8d"
+    },
+    "FileName": "Image.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Catalog\\Domain\\ValueObjects\\Image.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 19,
+        "CharNumber": 2,
+        "DiagnosticId": "SA1518",
+        "FormatDescription": "warning SA1518: File is required to end with a single newline character"
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "cc569e9b-9320-41bb-8d6b-a66417c6a9b9"
+      },
+      "Id": "681d2b41-b410-4a21-a2f7-31605fedb757"
+    },
+    "FileName": "Money.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Catalog\\Domain\\ValueObjects\\Money.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 21,
+        "CharNumber": 2,
+        "DiagnosticId": "SA1518",
+        "FormatDescription": "warning SA1518: File is required to end with a single newline character"
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "f120fa34-5ed8-44d4-8cfe-6bb3e76e40c1"
+      },
+      "Id": "0a92c089-67fa-48bd-a3b6-4f1ec12ecce7"
+    },
+    "FileName": "ApplicationDbContext.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Catalog\\Infrastructure\\Data\\Context\\ApplicationDbContext.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 153,
+        "CharNumber": 2,
+        "DiagnosticId": "SA1518",
+        "FormatDescription": "warning SA1518: File is required to end with a single newline character"
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "f120fa34-5ed8-44d4-8cfe-6bb3e76e40c1"
+      },
+      "Id": "3d279159-545a-436b-a21e-22a4668919e7"
+    },
+    "FileName": "ApplicationDbContextFactory.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Catalog\\Infrastructure\\Data\\Context\\ApplicationDbContextFactory.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 18,
+        "CharNumber": 2,
+        "DiagnosticId": "SA1518",
+        "FormatDescription": "warning SA1518: File is required to end with a single newline character"
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "f120fa34-5ed8-44d4-8cfe-6bb3e76e40c1"
+      },
+      "Id": "49bef375-f4c2-4c33-9def-e4d4581b48be"
+    },
+    "FileName": "IOutboxDbContext.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Catalog\\Infrastructure\\Data\\Interfaces\\IOutboxDbContext.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 10,
+        "CharNumber": 2,
+        "DiagnosticId": "SA1518",
+        "FormatDescription": "warning SA1518: File is required to end with a single newline character"
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "f120fa34-5ed8-44d4-8cfe-6bb3e76e40c1"
+      },
+      "Id": "f9713029-fba8-4ff9-8105-d4a8cf94875e"
+    },
+    "FileName": "OutboxBackgroundProcessor.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Catalog\\Infrastructure\\Data\\Outbox\\OutboxBackgroundProcessor.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 127,
+        "CharNumber": 2,
+        "DiagnosticId": "SA1518",
+        "FormatDescription": "warning SA1518: File is required to end with a single newline character"
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "f120fa34-5ed8-44d4-8cfe-6bb3e76e40c1"
+      },
+      "Id": "06ade7cf-47fc-4e19-97b6-29add2b50def"
+    },
+    "FileName": "OutboxMessage.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Catalog\\Infrastructure\\Data\\Outbox\\OutboxMessage.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 11,
+        "CharNumber": 2,
+        "DiagnosticId": "SA1518",
+        "FormatDescription": "warning SA1518: File is required to end with a single newline character"
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "f120fa34-5ed8-44d4-8cfe-6bb3e76e40c1"
+      },
+      "Id": "f905b13e-ab95-4a5f-8764-555a8338872d"
+    },
+    "FileName": "OutboxSaveChangesInterceptor.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Catalog\\Infrastructure\\Data\\Outbox\\OutboxSaveChangesInterceptor.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 56,
+        "CharNumber": 2,
+        "DiagnosticId": "SA1518",
+        "FormatDescription": "warning SA1518: File is required to end with a single newline character"
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "f120fa34-5ed8-44d4-8cfe-6bb3e76e40c1"
+      },
+      "Id": "2181aa8c-9f79-4fca-90c6-b0060e54f8e4"
+    },
+    "FileName": "DependencyInjection.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Catalog\\Infrastructure\\DependencyInjection.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 39,
+        "CharNumber": 2,
+        "DiagnosticId": "SA1518",
+        "FormatDescription": "warning SA1518: File is required to end with a single newline character"
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "f120fa34-5ed8-44d4-8cfe-6bb3e76e40c1"
+      },
+      "Id": "9b3854cf-c8e2-44f2-ab8c-4433bfb5f219"
+    },
+    "FileName": "CatalogMessagingConstants.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Catalog\\Infrastructure\\Messaging\\CatalogMessagingConstants.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 7,
+        "CharNumber": 2,
+        "DiagnosticId": "SA1518",
+        "FormatDescription": "warning SA1518: File is required to end with a single newline character"
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "f120fa34-5ed8-44d4-8cfe-6bb3e76e40c1"
+      },
+      "Id": "bb898119-4f16-4ea4-88b2-de1d6518a014"
+    },
+    "FileName": "CatalogMessagingInitializer.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Catalog\\Infrastructure\\Messaging\\CatalogMessagingInitializer.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 21,
+        "CharNumber": 2,
+        "DiagnosticId": "SA1518",
+        "FormatDescription": "warning SA1518: File is required to end with a single newline character"
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "f120fa34-5ed8-44d4-8cfe-6bb3e76e40c1"
+      },
+      "Id": "9d704bcd-4f0c-4bfd-9b20-efd4b4f5f672"
+    },
+    "FileName": "IntegrationEventPublisher.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Catalog\\Infrastructure\\Messaging\\IntegrationEventPublisher.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 23,
+        "CharNumber": 2,
+        "DiagnosticId": "SA1518",
+        "FormatDescription": "warning SA1518: File is required to end with a single newline character"
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "f120fa34-5ed8-44d4-8cfe-6bb3e76e40c1"
+      },
+      "Id": "52a771ed-522f-4472-afa2-495d30fff859"
+    },
+    "FileName": "20260427180420_InitialDBCreation.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Catalog\\Infrastructure\\Migrations\\20260427180420_InitialDBCreation.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 79,
+        "CharNumber": 2,
+        "DiagnosticId": "SA1518",
+        "FormatDescription": "warning SA1518: File is required to end with a single newline character"
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "f120fa34-5ed8-44d4-8cfe-6bb3e76e40c1"
+      },
+      "Id": "9917e5b6-287f-445a-97d2-f883d682ba7c"
+    },
+    "FileName": "20260516163807_OutboxMessageTable.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Catalog\\Infrastructure\\Migrations\\20260516163807_OutboxMessageTable.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 36,
+        "CharNumber": 2,
+        "DiagnosticId": "SA1518",
+        "FormatDescription": "warning SA1518: File is required to end with a single newline character"
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "f120fa34-5ed8-44d4-8cfe-6bb3e76e40c1"
+      },
+      "Id": "7a59e86c-c9b0-459d-894a-535249a3fac9"
+    },
+    "FileName": "20260516182925_OutboxMessageTableDropColumns.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Catalog\\Infrastructure\\Migrations\\20260516182925_OutboxMessageTableDropColumns.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 41,
+        "CharNumber": 2,
+        "DiagnosticId": "SA1518",
+        "FormatDescription": "warning SA1518: File is required to end with a single newline character"
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "f120fa34-5ed8-44d4-8cfe-6bb3e76e40c1"
+      },
+      "Id": "70c267d0-b20d-455e-b8f5-fd8884e95bcf"
+    },
+    "FileName": "20260517203222_OutboxMessageTableAddColumnsForRetry.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Catalog\\Infrastructure\\Migrations\\20260517203222_OutboxMessageTableAddColumnsForRetry.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 39,
+        "CharNumber": 2,
+        "DiagnosticId": "SA1518",
+        "FormatDescription": "warning SA1518: File is required to end with a single newline character"
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "f120fa34-5ed8-44d4-8cfe-6bb3e76e40c1"
+      },
+      "Id": "d6249169-949b-4e8e-87c4-8cf30e59427a"
+    },
+    "FileName": "20260517203825_OutboxMessageTableMakeNextRetryOnNullable.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Catalog\\Infrastructure\\Migrations\\20260517203825_OutboxMessageTableMakeNextRetryOnNullable.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 35,
+        "CharNumber": 2,
+        "DiagnosticId": "SA1518",
+        "FormatDescription": "warning SA1518: File is required to end with a single newline character"
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "f120fa34-5ed8-44d4-8cfe-6bb3e76e40c1"
+      },
+      "Id": "0a92c089-67fa-48bd-a3b6-4f1ec12ecce7"
+    },
+    "FileName": "ApplicationDbContext.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Catalog\\Infrastructure\\Data\\Context\\ApplicationDbContext.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 11,
+        "CharNumber": 12,
+        "DiagnosticId": "CS8618",
+        "FormatDescription": "warning CS8618: Non-nullable property \u0027Category\u0027 must contain a non-null value when exiting constructor. Consider adding the \u0027required\u0027 modifier or declaring the property as nullable."
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "f120fa34-5ed8-44d4-8cfe-6bb3e76e40c1"
+      },
+      "Id": "0a92c089-67fa-48bd-a3b6-4f1ec12ecce7"
+    },
+    "FileName": "ApplicationDbContext.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Catalog\\Infrastructure\\Data\\Context\\ApplicationDbContext.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 11,
+        "CharNumber": 12,
+        "DiagnosticId": "CS8618",
+        "FormatDescription": "warning CS8618: Non-nullable property \u0027Product\u0027 must contain a non-null value when exiting constructor. Consider adding the \u0027required\u0027 modifier or declaring the property as nullable."
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "f120fa34-5ed8-44d4-8cfe-6bb3e76e40c1"
+      },
+      "Id": "0a92c089-67fa-48bd-a3b6-4f1ec12ecce7"
+    },
+    "FileName": "ApplicationDbContext.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Catalog\\Infrastructure\\Data\\Context\\ApplicationDbContext.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 11,
+        "CharNumber": 12,
+        "DiagnosticId": "CS8618",
+        "FormatDescription": "warning CS8618: Non-nullable property \u0027OutboxMessage\u0027 must contain a non-null value when exiting constructor. Consider adding the \u0027required\u0027 modifier or declaring the property as nullable."
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "3c5fd4a1-5dc4-42a7-b059-fc070fa7bc0d"
+      },
+      "Id": "240ecab8-9d26-48ac-aeb0-d8470aaebac3"
+    },
+    "FileName": "AddCategoryCommandHandlerIntegrationTests.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Catalog\\Tests\\Application.Tests\\IntegrationTests\\AddCategoryCommandHandlerIntegrationTests.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 43,
+        "CharNumber": 2,
+        "DiagnosticId": "SA1518",
+        "FormatDescription": "warning SA1518: File is required to end with a single newline character"
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "3c5fd4a1-5dc4-42a7-b059-fc070fa7bc0d"
+      },
+      "Id": "7a52cb0f-ed07-4c8a-89d2-d19ab8588c9e"
+    },
+    "FileName": "AddProductCommandHandlerIntegrationTests.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Catalog\\Tests\\Application.Tests\\IntegrationTests\\AddProductCommandHandlerIntegrationTests.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 58,
+        "CharNumber": 2,
+        "DiagnosticId": "SA1518",
+        "FormatDescription": "warning SA1518: File is required to end with a single newline character"
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "3c5fd4a1-5dc4-42a7-b059-fc070fa7bc0d"
+      },
+      "Id": "01227d14-69c1-4bdc-b3c1-504e90168563"
+    },
+    "FileName": "DeleteCategoryCommandHandlerIntegrationTests.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Catalog\\Tests\\Application.Tests\\IntegrationTests\\DeleteCategoryCommandHandlerIntegrationTests.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 41,
+        "CharNumber": 2,
+        "DiagnosticId": "SA1518",
+        "FormatDescription": "warning SA1518: File is required to end with a single newline character"
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "3c5fd4a1-5dc4-42a7-b059-fc070fa7bc0d"
+      },
+      "Id": "47549813-41ca-403e-abaa-d3f1e886ead3"
+    },
+    "FileName": "DeleteProductCommandHandlerIntegrationTests.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Catalog\\Tests\\Application.Tests\\IntegrationTests\\DeleteProductCommandHandlerIntegrationTests.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 49,
+        "CharNumber": 2,
+        "DiagnosticId": "SA1518",
+        "FormatDescription": "warning SA1518: File is required to end with a single newline character"
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "3c5fd4a1-5dc4-42a7-b059-fc070fa7bc0d"
+      },
+      "Id": "7e858383-1aa0-4e2a-a53c-d0d496a1cbe4"
+    },
+    "FileName": "GetCategoryQueryHandlerIntegrationTests.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Catalog\\Tests\\Application.Tests\\IntegrationTests\\GetCategoryQueryHandlerIntegrationTests.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 45,
+        "CharNumber": 2,
+        "DiagnosticId": "SA1518",
+        "FormatDescription": "warning SA1518: File is required to end with a single newline character"
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "3c5fd4a1-5dc4-42a7-b059-fc070fa7bc0d"
+      },
+      "Id": "45889a4c-75ba-455b-beaf-03e46f99f7e2"
+    },
+    "FileName": "GetProductQueryHandlerIntegrationTests.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Catalog\\Tests\\Application.Tests\\IntegrationTests\\GetProductQueryHandlerIntegrationTests.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 53,
+        "CharNumber": 2,
+        "DiagnosticId": "SA1518",
+        "FormatDescription": "warning SA1518: File is required to end with a single newline character"
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "3c5fd4a1-5dc4-42a7-b059-fc070fa7bc0d"
+      },
+      "Id": "aea34aed-8bf5-4b71-950a-85052573daa9"
+    },
+    "FileName": "TestSqlServerFixture.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Catalog\\Tests\\Application.Tests\\IntegrationTests\\TestSqlServerFixture.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 35,
+        "CharNumber": 2,
+        "DiagnosticId": "SA1518",
+        "FormatDescription": "warning SA1518: File is required to end with a single newline character"
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "3c5fd4a1-5dc4-42a7-b059-fc070fa7bc0d"
+      },
+      "Id": "4760b883-2a7a-4575-8956-be4a93810428"
+    },
+    "FileName": "UpdateCategoryCommandHandlerIntegrationTests.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Catalog\\Tests\\Application.Tests\\IntegrationTests\\UpdateCategoryCommandHandlerIntegrationTests.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 52,
+        "CharNumber": 2,
+        "DiagnosticId": "SA1518",
+        "FormatDescription": "warning SA1518: File is required to end with a single newline character"
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "3c5fd4a1-5dc4-42a7-b059-fc070fa7bc0d"
+      },
+      "Id": "f01d00e9-1f28-4343-a580-d9b3ee758cce"
+    },
+    "FileName": "UpdateProductCommandHandlerIntegrationTests.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Catalog\\Tests\\Application.Tests\\IntegrationTests\\UpdateProductCommandHandlerIntegrationTests.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 67,
+        "CharNumber": 2,
+        "DiagnosticId": "SA1518",
+        "FormatDescription": "warning SA1518: File is required to end with a single newline character"
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "3c5fd4a1-5dc4-42a7-b059-fc070fa7bc0d"
+      },
+      "Id": "725d73d7-ec13-4c88-b0e8-038662d8d35d"
+    },
+    "FileName": "SampleCategoryBuilder.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Catalog\\Tests\\Application.Tests\\TestDataBuilders\\SampleCategoryBuilder.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 19,
+        "CharNumber": 2,
+        "DiagnosticId": "SA1518",
+        "FormatDescription": "warning SA1518: File is required to end with a single newline character"
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "3c5fd4a1-5dc4-42a7-b059-fc070fa7bc0d"
+      },
+      "Id": "250afc28-d47f-49c0-b32e-dade14c59a27"
+    },
+    "FileName": "SampleProductBuilder.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Catalog\\Tests\\Application.Tests\\TestDataBuilders\\SampleProductBuilder.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 29,
+        "CharNumber": 2,
+        "DiagnosticId": "SA1518",
+        "FormatDescription": "warning SA1518: File is required to end with a single newline character"
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "3c5fd4a1-5dc4-42a7-b059-fc070fa7bc0d"
+      },
+      "Id": "56fb4bc5-8557-4498-b7a2-967e047da161"
+    },
+    "FileName": "AddCategoryCommandHandlerUnitTests.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Catalog\\Tests\\Application.Tests\\UnitTests\\AddCategoryCommandHandlerUnitTests.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 48,
+        "CharNumber": 2,
+        "DiagnosticId": "SA1518",
+        "FormatDescription": "warning SA1518: File is required to end with a single newline character"
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "3c5fd4a1-5dc4-42a7-b059-fc070fa7bc0d"
+      },
+      "Id": "612f143f-6c41-40e3-a188-8b7b98a97baa"
+    },
+    "FileName": "AddProductCommandHandlerUnitTests.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Catalog\\Tests\\Application.Tests\\UnitTests\\AddProductCommandHandlerUnitTests.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 52,
+        "CharNumber": 2,
+        "DiagnosticId": "SA1518",
+        "FormatDescription": "warning SA1518: File is required to end with a single newline character"
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "a3169645-722e-4b09-9cb8-a32c65bbaacb"
+      },
+      "Id": "f174d96c-22f1-4c98-a6ec-7459669ff05f"
+    },
+    "FileName": "CartItemUnitTests.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Cart\\Tests\\Domain.Tests\\UnitTests\\CartItemUnitTests.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 42,
+        "CharNumber": 2,
+        "DiagnosticId": "SA1518",
+        "FormatDescription": "warning SA1518: File is required to end with a single newline character"
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "a3169645-722e-4b09-9cb8-a32c65bbaacb"
+      },
+      "Id": "12bc4e87-224c-4f3b-9c4b-8aa6c4d37eb7"
+    },
+    "FileName": "ImageUnitTests.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Cart\\Tests\\Domain.Tests\\UnitTests\\ImageUnitTests.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 26,
+        "CharNumber": 2,
+        "DiagnosticId": "SA1518",
+        "FormatDescription": "warning SA1518: File is required to end with a single newline character"
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "a3169645-722e-4b09-9cb8-a32c65bbaacb"
+      },
+      "Id": "a1ed1b10-9132-4dc5-8192-23c0c91d3876"
+    },
+    "FileName": "MoneyUnitTests.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Cart\\Tests\\Domain.Tests\\UnitTests\\MoneyUnitTests.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 34,
+        "CharNumber": 2,
+        "DiagnosticId": "SA1518",
+        "FormatDescription": "warning SA1518: File is required to end with a single newline character"
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "3683bb60-cc37-4c93-a496-6c420d3caa68"
+      },
+      "Id": "62ab7f87-87b5-4c17-8558-5044b0d50234"
+    },
+    "FileName": "CategoryUnitTests.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Catalog\\Tests\\Domain.Tests\\UnitTests\\CategoryUnitTests.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 31,
+        "CharNumber": 2,
+        "DiagnosticId": "SA1518",
+        "FormatDescription": "warning SA1518: File is required to end with a single newline character"
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "3683bb60-cc37-4c93-a496-6c420d3caa68"
+      },
+      "Id": "7727577d-6991-470e-99ca-df52c503d459"
+    },
+    "FileName": "ProductUnitTests.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Catalog\\Tests\\Domain.Tests\\UnitTests\\ProductUnitTests.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 37,
+        "CharNumber": 2,
+        "DiagnosticId": "SA1518",
+        "FormatDescription": "warning SA1518: File is required to end with a single newline character"
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "3138ad40-0f08-4ac1-a8f7-50c7e3fd4d7f"
+      },
+      "Id": "773a8942-69b8-461d-83f4-0d3f95f8df80"
+    },
+    "FileName": "CategoriesEndpointsIntegrationTests.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Catalog\\Tests\\WebAPI.Tests\\IntegrationTests\\CategoriesEndpointsIntegrationTests.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 54,
+        "CharNumber": 2,
+        "DiagnosticId": "SA1518",
+        "FormatDescription": "warning SA1518: File is required to end with a single newline character"
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "3138ad40-0f08-4ac1-a8f7-50c7e3fd4d7f"
+      },
+      "Id": "e9e14f55-0962-4d62-9cd2-777a5f972f6f"
+    },
+    "FileName": "CustomWebAPIApplicationFactory.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Catalog\\Tests\\WebAPI.Tests\\IntegrationTests\\CustomWebAPIApplicationFactory.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 97,
+        "CharNumber": 2,
+        "DiagnosticId": "SA1518",
+        "FormatDescription": "warning SA1518: File is required to end with a single newline character"
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "3138ad40-0f08-4ac1-a8f7-50c7e3fd4d7f"
+      },
+      "Id": "05960d64-f0d6-485e-bee1-1a339daaaa40"
+    },
+    "FileName": "ProductsEndpointsIntegrationTests.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Catalog\\Tests\\WebAPI.Tests\\IntegrationTests\\ProductsEndpointsIntegrationTests.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 55,
+        "CharNumber": 2,
+        "DiagnosticId": "SA1518",
+        "FormatDescription": "warning SA1518: File is required to end with a single newline character"
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "3138ad40-0f08-4ac1-a8f7-50c7e3fd4d7f"
+      },
+      "Id": "25068fdc-74c8-4f07-ac6f-b1ce8fa8a6cd"
+    },
+    "FileName": "TestAuthHandler.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Catalog\\Tests\\WebAPI.Tests\\IntegrationTests\\TestAuthHandler.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 34,
+        "CharNumber": 2,
+        "DiagnosticId": "SA1518",
+        "FormatDescription": "warning SA1518: File is required to end with a single newline character"
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "3138ad40-0f08-4ac1-a8f7-50c7e3fd4d7f"
+      },
+      "Id": "7a0717af-b4b4-4918-906e-34ac40344a11"
+    },
+    "FileName": "SampleCategoryModelBuilder.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Catalog\\Tests\\WebAPI.Tests\\TestDataBuilders\\SampleCategoryModelBuilder.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 26,
+        "CharNumber": 2,
+        "DiagnosticId": "SA1518",
+        "FormatDescription": "warning SA1518: File is required to end with a single newline character"
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "3138ad40-0f08-4ac1-a8f7-50c7e3fd4d7f"
+      },
+      "Id": "a1a0167b-90b9-4b8a-a6f9-9ec6c228ce59"
+    },
+    "FileName": "SampleProductModelBuilder.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Catalog\\Tests\\WebAPI.Tests\\TestDataBuilders\\SampleProductModelBuilder.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 41,
+        "CharNumber": 2,
+        "DiagnosticId": "SA1518",
+        "FormatDescription": "warning SA1518: File is required to end with a single newline character"
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "3138ad40-0f08-4ac1-a8f7-50c7e3fd4d7f"
+      },
+      "Id": "c1d88f4a-40d7-456e-b66a-bd1db07e5785"
+    },
+    "FileName": "CategoriesEndpointsUnitTests.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Catalog\\Tests\\WebAPI.Tests\\UnitTests\\CategoriesEndpointsUnitTests.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 39,
+        "CharNumber": 2,
+        "DiagnosticId": "SA1518",
+        "FormatDescription": "warning SA1518: File is required to end with a single newline character"
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "ef3d92e3-aff8-45d1-892d-c02f44d519d6"
+      },
+      "Id": "1f0b59ad-70fe-4376-a060-f7474722fc43"
+    },
+    "FileName": "CatalogPolicies.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Catalog\\WebAPI\\Authorization\\CatalogPolicies.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 11,
+        "CharNumber": 2,
+        "DiagnosticId": "SA1518",
+        "FormatDescription": "warning SA1518: File is required to end with a single newline character"
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "ef3d92e3-aff8-45d1-892d-c02f44d519d6"
+      },
+      "Id": "4faf2c5f-4cab-4867-a5c8-8ee8092f32c1"
+    },
+    "FileName": "SecurityConstants.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Catalog\\WebAPI\\Configuration\\SecurityConstants.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 17,
+        "CharNumber": 2,
+        "DiagnosticId": "SA1518",
+        "FormatDescription": "warning SA1518: File is required to end with a single newline character"
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "ef3d92e3-aff8-45d1-892d-c02f44d519d6"
+      },
+      "Id": "3a9ff83b-0004-4ea7-8756-5598945a5368"
+    },
+    "FileName": "LinkResource.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Catalog\\WebAPI\\Contracts\\LinkResource.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 8,
+        "CharNumber": 2,
+        "DiagnosticId": "SA1518",
+        "FormatDescription": "warning SA1518: File is required to end with a single newline character"
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "ef3d92e3-aff8-45d1-892d-c02f44d519d6"
+      },
+      "Id": "f2c220ee-b8e6-4fb7-a7bb-f14c8262c40b"
+    },
+    "FileName": "Resource.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Catalog\\WebAPI\\Contracts\\Resource.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 7,
+        "CharNumber": 2,
+        "DiagnosticId": "SA1518",
+        "FormatDescription": "warning SA1518: File is required to end with a single newline character"
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "ef3d92e3-aff8-45d1-892d-c02f44d519d6"
+      },
+      "Id": "fea16ca1-3802-43a1-a0f8-d106b20922db"
+    },
+    "FileName": "DependencyInjection.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Catalog\\WebAPI\\DependencyInjection.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 46,
+        "CharNumber": 2,
+        "DiagnosticId": "SA1518",
+        "FormatDescription": "warning SA1518: File is required to end with a single newline character"
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "ef3d92e3-aff8-45d1-892d-c02f44d519d6"
+      },
+      "Id": "4087a419-3003-43f6-8e86-e8f49fc11c22"
+    },
+    "FileName": "Categories.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Catalog\\WebAPI\\Endpoints\\Categories\\Categories.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 193,
+        "CharNumber": 2,
+        "DiagnosticId": "SA1518",
+        "FormatDescription": "warning SA1518: File is required to end with a single newline character"
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "ef3d92e3-aff8-45d1-892d-c02f44d519d6"
+      },
+      "Id": "2d663eb3-a9dc-440d-8f28-9ea2e8d5aeb7"
+    },
+    "FileName": "RegisterCategoriesEndpoints.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Catalog\\WebAPI\\Endpoints\\Categories\\RegisterCategoriesEndpoints.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 24,
+        "CharNumber": 2,
+        "DiagnosticId": "SA1518",
+        "FormatDescription": "warning SA1518: File is required to end with a single newline character"
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "ef3d92e3-aff8-45d1-892d-c02f44d519d6"
+      },
+      "Id": "8e6b5c74-97bf-478a-8fc6-4b3420f19b4c"
+    },
+    "FileName": "Products.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Catalog\\WebAPI\\Endpoints\\Products\\Products.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 208,
+        "CharNumber": 2,
+        "DiagnosticId": "SA1518",
+        "FormatDescription": "warning SA1518: File is required to end with a single newline character"
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "ef3d92e3-aff8-45d1-892d-c02f44d519d6"
+      },
+      "Id": "3b7c910a-9e8e-429c-8e0d-762cd3de6300"
+    },
+    "FileName": "RegisterProductsEndpoints.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Catalog\\WebAPI\\Endpoints\\Products\\RegisterProductsEndpoints.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 24,
+        "CharNumber": 2,
+        "DiagnosticId": "SA1518",
+        "FormatDescription": "warning SA1518: File is required to end with a single newline character"
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "ef3d92e3-aff8-45d1-892d-c02f44d519d6"
+      },
+      "Id": "50e2fedc-f0eb-4f4d-a4c5-9741ea2d9e4c"
+    },
+    "FileName": "AuthenticationExtensions.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Catalog\\WebAPI\\Extensions\\AuthenticationExtensions.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 61,
+        "CharNumber": 2,
+        "DiagnosticId": "SA1518",
+        "FormatDescription": "warning SA1518: File is required to end with a single newline character"
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "ef3d92e3-aff8-45d1-892d-c02f44d519d6"
+      },
+      "Id": "83705c4f-a2f1-4917-89b9-f1083ad9c035"
+    },
+    "FileName": "AuthorizationExtensions.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Catalog\\WebAPI\\Extensions\\AuthorizationExtensions.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 24,
+        "CharNumber": 2,
+        "DiagnosticId": "SA1518",
+        "FormatDescription": "warning SA1518: File is required to end with a single newline character"
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "ef3d92e3-aff8-45d1-892d-c02f44d519d6"
+      },
+      "Id": "bbc14a23-efa9-4fa6-8cfa-cac950a094aa"
+    },
+    "FileName": "ConfigureSwaggerOptions.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Catalog\\WebAPI\\Infrastructure\\ConfigureSwaggerOptions.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 45,
+        "CharNumber": 2,
+        "DiagnosticId": "SA1518",
+        "FormatDescription": "warning SA1518: File is required to end with a single newline character"
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "ef3d92e3-aff8-45d1-892d-c02f44d519d6"
+      },
+      "Id": "c0afcb03-7925-44f0-931f-d7e0d874c1c2"
+    },
+    "FileName": "ExceptionHandler.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Catalog\\WebAPI\\Infrastructure\\ExceptionHandler.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 25,
+        "CharNumber": 2,
+        "DiagnosticId": "SA1518",
+        "FormatDescription": "warning SA1518: File is required to end with a single newline character"
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "ef3d92e3-aff8-45d1-892d-c02f44d519d6"
+      },
+      "Id": "9b37e6e4-1e46-4d3f-aee4-8930c14335ec"
+    },
+    "FileName": "IEndpointGroup.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Catalog\\WebAPI\\Infrastructure\\IEndpointGroup.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 7,
+        "CharNumber": 2,
+        "DiagnosticId": "SA1518",
+        "FormatDescription": "warning SA1518: File is required to end with a single newline character"
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "ef3d92e3-aff8-45d1-892d-c02f44d519d6"
+      },
+      "Id": "e91470c0-a4f7-4fb7-be11-916436846d50"
+    },
+    "FileName": "ILinkService.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Catalog\\WebAPI\\Interfaces\\ILinkService.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 6,
+        "CharNumber": 2,
+        "DiagnosticId": "SA1518",
+        "FormatDescription": "warning SA1518: File is required to end with a single newline character"
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "ef3d92e3-aff8-45d1-892d-c02f44d519d6"
+      },
+      "Id": "adee631f-b4b9-4dd4-ab85-a69b6e0d56ed"
+    },
+    "FileName": "Program.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Catalog\\WebAPI\\Program.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 43,
+        "CharNumber": 2,
+        "DiagnosticId": "SA1518",
+        "FormatDescription": "warning SA1518: File is required to end with a single newline character"
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "ef3d92e3-aff8-45d1-892d-c02f44d519d6"
+      },
+      "Id": "c0334071-c5b9-4cd7-9c84-2a8053d452a1"
+    },
+    "FileName": "LinkService.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Catalog\\WebAPI\\Services\\LinkService.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 21,
+        "CharNumber": 2,
+        "DiagnosticId": "SA1518",
+        "FormatDescription": "warning SA1518: File is required to end with a single newline character"
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "ef3d92e3-aff8-45d1-892d-c02f44d519d6"
+      },
+      "Id": "4d78fea2-7f62-4142-96df-23f634e4bad0"
+    },
+    "FileName": "SwaggerConfig.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Catalog\\WebAPI\\SwaggerConfig.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 68,
+        "CharNumber": 2,
+        "DiagnosticId": "SA1518",
+        "FormatDescription": "warning SA1518: File is required to end with a single newline character"
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "860798d3-9140-4dd0-b703-035e08816cda"
+      },
+      "Id": "19a6306f-4263-43bc-95ca-d2eceb13849b"
+    },
+    "FileName": "CartPolicies.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Cart\\WebAPI\\Authorization\\CartPolicies.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 6,
+        "CharNumber": 2,
+        "DiagnosticId": "SA1518",
+        "FormatDescription": "warning SA1518: File is required to end with a single newline character"
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "860798d3-9140-4dd0-b703-035e08816cda"
+      },
+      "Id": "989358d8-7721-4fea-804c-42cb45cc778d"
+    },
+    "FileName": "DependencyInjection.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Cart\\WebAPI\\DependencyInjection.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 37,
+        "CharNumber": 2,
+        "DiagnosticId": "SA1518",
+        "FormatDescription": "warning SA1518: File is required to end with a single newline character"
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "860798d3-9140-4dd0-b703-035e08816cda"
+      },
+      "Id": "c98227b7-7f47-4f95-8ef8-87e637c1a8b3"
+    },
+    "FileName": "CartsV1.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Cart\\WebAPI\\Endpoints\\Carts\\CartsV1.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 125,
+        "CharNumber": 2,
+        "DiagnosticId": "SA1518",
+        "FormatDescription": "warning SA1518: File is required to end with a single newline character"
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "860798d3-9140-4dd0-b703-035e08816cda"
+      },
+      "Id": "60034bf2-24d2-4da1-a7a6-cf7e33114e93"
+    },
+    "FileName": "CartsV2.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Cart\\WebAPI\\Endpoints\\Carts\\CartsV2.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 125,
+        "CharNumber": 2,
+        "DiagnosticId": "SA1518",
+        "FormatDescription": "warning SA1518: File is required to end with a single newline character"
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "860798d3-9140-4dd0-b703-035e08816cda"
+      },
+      "Id": "ccd8d571-f43c-43b8-b73b-45ca97647320"
+    },
+    "FileName": "RegisterCartsEndpoints.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Cart\\WebAPI\\Endpoints\\Carts\\RegisterCartsEndpoints.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 32,
+        "CharNumber": 2,
+        "DiagnosticId": "SA1518",
+        "FormatDescription": "warning SA1518: File is required to end with a single newline character"
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "860798d3-9140-4dd0-b703-035e08816cda"
+      },
+      "Id": "2ba4d0ca-8bc1-40bd-8fa8-8f040d853351"
+    },
+    "FileName": "AuthenticationExtensions.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Cart\\WebAPI\\Extensions\\AuthenticationExtensions.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 62,
+        "CharNumber": 2,
+        "DiagnosticId": "SA1518",
+        "FormatDescription": "warning SA1518: File is required to end with a single newline character"
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "860798d3-9140-4dd0-b703-035e08816cda"
+      },
+      "Id": "c2d806e7-677e-4f35-8e9b-3d048d92e68d"
+    },
+    "FileName": "AuthorizationExtensions.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Cart\\WebAPI\\Extensions\\AuthorizationExtensions.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 13,
+        "CharNumber": 2,
+        "DiagnosticId": "SA1518",
+        "FormatDescription": "warning SA1518: File is required to end with a single newline character"
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "860798d3-9140-4dd0-b703-035e08816cda"
+      },
+      "Id": "e104c825-4971-455e-bb4a-0c0d4e80c177"
+    },
+    "FileName": "MiddlewareExtensions.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Cart\\WebAPI\\Extensions\\MiddlewareExtensions.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 11,
+        "CharNumber": 2,
+        "DiagnosticId": "SA1518",
+        "FormatDescription": "warning SA1518: File is required to end with a single newline character"
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "860798d3-9140-4dd0-b703-035e08816cda"
+      },
+      "Id": "f43259cd-6c5f-4327-afab-4866ba10ca14"
+    },
+    "FileName": "ConfigureSwaggerOptions.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Cart\\WebAPI\\Infrastructure\\ConfigureSwaggerOptions.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 44,
+        "CharNumber": 2,
+        "DiagnosticId": "SA1518",
+        "FormatDescription": "warning SA1518: File is required to end with a single newline character"
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "860798d3-9140-4dd0-b703-035e08816cda"
+      },
+      "Id": "17eb267a-45df-4b7d-ad20-15e6dc728f88"
+    },
+    "FileName": "ExceptionHandler.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Cart\\WebAPI\\Infrastructure\\ExceptionHandler.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 25,
+        "CharNumber": 2,
+        "DiagnosticId": "SA1518",
+        "FormatDescription": "warning SA1518: File is required to end with a single newline character"
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "860798d3-9140-4dd0-b703-035e08816cda"
+      },
+      "Id": "c79a334a-40b2-4d55-93fc-4d77ebdc73a1"
+    },
+    "FileName": "IEndpointGroup.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Cart\\WebAPI\\Infrastructure\\IEndpointGroup.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 9,
+        "CharNumber": 2,
+        "DiagnosticId": "SA1518",
+        "FormatDescription": "warning SA1518: File is required to end with a single newline character"
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "860798d3-9140-4dd0-b703-035e08816cda"
+      },
+      "Id": "eeb8368d-6044-464c-8742-6d18405225f7"
+    },
+    "FileName": "TokenLoggingMiddleware.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Cart\\WebAPI\\Middleware\\TokenLoggingMiddleware.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 38,
+        "CharNumber": 2,
+        "DiagnosticId": "SA1518",
+        "FormatDescription": "warning SA1518: File is required to end with a single newline character"
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "860798d3-9140-4dd0-b703-035e08816cda"
+      },
+      "Id": "a0757277-71e5-4ff6-a2d8-18928b33b924"
+    },
+    "FileName": "Program.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Cart\\WebAPI\\Program.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 41,
+        "CharNumber": 2,
+        "DiagnosticId": "SA1518",
+        "FormatDescription": "warning SA1518: File is required to end with a single newline character"
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "860798d3-9140-4dd0-b703-035e08816cda"
+      },
+      "Id": "dac7c4bf-c859-4af6-900b-edd4fd1d4dd2"
+    },
+    "FileName": "SwaggerConfig.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Cart\\WebAPI\\SwaggerConfig.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 71,
+        "CharNumber": 2,
+        "DiagnosticId": "SA1518",
+        "FormatDescription": "warning SA1518: File is required to end with a single newline character"
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "279dbf98-ba6e-49f1-b9e6-c2785de6bcdf"
+      },
+      "Id": "004a5a90-d5b1-4111-a479-f3f4966e53cf"
+    },
+    "FileName": "CartsEndpointsIntegrationTests.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Cart\\Tests\\WebAPI.Tests\\IntegrationTests\\CartsEndpointsIntegrationTests.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 51,
+        "CharNumber": 2,
+        "DiagnosticId": "SA1518",
+        "FormatDescription": "warning SA1518: File is required to end with a single newline character"
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "279dbf98-ba6e-49f1-b9e6-c2785de6bcdf"
+      },
+      "Id": "52416268-69aa-46d3-b9f3-62b6429b1a1f"
+    },
+    "FileName": "CustomWebAPIApplicationFactory.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Cart\\Tests\\WebAPI.Tests\\IntegrationTests\\CustomWebAPIApplicationFactory.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 81,
+        "CharNumber": 2,
+        "DiagnosticId": "SA1518",
+        "FormatDescription": "warning SA1518: File is required to end with a single newline character"
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "279dbf98-ba6e-49f1-b9e6-c2785de6bcdf"
+      },
+      "Id": "5cadc5ca-5cd3-4474-8027-1b46916ee057"
+    },
+    "FileName": "TestAuthHandler.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Cart\\Tests\\WebAPI.Tests\\IntegrationTests\\TestAuthHandler.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 34,
+        "CharNumber": 2,
+        "DiagnosticId": "SA1518",
+        "FormatDescription": "warning SA1518: File is required to end with a single newline character"
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "279dbf98-ba6e-49f1-b9e6-c2785de6bcdf"
+      },
+      "Id": "bcdf839a-d8f9-4b2f-9a0f-775eba6d49a3"
+    },
+    "FileName": "SampleCartItemBuilder.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Cart\\Tests\\WebAPI.Tests\\TestDataBuilders\\SampleCartItemBuilder.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 31,
+        "CharNumber": 2,
+        "DiagnosticId": "SA1518",
+        "FormatDescription": "warning SA1518: File is required to end with a single newline character"
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "279dbf98-ba6e-49f1-b9e6-c2785de6bcdf"
+      },
+      "Id": "9548b239-8d5b-4b4e-8c61-b48f2ed0dbb2"
+    },
+    "FileName": "CartsEndpointsUnitTests.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Cart\\Tests\\WebAPI.Tests\\UnitTests\\CartsEndpointsUnitTests.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 43,
+        "CharNumber": 2,
+        "DiagnosticId": "SA1518",
+        "FormatDescription": "warning SA1518: File is required to end with a single newline character"
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "6e9d6cb9-fc95-4e45-baea-7d63f5306199"
+      },
+      "Id": "219ad864-e310-4162-8097-731568458534"
+    },
+    "FileName": "RabbitMqMessageBusConsumer.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Messaging.RabbitMq\\Bus\\RabbitMqMessageBusConsumer.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 112,
+        "CharNumber": 2,
+        "DiagnosticId": "SA1518",
+        "FormatDescription": "warning SA1518: File is required to end with a single newline character"
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "6e9d6cb9-fc95-4e45-baea-7d63f5306199"
+      },
+      "Id": "ff7bcce1-3d92-4b56-af44-fb4c887d38be"
+    },
+    "FileName": "RabbitMqMessageBusPublisher.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Messaging.RabbitMq\\Bus\\RabbitMqMessageBusPublisher.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 39,
+        "CharNumber": 2,
+        "DiagnosticId": "SA1518",
+        "FormatDescription": "warning SA1518: File is required to end with a single newline character"
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "6e9d6cb9-fc95-4e45-baea-7d63f5306199"
+      },
+      "Id": "db3a94fb-44ef-4323-b318-6dfde5ceb548"
+    },
+    "FileName": "RabbitMqConfiguration.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Messaging.RabbitMq\\Configuration\\RabbitMqConfiguration.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 11,
+        "CharNumber": 2,
+        "DiagnosticId": "SA1518",
+        "FormatDescription": "warning SA1518: File is required to end with a single newline character"
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "6e9d6cb9-fc95-4e45-baea-7d63f5306199"
+      },
+      "Id": "ac6953cd-17ae-44f7-8752-432175c9f609"
+    },
+    "FileName": "IRabbitMqConnectionManager.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Messaging.RabbitMq\\Connection\\IRabbitMqConnectionManager.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 10,
+        "CharNumber": 2,
+        "DiagnosticId": "SA1518",
+        "FormatDescription": "warning SA1518: File is required to end with a single newline character"
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "6e9d6cb9-fc95-4e45-baea-7d63f5306199"
+      },
+      "Id": "0a034371-cfc9-40b6-8e7d-d81eb68decfd"
+    },
+    "FileName": "RabbitMqConnectionManager.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Messaging.RabbitMq\\Connection\\RabbitMqConnectionManager.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 75,
+        "CharNumber": 2,
+        "DiagnosticId": "SA1518",
+        "FormatDescription": "warning SA1518: File is required to end with a single newline character"
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "6e9d6cb9-fc95-4e45-baea-7d63f5306199"
+      },
+      "Id": "bbf9b105-518a-4e02-b791-fc103af5fd1f"
+    },
+    "FileName": "DependencyInjection.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Messaging.RabbitMq\\DependencyInjection.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 22,
+        "CharNumber": 2,
+        "DiagnosticId": "SA1518",
+        "FormatDescription": "warning SA1518: File is required to end with a single newline character"
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "6e9d6cb9-fc95-4e45-baea-7d63f5306199"
+      },
+      "Id": "3ecddfbf-df7d-4389-bfe9-5e2911c84322"
+    },
+    "FileName": "RabbitMqInitializer.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Messaging.RabbitMq\\Initialization\\RabbitMqInitializer.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 113,
+        "CharNumber": 2,
+        "DiagnosticId": "SA1518",
+        "FormatDescription": "warning SA1518: File is required to end with a single newline character"
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "9cc25565-84c4-4b71-95ee-356b0ee653ad"
+      },
+      "Id": "95abf5f1-ca25-40aa-9d2e-bd691d79380d"
+    },
+    "FileName": "IMessageBusConsumer.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Common.Abstractions\\Messaging\\IMessageBusConsumer.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 9,
+        "CharNumber": 2,
+        "DiagnosticId": "SA1518",
+        "FormatDescription": "warning SA1518: File is required to end with a single newline character"
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "9cc25565-84c4-4b71-95ee-356b0ee653ad"
+      },
+      "Id": "1a201905-181d-4c04-8083-56061d440a88"
+    },
+    "FileName": "IMessageBusInitializer.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Common.Abstractions\\Messaging\\IMessageBusInitializer.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 26,
+        "CharNumber": 2,
+        "DiagnosticId": "SA1518",
+        "FormatDescription": "warning SA1518: File is required to end with a single newline character"
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "9cc25565-84c4-4b71-95ee-356b0ee653ad"
+      },
+      "Id": "671768f9-fd49-437c-85e9-4350e1147018"
+    },
+    "FileName": "IMessageBusPublisher.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Common.Abstractions\\Messaging\\IMessageBusPublisher.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 10,
+        "CharNumber": 2,
+        "DiagnosticId": "SA1518",
+        "FormatDescription": "warning SA1518: File is required to end with a single newline character"
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "1da3afd0-8726-445e-8198-c928643e46f9"
+      },
+      "Id": "37e8acb4-4f46-4557-8283-ad75edfe94b2"
+    },
+    "FileName": "ProductUpdatedIntegrationEvent.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Common.Contracts\\Events\\ProductUpdatedIntegrationEvent.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 13,
+        "CharNumber": 2,
+        "DiagnosticId": "SA1518",
+        "FormatDescription": "warning SA1518: File is required to end with a single newline character"
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "8e572bf1-0b67-4129-8be2-5e6d8919a372"
+      },
+      "Id": "a44419ce-6c36-4afa-a074-625e0e1aefd3"
+    },
+    "FileName": "IdentityServerConfig.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Identity\\Configuration\\IdentityServerConfig.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 138,
+        "CharNumber": 2,
+        "DiagnosticId": "SA1518",
+        "FormatDescription": "warning SA1518: File is required to end with a single newline character"
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "8e572bf1-0b67-4129-8be2-5e6d8919a372"
+      },
+      "Id": "f8dceb88-e06a-43b9-8deb-56b5eada1ed9"
+    },
+    "FileName": "SecurityConstants.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Identity\\Configuration\\SecurityConstants.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 39,
+        "CharNumber": 2,
+        "DiagnosticId": "SA1518",
+        "FormatDescription": "warning SA1518: File is required to end with a single newline character"
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "8e572bf1-0b67-4129-8be2-5e6d8919a372"
+      },
+      "Id": "ce6746ab-fd45-4956-a852-24dd8cd0ed29"
+    },
+    "FileName": "Program.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Identity\\Program.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 44,
+        "CharNumber": 2,
+        "DiagnosticId": "SA1518",
+        "FormatDescription": "warning SA1518: File is required to end with a single newline character"
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "8e572bf1-0b67-4129-8be2-5e6d8919a372"
+      },
+      "Id": "038db935-35cb-489a-b36a-4617f9374ad1"
+    },
+    "FileName": "ProfileService.cs",
+    "FilePath": "C:\\Users\\Valentin_Gavrilov\\Desktop\\Github\\.NET Mentoring Program Advanced\\ECommerceApp\\ECommerce.Identity\\Services\\ProfileService.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 59,
+        "CharNumber": 2,
+        "DiagnosticId": "SA1518",
+        "FormatDescription": "warning SA1518: File is required to end with a single newline character"
+      }
+    ]
+  }
+]

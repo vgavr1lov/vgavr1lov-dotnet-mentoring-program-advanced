@@ -26,10 +26,7 @@ public class GetItemsQueryHandlerIntegrationTests : IDisposable
         _cartTestRepository = new CartRepository(_dbPath);
 
         var loggerFactory = LoggerFactory.Create(builder => { });
-        var mapperConfig = new MapperConfiguration(cfg =>
-        {
-            cfg.AddProfile<MappingProfile>();
-        }, loggerFactory);
+        var mapperConfig = new MapperConfiguration(cfg => cfg.AddProfile<MappingProfile>(), loggerFactory);
         _mapper = mapperConfig.CreateMapper();
 
         _sut = new GetItemsQueryHandler(_cartTestRepository, _mapper);

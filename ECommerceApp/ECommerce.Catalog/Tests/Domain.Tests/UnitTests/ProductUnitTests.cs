@@ -10,7 +10,7 @@ public class ProductUnitTests
     {
         Assert.Throws<ArgumentException>(() => new Product(
                 id: Random.Shared.NextInt64(1, long.MaxValue),
-                name: "",
+                name: string.Empty,
                 description: "Product Description",
                 image: new Image("https://example.com/product.jpg", "product"),
                 categoryId: 1,

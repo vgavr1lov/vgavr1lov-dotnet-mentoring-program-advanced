@@ -21,7 +21,7 @@ public class CartItemUnitTests
     {
         Assert.Throws<ArgumentException>(() => new CartItem(
             id: 1,
-            name: "",
+            name: string.Empty,
             image: new Image("https://example.com/product.jpg", "product"),
             price: new Money(10.20m, "PLN"),
             quantity: 1));

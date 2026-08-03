@@ -17,7 +17,7 @@ public static partial class EndpointsRegistration
             .MapGroup("/v{version:apiVersion}/carts")
             .WithApiVersionSet(versionSet)
             .MapToApiVersion(new ApiVersion(1, 0))
-            .RequireAuthorization(CartPolicies.IsAuthenticated); 
+            .RequireAuthorization(CartPolicies.IsAuthenticated);
 
         CartsV1.Map(groupV1);
 

@@ -15,7 +15,7 @@ public static class ExceptionHandler
             {
                 NotFoundException ex => (404, ex.Message),
                 ConflictException ex => (409, ex.Message),
-                _ => (500, "An unexpected error occurred.")
+                _ => (500, "An unexpected error occurred."),
             };
 
             context.Response.StatusCode = status;

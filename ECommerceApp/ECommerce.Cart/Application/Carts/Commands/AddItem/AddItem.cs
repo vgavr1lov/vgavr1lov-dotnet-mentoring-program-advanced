@@ -24,15 +24,16 @@ public class AddItemCommandHandler : IRequestHandler<AddItemCommand>
         if (cart == null)
             cart = new ShoppingCart(command.Request.CartId);
 
+        var image = string.IsNullOrWhiteSpace(command.Request.ImageUrl)
+            ? null
+            : new Image(command.Request.ImageUrl, command.Request.ImageAltText);
+
         var item = new CartItem(
             id: command.Request.ItemId,
             name: command.Request.Name,
-            image: string.IsNullOrWhiteSpace(command.Request.ImageUrl)
-                ? null
-                : new Image(command.Request.ImageUrl, command.Request.ImageAltText),
+            image: image,
             price: new Money(command.Request.Amount, command.Request.Currency),
-            quantity: command.Request.Quantity
-        );
+            quantity: command.Request.Quantity);
 
         cart.AddItem(item);
 

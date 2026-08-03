@@ -1,8 +1,8 @@
-﻿using ECommerce.Catalog.Domain.Entities;
+﻿using System.Text.Json;
+using ECommerce.Catalog.Domain.Entities;
 using ECommerce.Common.Contracts.Events;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Diagnostics;
-using System.Text.Json;
 
 namespace ECommerce.Catalog.Infrastructure.Data.Outbox;
 
@@ -11,7 +11,7 @@ public class OutboxSaveChangesInterceptor : SaveChangesInterceptor
     public override ValueTask<InterceptionResult<int>> SavingChangesAsync(
         DbContextEventData eventData,
         InterceptionResult<int> result,
-        CancellationToken cancellationToken)
+        CancellationToken cancellationToken = default)
     {
         InterceptProductUpdate(eventData.Context);
         return base.SavingChangesAsync(eventData, result, cancellationToken);
@@ -39,7 +39,7 @@ public class OutboxSaveChangesInterceptor : SaveChangesInterceptor
                 ImageAltText = entity.Entity.Image?.AltText,
                 CategoryId = entity.Entity.CategoryId,
                 Amount = entity.Entity.Price.Amount,
-                Currency = entity.Entity.Price.Currency
+                Currency = entity.Entity.Price.Currency,
             };
 
             outboxMessages.Add(new OutboxMessage
@@ -47,7 +47,7 @@ public class OutboxSaveChangesInterceptor : SaveChangesInterceptor
                 Id = Guid.NewGuid(),
                 Type = typeof(ProductUpdatedIntegrationEvent).Name,
                 Content = JsonSerializer.Serialize(productUpdatedIntegrationEvent),
-                CreatedOn = DateTime.UtcNow
+                CreatedOn = DateTime.UtcNow,
             });
         }
 

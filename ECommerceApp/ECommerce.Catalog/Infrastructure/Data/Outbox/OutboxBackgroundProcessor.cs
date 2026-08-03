@@ -1,4 +1,6 @@
-﻿using ECommerce.Catalog.Application.Common.Interfaces;
+﻿using System.Net.Sockets;
+using System.Text.Json;
+using ECommerce.Catalog.Application.Common.Interfaces;
 using ECommerce.Catalog.Infrastructure.Data.Interfaces;
 using ECommerce.Common.Contracts.Events;
 using Microsoft.EntityFrameworkCore;
@@ -6,9 +8,8 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Polly;
 using Polly.CircuitBreaker;
+
 using RabbitMQ.Client.Exceptions;
-using System.Net.Sockets;
-using System.Text.Json;
 
 namespace ECommerce.Catalog.Infrastructure.Data.Outbox;
 
@@ -28,11 +29,12 @@ public class OutboxBackgroundProcessor : BackgroundService
         _scopeFactory = scopeFactory;
         _circuitBreaker = ConfigurePolicy();
     }
-    protected override async Task ExecuteAsync(CancellationToken cancellationToken)
+
+    protected override async Task ExecuteAsync(CancellationToken stoppingToken)
     {
         await Task.Yield();
 
-        while (!cancellationToken.IsCancellationRequested)
+        while (!stoppingToken.IsCancellationRequested)
         {
             using var scope = _scopeFactory.CreateAsyncScope();
 
@@ -46,11 +48,11 @@ public class OutboxBackgroundProcessor : BackgroundService
                 .Where(x => x.NextRetryOn == null || x.NextRetryOn <= DateTime.Now)
                 .OrderBy(x => x.CreatedOn)
                 .Take(BatchSize)
-                .ToListAsync(cancellationToken);
+                .ToListAsync(stoppingToken);
 
             if (messages.Count == 0)
             {
-                await Task.Delay(TimeSpan.FromMinutes(PauseDelayInMinutes), cancellationToken);
+                await Task.Delay(TimeSpan.FromMinutes(PauseDelayInMinutes), stoppingToken);
                 continue;
             }
 
@@ -58,31 +60,31 @@ public class OutboxBackgroundProcessor : BackgroundService
             {
                 try
                 {
-                    await ProcessMessageAsync(message, messagePublisher, cancellationToken);
+                    await ProcessMessageAsync(message, messagePublisher, stoppingToken);
                     context.OutboxMessage.Remove(message);
-                    await context.SaveChangesAsync(cancellationToken);
+                    await context.SaveChangesAsync(stoppingToken);
                 }
                 catch (JsonException)
                 {
                     message.RetryCount++;
                     message.NextRetryOn = DateTime.Now.AddMinutes(PauseDelayInMinutes * message.RetryCount);
-                    await context.SaveChangesAsync(cancellationToken);
-                    await Task.Delay(ProcessingDelayInMilliseconds, cancellationToken);
+                    await context.SaveChangesAsync(stoppingToken);
+                    await Task.Delay(ProcessingDelayInMilliseconds, stoppingToken);
                     continue;
                 }
                 catch (BrokenCircuitException)
                 {
-                    await Task.Delay(TimeSpan.FromMinutes(CircuitBreakerDelayInMinutes), cancellationToken);
+                    await Task.Delay(TimeSpan.FromMinutes(CircuitBreakerDelayInMinutes), stoppingToken);
                     continue;
                 }
                 catch (Exception)
                 {
-                    await Task.Delay(ProcessingDelayInMilliseconds, cancellationToken);
+                    await Task.Delay(ProcessingDelayInMilliseconds, stoppingToken);
                     continue;
                 }
             }
 
-            await Task.Delay(ProcessingDelayInMilliseconds, cancellationToken);
+            await Task.Delay(ProcessingDelayInMilliseconds, stoppingToken);
         }
     }
 
@@ -100,13 +102,11 @@ public class OutboxBackgroundProcessor : BackgroundService
                     if (productUpdatedIntegrationEvent is null)
                         return;
 
-                    await _circuitBreaker.ExecuteAsync(async () =>
-                    {
-                        await messagePublisher.PublishIntegrationEventAsync(productUpdatedIntegrationEvent, cancellationToken);
-                    });
+                    await _circuitBreaker.ExecuteAsync(async () => await messagePublisher.PublishIntegrationEventAsync(productUpdatedIntegrationEvent, cancellationToken));
 
                     break;
                 }
+
             default:
                 throw new InvalidOperationException($"Unknown outbox message type '{message.Type}' for message {message.Id}.");
         }

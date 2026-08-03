@@ -8,7 +8,7 @@ public static class SecurityConstants
     {
         public const string OpenId = "openid";
         public const string Profile = "profile";
-        public const string Roles = "roles";
+        public const string RolesScope = "roles";
         public const string OfflineAccess = "offline_access";
     }
 
@@ -30,6 +30,7 @@ public static class SecurityConstants
         public const string CatalogUpdate = "catalog.update";
         public const string CatalogDelete = "catalog.delete";
     }
+
     public static class Roles
     {
         public const string Manager = "Manager";

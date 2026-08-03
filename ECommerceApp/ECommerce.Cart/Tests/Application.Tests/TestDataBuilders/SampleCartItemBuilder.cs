@@ -6,10 +6,10 @@ namespace ECommerce.Cart.Application.Tests.TestDataBuilders;
 public class SampleCartItemBuilder
 {
     private long _id = 1;
-    private string _name = "Product";
-    private Image? _image = new Image("https://example.com/product.jpg", "product");
-    private Money _price = new Money(10.20m, "PLN");
-    private int _quantity = 1;
+    private readonly string _name = "Product";
+    private readonly Image? _image = new Image("https://example.com/product.jpg", "product");
+    private readonly Money _price = new Money(10.20m, "PLN");
+    private readonly int _quantity = 1;
 
     public SampleCartItemBuilder WithRandomId()
     {

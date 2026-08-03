@@ -1,9 +1,9 @@
-﻿using ECommerce.Common.Abstractions.Messaging;
+﻿using System.Text;
+using System.Text.Json;
+using ECommerce.Common.Abstractions.Messaging;
 using ECommerce.Messaging.RabbitMq.Connection;
 using RabbitMQ.Client;
 using RabbitMQ.Client.Exceptions;
-using System.Text;
-using System.Text.Json;
 
 namespace ECommerce.Messaging.RabbitMq.Bus;
 
@@ -20,7 +20,7 @@ public class RabbitMqMessageBusPublisher : IMessageBusPublisher
         string exchange,
         string routingKey,
         T message,
-        CancellationToken cancellationToken)
+        CancellationToken cancellationToken = default)
     {
         await using var channel = await _connectionManager.CreateChannelAsync();
 

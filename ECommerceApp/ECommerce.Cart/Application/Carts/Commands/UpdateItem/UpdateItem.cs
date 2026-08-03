@@ -33,12 +33,14 @@ public class UpdateItemCommandHandler : IRequestHandler<UpdateItemCommand>
                 .Where(item => item.Id == command.Id)
                 .First();
 
+            var image = string.IsNullOrWhiteSpace(command.ImageUrl)
+                ? null
+                : new Image(command.ImageUrl, command.ImageAltText);
+
             var item = new CartItem(
                 id: command.Id,
                 name: command.Name,
-                image: string.IsNullOrWhiteSpace(command.ImageUrl)
-                    ? null
-                    : new Image(command.ImageUrl, command.ImageAltText),
+                image: image,
                 price: new Money(command.Amount, command.Currency),
                 quantity: itemToUpdate.Quantity);
 
