@@ -36,9 +36,11 @@ publish/
 
 # Environment / secrets
 *.env
+!.env
 appsettings.*.json
 !appsettings.json
 !appsettings.Development.json
+!appsettings.Container.json
 
 # OS files
 .DS_Store
