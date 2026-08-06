@@ -9,7 +9,7 @@ internal class Program
 
         builder.Services.AddRazorPages();
 
-        builder.Services.AddIdentityServer()
+        builder.Services.AddIdentityServer(options => options.IssuerUri = builder.Configuration["IdentityServer:IssuerUri"])
             .AddDeveloperSigningCredential(persistKey: false)
             .AddInMemoryIdentityResources(IdentityServerConfig.GetIdentityResources())
             .AddInMemoryApiScopes(IdentityServerConfig.GetApiScopes())

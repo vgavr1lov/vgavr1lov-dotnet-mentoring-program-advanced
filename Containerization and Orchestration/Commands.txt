@@ -1,0 +1,172 @@
+                  PODMAN COMPOSE
+                         │
+       ┌─────────────────┼─────────────────┐
+       │                 │                 │
+       ▼                 ▼                 ▼
+   Catalog API        Cart API        Identity API
+       │                 │                 │
+       │                 │                 │
+       ▼                 ▼                 │
+ SQL Server            LiteDB              │
+ PRE-BUILT           FILE/VOLUME           │
+ IMAGE                                     │
+       │                 │                 │
+       └──────────┬──────┴─────────────────┘
+                  │
+                  ▼
+              RabbitMQ
+             PRE-BUILT
+                IMAGE
+
+
+
+| Service       | Container port | Host port |
+| ------------- | -------------- | --------- |
+| Identity      | 8080           | 5000      |
+| Catalog       | 8080           | 5001      |
+| Cart          | 8080           | 5002      |
+| RabbitMQ AMQP | 5672           | 5672      |
+| RabbitMQ UI   | 15672          | 15672     |
+| SQL Server    | 1433           | 1433      |
+
+
+podman machine start
+podman ps -a
+podman images
+podman start ecommerce-rabbitmq ecommerce-sqlserver
+podman ps
+
+
+RabbitMQ
+
+(podman rm -f ecommerce-rabbitmq)
+podman run -d `
+  --name ecommerce-rabbitmq `
+  -p 127.0.0.1:5672:5672 `
+  -p 127.0.0.1:15672:15672 `
+  -v rabbitmq_data:/var/lib/rabbitmq `
+  docker.io/library/rabbitmq:management
+
+
+SQL Server
+
+podman run -d `
+  --name ecommerce-sqlserver `
+  -p 127.0.0.1:1433:1433 `
+  -e "ACCEPT_EULA=Y" `
+  -e "MSSQL_SA_PASSWORD=!MySQL2026" `
+  -v sqlserver_data:/var/opt/mssql `
+  mcr.microsoft.com/mssql/server:2022-latest
+
+podman logs -f ecommerce-sqlserver
+
+podman exec ecommerce-sqlserver mkdir -p /var/opt/mssql/backup
+podman cp ./CatalogDB.bak ecommerce-sqlserver:/var/opt/mssql/backup/CatalogDB.bak
+(podman exec ecommerce-sqlserver rm /var/opt/mssql/backup/CatalogDB.bak)
+podman exec -it ecommerce-sqlserver /opt/mssql-tools18/bin/sqlcmd -S localhost -U sa -P "!MySQL2026" -C -Q "SELECT name FROM sys.databases"
+
+
+
+Catalog
+
+podman build -f ECommerce.Catalog/WebAPI/Dockerfile -t ecommerce-catalog .
+podman run --rm -it --name ecommerce-catalog -p 127.0.0.1:5001:8080 ecommerce-catalog
+
+
+Identity
+
+podman build -f ECommerce.Identity/Dockerfile -t ecommerce-identity .
+podman run --rm -it --name ecommerce-identity -p 127.0.0.1:5000:8080 ecommerce-identity
+(podman stop ecommerce-identity)
+
+
+Cart
+
+podman volume create ecommerce-cart-data
+podman build -f ECommerce.Cart/WebAPI/Dockerfile -t ecommerce-cart .
+podman run --rm -it --name ecommerce-cart -p 127.0.0.1:5002:8080 -v ecommerce-cart-data:/app/data ecommerce-cart
+
+
+(podman stop ecommerce-catalog ecommerce-cart ecommerce-identity)
+
+
+ Ecommerce shared network
+
+podman network create ecommerce-network
+podman network ls
+
+podman stop ecommerce-sqlserver
+podman rm ecommerce-sqlserver
+podman network connect ecommerce-network ecommerce-sqlserver
+podman network inspect ecommerce-network
+podman run -d `
+  --network ecommerce-network `
+  --name ecommerce-sqlserver `
+  -p 127.0.0.1:1433:1433 `
+  -e "ACCEPT_EULA=Y" `
+  -e "MSSQL_SA_PASSWORD=!MySQL2026" `
+  -v sqlserver_data:/var/opt/mssql `
+  mcr.microsoft.com/mssql/server:2022-latest
+podman network inspect ecommerce-network
+
+podman stop ecommerce-rabbitmq
+podman rm ecommerce-rabbitmq
+podman run -d `
+  --network ecommerce-network `
+  --name ecommerce-rabbitmq `
+  -p 127.0.0.1:5672:5672 `
+  -p 127.0.0.1:15672:15672 `
+  -v rabbitmq_data:/var/lib/rabbitmq `
+  docker.io/library/rabbitmq:management
+podman network inspect ecommerce-network
+
+podman stop ecommerce-identity
+podman rmi ecommerce-identity
+podman build -f ECommerce.Identity/Dockerfile -t ecommerce-identity .
+podman run --rm -it --network ecommerce-network --name ecommerce-identity -p 127.0.0.1:5000:8080 ecommerce-identity
+podman network inspect ecommerce-network
+
+podman rmi ecommerce-catalog
+podman build -f ECommerce.Catalog/WebAPI/Dockerfile -t ecommerce-catalog 
+podman run --rm -it --network ecommerce-network --name ecommerce-catalog -p 127.0.0.1:5001:8080 ecommerce-catalog
+podman network inspect ecommerce-network
+
+podman rmi ecommerce-cart
+podman build -f ECommerce.Cart/WebAPI/Dockerfile -t ecommerce-cart .
+podman run --rm -it --network ecommerce-network --name ecommerce-cart -p 127.0.0.1:5002:8080 -v ecommerce-cart-data:/app/data ecommerce-cart
+
+
+$response = curl.exe -sk -X POST http://127.0.0.1:5000/connect/token `
+  -H "Content-Type: application/x-www-form-urlencoded" `
+  --data-urlencode "grant_type=password" `
+  --data-urlencode "username=manager" `
+  --data-urlencode "password=manager" `
+  --data-urlencode "scope=openid profile roles catalog.read catalog.create catalog.update catalog.delete offline_access" `
+  --data-urlencode "client_id=postman" `
+  --data-urlencode "client_secret=postman" | ConvertFrom-Json
+
+$token = $response.access_token
+
+curl.exe -i -X PUT http://127.0.0.1:5001/v1/products `
+  -H "Content-Type: application/json" `
+  -H "Authorization: Bearer $token" `
+  -d '{\"id\": 1, \"name\": \"Laptop - updated7676\", \"description\": \"Laptop - updated\", \"imageUrl\": \"https://example.com/laptop.jpg\", \"imageAltText\": \"Laptop - updated\", \"categoryId\": 1, \"amount\": 120, \"currency\": \"PLN\", \"quantity\": 1}'
+
+curl.exe -i -X POST http://127.0.0.1:5002/v1/carts/1/items `
+  -H "Content-Type: application/json" `
+  -H "Authorization: Bearer $token" `
+  -d '{\"id\": 1, \"name\": \"product\", \"imageUrl\": \"https://example.com/product.jpg\", \"imageAltText\": \"product\", \"amount\": 10, \"currency\": \"PLN\", \"quantity\": 1}'
+
+curl.exe -i http://127.0.0.1:5002/v1/carts/1 `
+  -H "Authorization: Bearer $token"
+
+
+
+podman stop ecommerce-identity ecommerce-catalog ecommerce-cart ecommerce-rabbitmq ecommerce-sqlserver
+podman rm ecommerce-identity ecommerce-catalog ecommerce-cart ecommerce-rabbitmq ecommerce-sqlserver
+podman compose up -d sqlserver
+podman cp ./backup/CatalogDb.bak ecommerce-sqlserver:/var/opt/mssql/data/CatalogDb.bak
+podman exec -it ecommerce-sqlserver /opt/mssql-tools18/bin/sqlcmd -S localhost -U sa -P '!MySQL2026' -C -Q "RESTORE DATABASE CatalogDb FROM DISK='/var/opt/mssql/data/CatalogDb.bak' WITH MOVE 'CatalogDb' TO '/var/opt/mssql/data/CatalogDb.mdf', MOVE 'CatalogDb_log' TO '/var/opt/mssql/data/CatalogDb_log.ldf', REPLACE"
+podman compose up
+podman compose ps
+

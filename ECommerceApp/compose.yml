@@ -1,0 +1,65 @@
+services:
+
+  sqlserver:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    container_name: ecommerce-sqlserver
+    environment:
+      ACCEPT_EULA: "Y"
+      MSSQL_SA_PASSWORD: ${MSSQL_SA_PASSWORD}
+    ports:
+      - "127.0.0.1:1433:1433"
+    volumes:
+      - ./backup:/var/opt/mssql/backup
+    networks:
+      - ecommerce-network
+
+  rabbitmq:
+    image: docker.io/library/rabbitmq:management
+    container_name: ecommerce-rabbitmq
+    ports:
+      - "127.0.0.1:5672:5672"
+      - "127.0.0.1:15672:15672"
+    volumes:
+      - rabbitmq_data:/var/lib/rabbitmq
+    networks:
+      - ecommerce-network
+
+  identity:
+    build:
+      context: .
+      dockerfile: ECommerce.Identity/Dockerfile
+    container_name: ecommerce-identity
+    ports:
+      - "127.0.0.1:5000:8080"
+    networks:
+      - ecommerce-network
+
+  catalog:
+    build:
+      context: .
+      dockerfile: ECommerce.Catalog/WebAPI/Dockerfile
+    container_name: ecommerce-catalog
+    ports:
+      - "127.0.0.1:5001:8080"
+    networks:
+      - ecommerce-network
+
+  cart:
+    build:
+      context: .
+      dockerfile: ECommerce.Cart/WebAPI/Dockerfile
+    container_name: ecommerce-cart
+    ports:
+      - "127.0.0.1:5002:8080"
+    volumes:
+      - ecommerce-cart-data:/app/data
+    networks:
+      - ecommerce-network
+
+networks:
+  ecommerce-network:
+
+volumes:
+  sqlserver_data:
+  rabbitmq_data:
+  ecommerce-cart-data:
